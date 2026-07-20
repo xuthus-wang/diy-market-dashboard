@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DIY市场周报系统</title>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--border:#334155;--text:#e2e8f0;--t2:#94a3b8;--acc:#3b82f6;--acc2:#f59e0b;--grn:#10b981;--red:#ef4444;--pur:#8b5cf6;--pnk:#ec4899}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+header{background:linear-gradient(135deg,#1e293b,#0f172a);border-bottom:1px solid var(--border);padding:14px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+header h1{font-size:1.3rem;font-weight:700;background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.badge-w{background:var(--acc);color:#fff;padding:4px 12px;border-radius:20px;font-size:.8rem;font-weight:600}
+nav{display:flex;gap:4px;padding:10px 28px;background:var(--card);border-bottom:1px solid var(--border);overflow-x:auto}
+nav button{background:none;border:none;color:var(--t2);padding:9px 18px;border-radius:8px;cursor:pointer;font-size:.9rem;transition:.2s;white-space:nowrap;font-weight:500}
+nav button:hover{color:var(--text);background:rgba(59,130,246,.1)}
+nav button.active{color:#fff;background:var(--acc);font-weight:600}
+main{max-width:1400px;margin:0 auto;padding:20px 28px}
+.tc{display:none}.tc.active{display:block}
+.kg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-bottom:20px}
+.kc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px}
+.kc .l{color:var(--t2);font-size:.78rem;text-transform:uppercase;letter-spacing:.5px}
+.kc .v{font-size:1.8rem;font-weight:700;margin:5px 0}
+.kc .s{font-size:.78rem;color:var(--t2)}
+.v.up{color:var(--grn)}.v.dn{color:var(--red)}.v.ac{color:var(--acc2)}
+.cr{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px}
+@media(max-width:900px){.cr{grid-template-columns:1fr}}
+.cb{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px}
+.cb h3{font-size:.9rem;margin-bottom:10px;color:var(--t2)}
+.tw{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:20px}
+.tw h3{padding:14px 18px;font-size:.9rem;border-bottom:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:.83rem}
+th{background:rgba(59,130,246,.08);color:var(--t2);font-weight:600;padding:9px 12px;text-align:left;border-bottom:2px solid var(--border);white-space:nowrap}
+td{padding:9px 12px;border-bottom:1px solid rgba(51,65,85,.4)}
+tr:hover td{background:rgba(59,130,246,.04)}
+.bg{display:inline-block;padding:2px 9px;border-radius:10px;font-size:.73rem;font-weight:600}
+.bg.up{background:rgba(16,185,129,.15);color:var(--grn)}.bg.dn{background:rgba(239,68,68,.15);color:var(--red)}
+.bg.nw{background:rgba(139,92,246,.15);color:var(--pur)}.bg.ht{background:rgba(236,72,153,.15);color:var(--pnk)}
+.fr{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;align-items:center}
+.fr select,.fr input{background:var(--card);border:1px solid var(--border);color:var(--text);padding:8px 11px;border-radius:6px;font-size:.83rem}
+.fr input{flex:1;min-width:180px}
+.pg{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin-bottom:20px}
+.pc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;position:relative;transition:border-color .2s}
+.pc:hover{border-color:var(--acc)}
+.pc .rk{position:absolute;top:-10px;right:14px;background:var(--acc2);color:#000;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+.pc .rk.t3{background:linear-gradient(135deg,#f59e0b,#ef4444);color:#fff}
+.pc h4{font-size:.95rem;margin-bottom:3px}
+.pc .ct{color:var(--t2);font-size:.78rem;margin-bottom:8px}
+.pc .sb{font-size:2rem;font-weight:700;color:var(--acc2);margin-bottom:6px}
+.dr{display:flex;justify-content:space-between;font-size:.78rem;padding:3px 0;color:var(--t2);align-items:center}
+.dr .bb{flex:1;height:5px;background:rgba(255,255,255,.1);border-radius:3px;margin-left:8px;overflow:hidden}
+.dr .bf{height:100%;border-radius:3px;background:var(--acc)}
+.rs{margin-top:8px;font-size:.78rem}
+.rs span{display:inline-block;background:rgba(59,130,246,.1);color:var(--acc);padding:2px 7px;border-radius:5px;margin:2px;font-size:.72rem}
+.rk2{margin-top:6px;font-size:.78rem}
+.rbtn{background:var(--acc);color:#fff;border:none;padding:9px 22px;border-radius:8px;cursor:pointer;font-weight:600;font-size:.88rem;transition:.2s}
+.rbtn:hover{background:#2563eb}.rbtn:disabled{opacity:.5;cursor:not-allowed}
+.hl{display:grid;gap:8px}
+.hi{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:11px 15px;display:flex;justify-content:space-between;align-items:center}
+.toast{position:fixed;top:18px;right:18px;background:var(--grn);color:#fff;padding:11px 22px;border-radius:8px;font-weight:600;z-index:999;opacity:0;transition:.3s}
+.toast.show{opacity:1}
+.bar-chart{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.bar-row{display:flex;align-items:center;gap:8px;font-size:.8rem}
+.bar-row .bl{width:100px;color:var(--t2);text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar-row .bt{flex:1;height:18px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden;position:relative}
+.bar-row .bf2{height:100%;border-radius:4px;display:flex;align-items:center;justify-content:flex-end;padding-right:6px;font-size:.7rem;color:#fff;font-weight:600;min-width:30px}
+.pie-wrap{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.pie-legend{display:grid;gap:6px}
+.pie-legend .pl{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--t2)}
+.pie-legend .pd{width:12px;height:12px;border-radius:3px}
+</style>
+</head>
+<body>
+<header>
+<div>
+<h1>🔧 DIY市场周报系统</h1>
+<span style="color:var(--t2);font-size:.82rem">设备销售追踪 · 趋势分析 · 爆款预测</span>
+</div>
+<div style="display:flex;align-items:center;gap:10px">
+<span class="badge-w" id="wl">加载中...</span>
+<button class="rbtn" onclick="refreshData()" id="rb">🔄 更新数据</button>
+</div>
+</header>
+<nav>
+<button class="active" onclick="switchTab('overview',this)">📊 本周总览</button>
+<button onclick="switchTab('trends',this)">📈 趋势追踪</button>
+<button onclick="switchTab('predictions',this)">🔥 爆款预测</button>
+<button onclick="switchTab('data',this)">📋 数据管理</button>
+</nav>
+<main>
+<!-- TAB 1: 总览 -->
+<div class="tc active" id="tab-overview">
+<div class="kg" id="kpiGrid"></div>
+<div class="cr" style="grid-template-columns:1fr 1fr 1fr">
+<div class="cb"><h3>📊 各品类市场份额（按销量）</h3><div id="pieArea"></div></div>
+<div class="cb"><h3>💰 各品类市场份额（按销售额）</h3><div id="pieRevenueArea"></div></div>
+<div class="cb"><h3>📈 品类热度指数（周增长%）</h3><div id="barArea"></div></div>
+</div>
+<div class="cb" style="margin-bottom:16px" id="marketIntel"></div>
+<div class="fr">
+<select id="catFilter" onchange="loadDeviceTable()"><option value="">全部品类</option></select>
+<input type="text" id="searchInput" placeholder="🔍 搜索品牌/型号..." oninput="loadDeviceTable()">
+</div>
+<div class="tw"><h3>📋 设备销售排行榜</h3><div style="overflow-x:auto"><table><thead id="dth"></thead><tbody id="dtb"></tbody></table></div></div>
+</div>
+<!-- TAB 2: 趋势 -->
+<div class="tc" id="tab-trends">
+<div class="cb" style="margin-bottom:16px">
+<h3>📈 品类周增长趋势</h3><div id="trendArea"></div>
+</div>
+<div class="cb" style="margin-bottom:16px">
+<h3>📉 销量增速 Top 10</h3><div id="moverArea"></div>
+</div>
+<div class="fr"><select id="trendDevice" onchange="loadTrendDetail()"></select></div>
+<div class="cb"><h3>💰 选中设备详情</h3><div id="deviceDetail"></div></div>
+</div>
+<!-- TAB 3: 预测 -->
+<div class="tc" id="tab-predictions">
+<div class="kg" id="predSummary"></div>
+<div class="cb" style="margin-bottom:16px">
+<h3>🎯 Top 5 爆款候选 — 5维评分对比</h3><div id="radarArea"></div>
+</div>
+<h3 style="margin-bottom:10px;color:var(--t2)">🔥 爆款预测 Top 10</h3>
+<div class="pg" id="predGrid"></div>
+</div>
+<!-- TAB 4: 数据管理 -->
+<div class="tc" id="tab-data">
+<div class="cb" style="margin-bottom:16px"><h3>📦 历史周报存档</h3><div class="hl" id="historyList"></div></div>
+<div class="cb">
+<h3>📋 原始数据</h3>
+<p style="color:var(--t2);margin-bottom:10px;font-size:.85rem">搜索和查看所有设备原始数据</p>
+<div class="fr">
+<input type="text" id="rawSearch" placeholder="🔍 搜索..." oninput="loadRawTable()">
+<button class="rbtn" onclick="exportCSV()" style="background:var(--grn)">📥 导出CSV</button>
+</div>
+<div style="overflow-x:auto"><table><thead id="rawTh"></thead><tbody id="rawTb"></tbody></table></div>
+</div>
+</div>
+</main>
+<div class="toast" id="toast"></div>
+<script>
+var allDevices=[],predictions=[],catData={},trendsData=[];
+var COLORS={'3D打印机':'#3b82f6','智能切割机':'#f59e0b','激光雕刻机':'#10b981','热压机':'#8b5cf6','电动工具':'#ec4899','UV打印机':'#ef4444','升华打印机':'#06b6d4','刺绣机':'#f97316'};
+// ===== 嵌入式数据回退（静态模式，无需服务器）=====
+var EMBEDDED=window.EMBEDDED_DATA||null;
+async function getJSON(url){
+  if(EMBEDDED){
+    if(url.indexOf('/api/devices')>=0)return EMBEDDED.devices;
+    if(url.indexOf('/api/summary')>=0)return EMBEDDED.summary;
+    if(url.indexOf('/api/categories')>=0)return EMBEDDED.categories;
+    if(url.indexOf('/api/market_updates')>=0)return EMBEDDED.market_updates;
+    if(url.indexOf('/api/trends')>=0)return EMBEDDED.trends;
+    if(url.indexOf('/api/predictions')>=0)return EMBEDDED.predictions;
+    if(url.indexOf('/api/history')>=0)return EMBEDDED.history;
+  }
+  var r=await fetch(url); if(!r.ok) throw new Error('HTTP '+r.status); return await r.json();
+}
+function showToast(m){var t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(function(){t.classList.remove('show')},2500)}
+function switchTab(name,btn){
+document.querySelectorAll('.tc').forEach(function(t){t.classList.remove('active')});
+document.querySelectorAll('nav button').forEach(function(b){b.classList.remove('active')});
+document.getElementById('tab-'+name).classList.add('active');
+if(btn)btn.classList.add('active');
+if(name==='overview')loadOverview();
+if(name==='trends')loadTrends();
+if(name==='predictions')loadPredictions();
+if(name==='data')loadDataMgmt();
+}
+async function refreshData(){
+if(EMBEDDED){showToast('📦 静态快照模式 — 请运行 Flask 服务器以在线刷新');return;}
+var btn=document.getElementById('rb');btn.disabled=true;btn.textContent='⏳ 更新中...';
+try{var r=await fetch('/api/refresh',{method:'POST'});var d=await r.json();
+if(d.success){showToast('✅ '+d.message);document.getElementById('wl').textContent='📅 '+d.week_label;await loadAll();}
+else showToast('❌ '+d.message);
+}catch(e){showToast('❌ 网络错误')}
+btn.disabled=false;btn.textContent='🔄 更新数据';
+}
+async function loadAll(){
+try{await loadOverview();}catch(e){console.error('overview',e)}
+try{await loadTrends();}catch(e){console.error('trends',e)}
+try{await loadPredictions();}catch(e){console.error('pred',e)}
+try{await loadDataMgmt();}catch(e){console.error('data',e)}
+}
+// ===== OVERVIEW =====
+async function loadOverview(){
+try{
+var [dR,sR,cR,mR]=await Promise.all([getJSON('/api/devices'),getJSON('/api/summary'),getJSON('/api/categories'),getJSON('/api/market_updates')]);
+allDevices=dR;var summary=sR;catData=cR;var mi=mR;
+}catch(e){console.error('fetch overview',e);return}
+document.getElementById('kpiGrid').innerHTML=
+'<div class="kc"><div class="l">📦 追踪设备</div><div class="v ac">'+summary.total_devices+'</div><div class="s">覆盖 '+summary.categories+' 个品类</div></div>'+
+'<div class="kc"><div class="l">🆕 本周新品</div><div class="v up">'+summary.new_devices+'</div><div class="s">新上市/新发现型号</div></div>'+
+'<div class="kc"><div class="l">💰 价格变动</div><div class="v">'+summary.price_changes+'</div><div class="s">设备价格有调整</div></div>'+
+'<div class="kc"><div class="l">🔥 最热品类</div><div class="v up">'+summary.hottest_category+'</div><div class="s">周增长 +'+summary.hottest_growth+'%</div></div>';
+// Pie chart - by sales volume (CSS-based)
+var pieHtml='<div class="pie-wrap"><div style="position:relative;width:140px;height:140px;border-radius:50%;background:';
+var cats=Object.keys(catData);var sales=cats.map(function(c){return catData[c].sales});var total=sales.reduce(function(a,b){return a+b},0);
+var gradParts=[];var acc=0;
+cats.forEach(function(c,i){var pct=sales[i]/total*100;gradParts.push(COLORS[c]+' '+acc+'% '+(acc+pct)+'%');acc+=pct});
+pieHtml+='conic-gradient('+gradParts.join(',')+')"></div><div class="pie-legend">';
+cats.forEach(function(c){pieHtml+='<div class="pl"><div class="pd" style="background:'+COLORS[c]+'"></div>'+c+' ('+Math.round(catData[c].sales/total*100)+'%)</div>'});
+pieHtml+='</div></div>';
+document.getElementById('pieArea').innerHTML=pieHtml;
+// Pie chart - by revenue (price * sales)
+var revByCat={};
+allDevices.forEach(function(d){var cat=d.category;var rev=(d.current_price||d.price_usd)*d.monthly_sales;if(!revByCat[cat])revByCat[cat]=0;revByCat[cat]+=rev});
+var revCats=Object.keys(revByCat);var revVals=revCats.map(function(c){return revByCat[c]});var revTotal=revVals.reduce(function(a,b){return a+b},0);
+var revHtml='<div class="pie-wrap"><div style="position:relative;width:140px;height:140px;border-radius:50%;background:';
+var rgParts=[];var racc=0;
+revCats.sort(function(a,b){return revByCat[b]-revByCat[a]}).forEach(function(c){var pct=revByCat[c]/revTotal*100;rgParts.push((COLORS[c]||'#64748b')+' '+racc+'% '+(racc+pct)+'%');racc+=pct});
+revHtml+='conic-gradient('+rgParts.join(',')+')"></div><div class="pie-legend">';
+revCats.sort(function(a,b){return revByCat[b]-revByCat[a]}).forEach(function(c){
+var revM=Math.round(revByCat[c]/1000000*10)/10;
+revHtml+='<div class="pl"><div class="pd" style="background:'+(COLORS[c]||'#64748b')+'"></div>'+c+' ('+Math.round(revByCat[c]/revTotal*100)+'%) $'+revM+'M</div>';
+});
+revHtml+='</div></div>';
+document.getElementById('pieRevenueArea').innerHTML=revHtml;
+// Bar chart (CSS-based)
+var barHtml='<div class="bar-chart">';
+cats.sort(function(a,b){return catData[b].growth-catData[a].growth}).forEach(function(c){
+var g=catData[c].growth;var w=Math.min(Math.abs(g)*4,100);
+var col=g>10?'var(--grn)':g>0?'var(--acc)':'var(--red)';
+barHtml+='<div class="bar-row"><div class="bl">'+c+'</div><div class="bt"><div class="bf2" style="width:'+w+'%;background:'+col+'">'+g+'%</div></div></div>';
+});
+barHtml+='</div>';
+document.getElementById('barArea').innerHTML=barHtml;
+// Market intel
+var miHtml='';
+if(mi.categories){Object.entries(mi.categories).forEach(function(pair){
+var cat=pair[0],info=pair[1];var hot=info.trend&&info.trend.indexOf('🔥')>=0;
+miHtml+='<div class="kc"><div class="l">'+(hot?'🔥':'📈')+' '+cat+'</div><div class="v" style="font-size:1rem;color:'+(hot?'var(--red)':'var(--acc)')+'">'+info.trend+'</div><div class="s">'+(info.news||'').substring(0,80)+'</div></div>';
+})}
+if(mi.emerging_signals&&mi.emerging_signals.length>0){
+miHtml+='<div class="cb" style="grid-column:1/-1;margin-top:8px"><h3>🚀 本周新兴信号</h3><div style="display:grid;gap:5px;margin-top:6px">';
+mi.emerging_signals.slice(0,5).forEach(function(s){miHtml+='<div style="background:rgba(245,158,11,.06);border-left:3px solid var(--acc2);padding:7px 12px;border-radius:0 6px 6px 0;font-size:.82rem">'+s+'</div>'});
+miHtml+='</div></div>';
+}
+document.getElementById('marketIntel').innerHTML='<div class="kg">'+miHtml+'</div>';
+// Filter
+document.getElementById('catFilter').innerHTML='<option value="">全部品类</option>'+cats.map(function(c){return'<option value="'+c+'">'+c+'</option>'}).join('');
+loadDeviceTable();
+}
+function loadDeviceTable(){
+var cat=document.getElementById('catFilter').value;
+var search=document.getElementById('searchInput').value.toLowerCase();
+var devices=allDevices;
+if(cat)devices=devices.filter(function(d){return d.category===cat});
+if(search)devices=devices.filter(function(d){return d.brand.toLowerCase().indexOf(search)>=0||d.model.toLowerCase().indexOf(search)>=0});
+document.getElementById('dth').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格(USD)</th><th>月销量</th><th>周增长</th><th>社交热度</th><th>状态</th></tr>';
+document.getElementById('dtb').innerHTML=devices.map(function(d){
+var g=d.current_weekly_growth||0;
+var pc=d.price_change_this_week||0;
+return '<tr><td><strong>'+d.brand+'</strong></td><td>'+d.model+'</td><td>'+d.category+'</td>'+
+'<td>$'+(d.current_price||d.price_usd)+(pc?(pc>0?' <span class="bg up">↑</span>':' <span class="bg dn">↓</span>'):'')+'</td>'+
+'<td>'+(d.monthly_sales/1000).toFixed(0)+'K</td>'+
+'<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g+'%</span></td>'+
+'<td>'+(d.social_metrics&&d.social_metrics.tiktok_videos||0)+' 视频</td>'+
+'<td>'+(d.is_new?'<span class="bg nw">🆕</span>':'')+(g>15?'<span class="bg ht">🔥</span>':'')+(d.last_verified?' <span style="color:var(--grn);font-weight:600" title="'+d.verified_note+'">✓核实</span>':'')+'</td></tr>';
+}).join('');
+}
+// ===== TRENDS =====
+async function loadTrends(){
+try{var r=await getJSON('/api/trends');trendsData=r||[];}catch(e){trendsData=[]}
+var sel=document.getElementById('trendDevice');
+sel.innerHTML=allDevices.map(function(d,i){return'<option value="'+i+'">'+d.brand+' '+d.model+'</option>'}).join('');
+// Category trend bar
+var html='<div class="bar-chart">';
+if(trendsData.length>0){
+var lastWeek=trendsData[trendsData.length-1];
+if(lastWeek.categories){
+Object.entries(lastWeek.categories).sort(function(a,b){return b[1].growth-a[1].growth}).forEach(function(pair){
+var c=pair[0],info=pair[1];var g=info.growth||0;var w=Math.min(Math.abs(g)*4,100);
+var col=g>10?'var(--grn)':g>0?'var(--acc)':'var(--red)';
+html+='<div class="bar-row"><div class="bl">'+c+'</div><div class="bt"><div class="bf2" style="width:'+w+'%;background:'+col+'">'+g+'%</div></div></div>';
+});
+}
+}else{html+='<p style="color:var(--t2)">暂无趋势数据</p>'}
+html+='</div>';
+document.getElementById('trendArea').innerHTML=html;
+// Top movers
+var sorted=allDevices.slice().sort(function(a,b){return (b.current_weekly_growth||0)-(a.current_weekly_growth||0)});
+var top10=sorted.slice(0,10);
+var mh='<div class="bar-chart">';
+top10.forEach(function(d){
+var g=d.current_weekly_growth||0;var w=Math.min(Math.abs(g)*3,100);
+mh+='<div class="bar-row"><div class="bl">'+d.brand+' '+d.model+'</div><div class="bt"><div class="bf2" style="width:'+w+'%;background:rgba(16,185,129,.7)">'+(g>0?'+':'')+g+'%</div></div></div>';
+});
+mh+='</div>';
+document.getElementById('moverArea').innerHTML=mh;
+loadTrendDetail();
+}
+function loadTrendDetail(){
+var idx=parseInt(document.getElementById('trendDevice').value)||0;
+var d=allDevices[idx];if(!d)return;
+var g=d.current_weekly_growth||0;
+var sm=d.social_metrics||{};
+var html='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">'+
+'<div><strong style="font-size:1.1rem">'+d.brand+' '+d.model+'</strong><br><span style="color:var(--t2);font-size:.85rem">'+d.description+'</span></div>'+
+'<div style="text-align:right"><div style="font-size:1.5rem;font-weight:700;color:'+(g>10?'var(--grn)':'var(--acc)')+'">'+(g>0?'+':'')+g+'%</div><div style="color:var(--t2);font-size:.8rem">周增长率</div></div>'+
+'</div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px">'+
+'<div class="kc"><div class="l">💰 价格</div><div class="v" style="font-size:1.3rem">$'+(d.current_price||d.price_usd)+'</div></div>'+
+'<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+(d.monthly_sales/1000).toFixed(0)+'K</div></div>'+
+'<div class="kc"><div class="l">📱 TikTok视频</div><div class="v" style="font-size:1.3rem">'+(sm.tiktok_videos||0).toLocaleString()+'</div></div>'+
+'</div><div style="margin-top:10px"><strong>耗材类型:</strong> '+((d.consumables||[]).join(', '))+'<br><strong>耗材月销:</strong> '+(d.consumable_monthly_sales_est||'—')+'</div>';
+if(d.verified_note){html+='<div style="margin-top:10px;padding:7px 11px;background:rgba(16,185,129,.08);border-left:3px solid var(--grn);font-size:.76rem;color:var(--t2);line-height:1.5">✓ <strong style="color:var(--grn)">已联网核实 '+(d.last_verified||'')+'</strong>：'+d.verified_note+'</div>';}
+document.getElementById('deviceDetail').innerHTML=html;
+}
+// ===== PREDICTIONS =====
+async function loadPredictions(){
+try{var r=await getJSON('/api/predictions?top=10');var data=r||{};predictions=data.predictions||[];var all=data.all||[];}catch(e){predictions=[];all=[]}
+var cnt80=all.filter(function(p){return p.total_score>=80}).length;
+var cnt65=all.filter(function(p){return p.total_score>=65&&p.total_score<80}).length;
+var cnt50=all.filter(function(p){return p.total_score>=50&&p.total_score<65}).length;
+document.getElementById('predSummary').innerHTML=
+'<div class="kc"><div class="l">🔥 极高爆款潜力</div><div class="v up">'+cnt80+'</div><div class="s">评分 ≥ 80</div></div>'+
+'<div class="kc"><div class="l">⭐ 高爆款潜力</div><div class="v ac">'+cnt65+'</div><div class="s">评分 65-79</div></div>'+
+'<div class="kc"><div class="l">👍 有爆款潜力</div><div class="v">'+cnt50+'</div><div class="s">评分 50-64</div></div>'+
+'<div class="kc"><div class="l">📊 总评估设备</div><div class="v">'+all.length+'</div><div class="s">'+all.filter(function(p){return p.total_score>=50}).length+' 个值得关注</div></div>';
+// Top 5 radar (bar comparison)
+var top5=predictions.slice(0,5);
+var rh='<div class="bar-chart">';
+var dims=['sales_growth','price_competitiveness','social_heat','category_trend','innovation'];
+var dimLabels=['销量增速','价格竞争力','社交热度','品类趋势','创新度'];
+dims.forEach(function(dk,di){
+rh+='<div class="bar-row" style="margin-bottom:4px"><div class="bl" style="width:80px;font-weight:600;color:var(--text)">'+dimLabels[di]+'</div></div>';
+top5.forEach(function(p){
+var val=p.dimensions[dk];var w=val/20*100;
+var col=['#f59e0b','#3b82f6','#10b981','#8b5cf6','#ec4899'][top5.indexOf(p)];
+rh+='<div class="bar-row"><div class="bl" style="width:80px;font-size:.72rem">'+p.brand+' '+p.model+'</div><div class="bt"><div class="bf2" style="width:'+w+'%;background:'+col+'">'+val+'/20</div></div></div>';
+});
+});
+rh+='</div>';
+document.getElementById('radarArea').innerHTML=rh;
+// Prediction cards
+document.getElementById('predGrid').innerHTML=predictions.map(function(p,i){
+return '<div class="pc"><div class="rk '+(i<3?'t3':'')+'">'+(i+1)+'</div>'+
+'<h4>'+p.brand+' '+p.model+'</h4><div class="ct">'+p.category+' · 风险: '+p.risk_level+'</div>'+
+'<div class="sb">'+p.total_score+'<span style="font-size:.5em;color:var(--t2)"> /100</span></div>'+
+'<div class="dr"><span>📈 销量增速</span><span>'+p.dimensions.sales_growth+'/20</span><div class="bb"><div class="bf" style="width:'+p.dimensions.sales_growth/20*100+'%"></div></div></div>'+
+'<div class="dr"><span>💰 价格竞争力</span><span>'+p.dimensions.price_competitiveness+'/20</span><div class="bb"><div class="bf" style="width:'+p.dimensions.price_competitiveness/20*100+'%"></div></div></div>'+
+'<div class="dr"><span>📱 社交热度</span><span>'+p.dimensions.social_heat+'/20</span><div class="bb"><div class="bf" style="width:'+p.dimensions.social_heat/20*100+'%"></div></div></div>'+
+'<div class="dr"><span>📊 品类趋势</span><span>'+p.dimensions.category_trend+'/20</span><div class="bb"><div class="bf" style="width:'+p.dimensions.category_trend/20*100+'%"></div></div></div>'+
+'<div class="dr"><span>💡 创新度</span><span>'+p.dimensions.innovation+'/20</span><div class="bb"><div class="bf" style="width:'+p.dimensions.innovation/20*100+'%"></div></div></div>'+
+'<div class="rs">'+p.reasons.map(function(r){return'<span>'+r+'</span>'}).join(' ')+'</div>'+
+'<div class="rk2"><strong>预测：</strong>'+p.prediction+'</div></div>';
+}).join('');
+}
+// ===== DATA MGMT =====
+async function loadDataMgmt(){
+try{var r=await getJSON('/api/history');var hist=r||{weeks:[]};}catch(e){hist={weeks:[]}}
+document.getElementById('historyList').innerHTML=hist.weeks&&hist.weeks.length>0
+?hist.weeks.map(function(w){return'<div class="hi"><span>📅 '+w+'</span><span style="color:var(--t2)">'+hist.count+' 条记录</span></div>'}).join('')
+:'<p style="color:var(--t2);padding:10px">暂无历史周报</p>';
+loadRawTable();
+}
+function loadRawTable(){
+var search=(document.getElementById('rawSearch')&&document.getElementById('rawSearch').value||'').toLowerCase();
+var devices=allDevices;
+if(search)devices=devices.filter(function(d){return d.brand.toLowerCase().indexOf(search)>=0||d.model.toLowerCase().indexOf(search)>=0||d.category.toLowerCase().indexOf(search)>=0});
+document.getElementById('rawTh').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格</th><th>月销量</th><th>周增长</th><th>耗材</th><th>耗材月销</th></tr>';
+document.getElementById('rawTb').innerHTML=devices.map(function(d){
+var g=d.current_weekly_growth||0;
+return'<tr><td><strong>'+d.brand+'</strong></td><td>'+d.model+'</td><td>'+d.category+'</td>'+
+'<td>$'+(d.current_price||d.price_usd)+'</td><td>'+(d.monthly_sales/1000).toFixed(0)+'K</td>'+
+'<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g.toFixed(1)+'%</span></td>'+
+'<td>'+(d.consumables||[]).join(', ')+'</td><td>'+(d.consumable_monthly_sales_est||'—')+'</td></tr>';
+}).join('');
+}
+function exportCSV(){
+var rows=[['品牌','型号','品类','价格(USD)','月销量','周增长%','耗材','耗材月销']];
+allDevices.forEach(function(d){rows.push([d.brand,d.model,d.category,d.current_price||d.price_usd,d.monthly_sales,(d.current_weekly_growth||0).toFixed(1),(d.consumables||[]).join(';'),d.consumable_monthly_sales_est||''])});
+var csv=rows.map(function(r){return r.map(function(c){return'"'+String(c).replace(/"/g,'""')+'"'}).join(',')}).join('\n');
+var blob=new Blob(['\uFEFF'+csv],{type:'text/csv'});
+var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='diy_weekly_data.csv';a.click();
+}
+// ===== INIT =====
+async function init(){
+if(EMBEDDED){
+  document.getElementById('rb').style.display='none';
+  document.getElementById('wl').textContent='📦 静态快照';
+  await loadAll(); return;
+}
+try{
+var sR=await getJSON('/api/summary');var summary=sR;
+var hR=await getJSON('/api/history');var hist=hR;
+if(hist.weeks&&hist.weeks.length>0){document.getElementById('wl').textContent='📅 '+hist.weeks[0]}
+else{document.getElementById('wl').textContent='📅 '+summary.total_devices+'台设备'}
+}catch(e){console.error('init fetch',e)}
+await loadAll();
+}
+init();
+</script>
+</body>
+</html>

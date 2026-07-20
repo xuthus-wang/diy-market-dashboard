@@ -1,0 +1,1339 @@
+[
+  {
+    "id": "cricut-maker4",
+    "brand": "Cricut",
+    "model": "Maker 4",
+    "category": "智能切割机",
+    "price_usd": 399,
+    "price_change_pct": 0,
+    "monthly_sales": 180000,
+    "weekly_growth_pct": 3.2,
+    "description": "旗舰级多功能智能切割机，支持300+种材料，自适应工具系统",
+    "key_features": [
+      "300+材料",
+      "自适应工具系统",
+      "旋转刀片",
+      "雕刻工具",
+      "压花工具",
+      "打孔刀片"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 4500,
+      "engagement_rate": 3.8,
+      "search_growth_pct": 5.2
+    },
+    "sales_channels": [
+      "Amazon",
+      "Cricut官网",
+      "Walmart",
+      "Michaels"
+    ],
+    "consumables": [
+      "Permanent Vinyl",
+      "Iron-On HTV",
+      "Smart Materials",
+      "Infusible Ink",
+      "Cardstock"
+    ],
+    "consumable_monthly_sales_est": "$250万"
+  },
+  {
+    "id": "cricut-explore4",
+    "brand": "Cricut",
+    "model": "Explore 4",
+    "category": "智能切割机",
+    "price_usd": 299,
+    "price_change_pct": -5,
+    "monthly_sales": 150000,
+    "weekly_growth_pct": 2.1,
+    "description": "中端智能切割机，支持100+材料，2倍快速模式，双工具夹持",
+    "key_features": [
+      "100+材料",
+      "Fast Mode 2x",
+      "双工具夹持",
+      "蓝牙"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 2800,
+      "engagement_rate": 3.2,
+      "search_growth_pct": 1.5
+    },
+    "sales_channels": [
+      "Amazon",
+      "Cricut官网",
+      "Walmart"
+    ],
+    "consumables": [
+      "Permanent Vinyl",
+      "Iron-On HTV",
+      "Smart Materials",
+      "Cardstock"
+    ],
+    "consumable_monthly_sales_est": "$180万"
+  },
+  {
+    "id": "cricut-joyxtra",
+    "brand": "Cricut",
+    "model": "Joy Xtra",
+    "category": "智能切割机",
+    "price_usd": 169,
+    "price_change_pct": -10,
+    "monthly_sales": 120000,
+    "weekly_growth_pct": 8.5,
+    "description": "超紧凑入门级切割机，Smart Materials连续切割20英尺，适合卡片/标签/贴纸",
+    "key_features": [
+      "超紧凑",
+      "Smart Materials",
+      "20英尺连续切割",
+      "入门友好"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 6200,
+      "engagement_rate": 5.1,
+      "search_growth_pct": 18.3
+    },
+    "sales_channels": [
+      "Amazon",
+      "Cricut官网",
+      "Target"
+    ],
+    "consumables": [
+      "Smart Vinyl",
+      "Smart Iron-On",
+      "Smart Paper"
+    ],
+    "consumable_monthly_sales_est": "$90万"
+  },
+  {
+    "id": "silhouette-cameo5",
+    "brand": "Silhouette",
+    "model": "Cameo 5",
+    "category": "智能切割机",
+    "price_usd": 349,
+    "price_change_pct": 0,
+    "monthly_sales": 42000,
+    "weekly_growth_pct": 1.0,
+    "description": "专业级切割机，5kg切割力，无垫切割技术，Silhouette Studio软件",
+    "key_features": [
+      "5kg切割力",
+      "无垫切割",
+      "专业软件"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 890,
+      "engagement_rate": 2.4,
+      "search_growth_pct": 3.1
+    },
+    "sales_channels": [
+      "Amazon",
+      "Silhouette官网",
+      "Michaels"
+    ],
+    "consumables": [
+      "Adhesive Vinyl",
+      "HTV",
+      "Cardstock"
+    ],
+    "consumable_monthly_sales_est": "$35万"
+  },
+  {
+    "id": "bambu-a1mini-combo",
+    "brand": "Bambu Lab",
+    "model": "A1 Mini Combo",
+    "category": "3D打印机",
+    "price_usd": 349,
+    "price_change_pct": 0,
+    "monthly_sales": 220000,
+    "weekly_growth_pct": 18.0,
+    "description": "入门级多色FDM打印机，含AMS lite 4色自动切换，20分钟设置，超静音≤48dB",
+    "key_features": [
+      "4色AMS",
+      "20分钟设置",
+      "超静音48dB",
+      "自动调平",
+      "手机APP"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 18500,
+      "engagement_rate": 6.2,
+      "search_growth_pct": 28.5
+    },
+    "sales_channels": [
+      "Bambu Lab官网",
+      "Amazon",
+      "京东"
+    ],
+    "consumables": [
+      "PLA Basic",
+      "PLA Matte",
+      "PLA Metal",
+      "PETG",
+      "AMS lite"
+    ],
+    "consumable_monthly_sales_est": "$350万"
+  },
+  {
+    "id": "bambu-a1",
+    "brand": "Bambu Lab",
+    "model": "A1",
+    "category": "3D打印机",
+    "price_usd": 299,
+    "price_change_pct": -10,
+    "monthly_sales": 160000,
+    "weekly_growth_pct": 12.0,
+    "description": "A1 Mini放大版，构建体积+42%，Active Flow Rate Compensation，手机远程监控",
+    "key_features": [
+      "256mm³构建",
+      "Flow Rate Compensation",
+      "远程监控"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 11200,
+      "engagement_rate": 5.4,
+      "search_growth_pct": 22.1
+    },
+    "sales_channels": [
+      "Bambu Lab官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "PLA Basic",
+      "PLA Matte",
+      "PETG",
+      "ABS"
+    ],
+    "consumable_monthly_sales_est": "$280万"
+  },
+  {
+    "id": "bambu-h2d",
+    "brand": "Bambu Lab",
+    "model": "H2D",
+    "category": "3D打印机",
+    "price_usd": 1899,
+    "price_change_pct": 0,
+    "monthly_sales": 35000,
+    "weekly_growth_pct": 45.3,
+    "description": "2025旗舰新品：3D打印+激光雕刻+模切+画笔四合一体机，重新定义桌面制造。Bambu Lab于2026-07达成100万台桌面机里程碑并投$195M建厂。",
+    "key_features": [
+      "四合一体机",
+      "3D打印",
+      "激光雕刻",
+      "模切",
+      "画笔",
+      "7色打印(H2C)"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 28500,
+      "engagement_rate": 8.9,
+      "search_growth_pct": 156.2
+    },
+    "sales_channels": [
+      "Bambu Lab官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "碳纤维",
+      "激光材料"
+    ],
+    "consumable_monthly_sales_est": "$120万",
+    "last_verified": "2026-07-20",
+    "verified_note": "Bambu Lab 2026-07达100万台桌面机里程碑，$195M建厂"
+  },
+  {
+    "id": "creality-ender3v3se",
+    "brand": "Creality",
+    "model": "Ender-3 V3 SE",
+    "category": "3D打印机",
+    "price_usd": 197,
+    "price_change_pct": 0,
+    "monthly_sales": 58000,
+    "weekly_growth_pct": -1.2,
+    "description": "入门级最佳性价比FDM打印机，CR Touch自动调平，直接驱动Sprite挤出机",
+    "key_features": [
+      "$197性价比",
+      "CR Touch调平",
+      "直接驱动",
+      "双Z轴"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 3200,
+      "engagement_rate": 2.8,
+      "search_growth_pct": -2.5
+    },
+    "sales_channels": [
+      "Amazon",
+      "Creality官网",
+      "京东",
+      "淘宝"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "TPU"
+    ],
+    "consumable_monthly_sales_est": "$100万"
+  },
+  {
+    "id": "creality-k2plus",
+    "brand": "Creality",
+    "model": "K2 Plus Combo",
+    "category": "3D打印机",
+    "price_usd": 899,
+    "price_change_pct": -20,
+    "monthly_sales": 25000,
+    "weekly_growth_pct": 20.0,
+    "description": "旗舰多色FDM，350mm超大构建，4色CFS系统(兼干燥箱)，主动腔体加热，AI双摄像头",
+    "key_features": [
+      "350mm超大构建",
+      "4色CFS",
+      "主动腔体加热",
+      "AI双摄像头",
+      "600mm/s"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 4200,
+      "engagement_rate": 5.6,
+      "search_growth_pct": 45.8
+    },
+    "sales_channels": [
+      "Amazon",
+      "Creality官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "ASA",
+      "碳纤维"
+    ],
+    "consumable_monthly_sales_est": "$50万"
+  },
+  {
+    "id": "anycubic-m7pro",
+    "brand": "Anycubic",
+    "model": "Photon Mono M7 Pro",
+    "category": "3D打印机",
+    "price_usd": 455,
+    "price_change_pct": -31,
+    "monthly_sales": 25000,
+    "weekly_growth_pct": 5.8,
+    "description": "14K超高分辨率树脂打印机(13312×5120)，积分均匀光源，适合微缩模型/珠宝/牙科",
+    "key_features": [
+      "14K分辨率",
+      "积分光源",
+      "肉眼不可见层线"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 6800,
+      "engagement_rate": 4.8,
+      "search_growth_pct": 12.3
+    },
+    "sales_channels": [
+      "Amazon",
+      "Anycubic官网"
+    ],
+    "consumables": [
+      "Standard Resin",
+      "ABS-Like Resin",
+      "Tough Resin",
+      "Flexible Resin"
+    ],
+    "consumable_monthly_sales_est": "$55万"
+  },
+  {
+    "id": "anycubic-kobra3v2",
+    "brand": "Anycubic",
+    "model": "Kobra 3 V2 Combo",
+    "category": "3D打印机",
+    "price_usd": 339,
+    "price_change_pct": -15,
+    "monthly_sales": 45000,
+    "weekly_growth_pct": 18.2,
+    "description": "FDM多色打印机，ACE多色系统，49点自动调平，直接驱动挤出机，性价比突出",
+    "key_features": [
+      "ACE多色",
+      "49点调平",
+      "直接驱动",
+      "高性价比"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 5200,
+      "engagement_rate": 5.2,
+      "search_growth_pct": 35.6
+    },
+    "sales_channels": [
+      "Amazon",
+      "Anycubic官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "TPU",
+      "ABS"
+    ],
+    "consumable_monthly_sales_est": "$65万"
+  },
+  {
+    "id": "flashforge-ad5x",
+    "brand": "Flashforge",
+    "model": "AD5X",
+    "category": "3D打印机",
+    "price_usd": 359,
+    "price_change_pct": 0,
+    "monthly_sales": 18000,
+    "weekly_growth_pct": 6.5,
+    "description": "最经济多色FDM打印机，4色自动切换，快换喷嘴，封闭式结构",
+    "key_features": [
+      "最经济多色",
+      "4色切换",
+      "快换喷嘴",
+      "封闭式"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 2100,
+      "engagement_rate": 3.5,
+      "search_growth_pct": 22.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Flashforge官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS"
+    ],
+    "consumable_monthly_sales_est": "$30万"
+  },
+  {
+    "id": "xtool-p2s",
+    "brand": "xTool",
+    "model": "P2S",
+    "category": "激光雕刻机",
+    "price_usd": 3249,
+    "price_change_pct": 0,
+    "monthly_sales": 8000,
+    "weekly_growth_pct": 4.2,
+    "description": "55W CO2智能激光切割/雕刻机，双16MP摄像头，3D曲面雕刻，LightBurn兼容",
+    "key_features": [
+      "55W CO2",
+      "双16MP摄像头",
+      "3D曲面雕刻",
+      "LightBurn",
+      "旋转附件"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 3500,
+      "engagement_rate": 4.1,
+      "search_growth_pct": 8.5
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "胶合板",
+      "亚克力板",
+      "玻璃",
+      "皮革",
+      "金属"
+    ],
+    "consumable_monthly_sales_est": "$40万"
+  },
+  {
+    "id": "xtool-s1",
+    "brand": "xTool",
+    "model": "S1 40W",
+    "category": "激光雕刻机",
+    "price_usd": 1299,
+    "price_change_pct": 0,
+    "monthly_sales": 15000,
+    "weekly_growth_pct": 10.5,
+    "description": "全封闭二极管激光切割/雕刻机(40W)，Class 1安全，火焰检测，模块化可升级",
+    "key_features": [
+      "40W二极管",
+      "全封闭Class 1",
+      "火焰检测",
+      "模块化",
+      "旋转雕刻"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 8200,
+      "engagement_rate": 5.8,
+      "search_growth_pct": 32.5
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "胶合板",
+      "亚克力板",
+      "玻璃",
+      "皮革"
+    ],
+    "consumable_monthly_sales_est": "$35万"
+  },
+  {
+    "id": "xtool-m1ultra",
+    "brand": "xTool",
+    "model": "M1 Ultra",
+    "category": "激光雕刻机",
+    "price_usd": 999,
+    "price_change_pct": 0,
+    "monthly_sales": 22000,
+    "weekly_growth_pct": 25.8,
+    "description": "四合一体机：激光+刀片切割+喷墨打印+烫金转移，手工达人综合创作平台",
+    "key_features": [
+      "四合一体机",
+      "激光",
+      "刀片切割",
+      "喷墨打印",
+      "烫金转移",
+      "all-in-one"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 15600,
+      "engagement_rate": 7.5,
+      "search_growth_pct": 89.4
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon",
+      "京东"
+    ],
+    "consumables": [
+      "胶合板",
+      "亚克力板",
+      "烫金纸",
+      "墨水"
+    ],
+    "consumable_monthly_sales_est": "$55万"
+  },
+  {
+    "id": "glowforge-pro",
+    "brand": "Glowforge",
+    "model": "Pro",
+    "category": "激光雕刻机",
+    "price_usd": 4995,
+    "price_change_pct": 0,
+    "monthly_sales": 5000,
+    "weekly_growth_pct": 0.5,
+    "description": "45W CO2激光，穿透切割，云端软件，Etsy卖家/教师/创业者首选",
+    "key_features": [
+      "45W CO2",
+      "穿透切割",
+      "自动对焦",
+      "云端软件"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 1800,
+      "engagement_rate": 3.2,
+      "search_growth_pct": -1.5
+    },
+    "sales_channels": [
+      "Glowforge官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "Proofgrade Draftboard",
+      "Proofgrade Acrylic",
+      "Proofgrade Plywood",
+      "Proofgrade Leather"
+    ],
+    "consumable_monthly_sales_est": "$25万"
+  },
+  {
+    "id": "glowforge-aura",
+    "brand": "Glowforge",
+    "model": "Aura",
+    "category": "激光雕刻机",
+    "price_usd": 999,
+    "price_change_pct": 0,
+    "monthly_sales": 12000,
+    "weekly_growth_pct": 8.2,
+    "description": "紧凑型6W二极管激光，全封闭，新手友好，适合轻量手工艺项目",
+    "key_features": [
+      "6W二极管",
+      "全封闭",
+      "新手友好",
+      "紧凑型"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 4500,
+      "engagement_rate": 4.6,
+      "search_growth_pct": 15.8
+    },
+    "sales_channels": [
+      "Glowforge官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "Proofgrade Draftboard",
+      "Proofgrade Acrylic"
+    ],
+    "consumable_monthly_sales_est": "$18万"
+  },
+  {
+    "id": "cricut-easypress-se",
+    "brand": "Cricut",
+    "model": "EasyPress SE 12x10",
+    "category": "热压机",
+    "price_usd": 199,
+    "price_change_pct": 0,
+    "monthly_sales": 45000,
+    "weekly_growth_pct": 6.8,
+    "description": "专业热转印热压机(12×10英寸)，支持HTV/Infusible Ink/升华，2026新款",
+    "key_features": [
+      "12x10英寸",
+      "HTV支持",
+      "Infusible Ink",
+      "简化操作",
+      "2026新款"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 3800,
+      "engagement_rate": 4.2,
+      "search_growth_pct": 20.5
+    },
+    "sales_channels": [
+      "Cricut官网",
+      "Amazon",
+      "Michaels"
+    ],
+    "consumables": [
+      "Iron-On HTV",
+      "Infusible Ink",
+      "Sublimation Paper"
+    ],
+    "consumable_monthly_sales_est": "$30万"
+  },
+  {
+    "id": "htvront-auto-press",
+    "brand": "HTVRONT",
+    "model": "Auto Heat Press 15x15",
+    "category": "热压机",
+    "price_usd": 249,
+    "price_change_pct": -17,
+    "monthly_sales": 35000,
+    "weekly_growth_pct": 14.5,
+    "description": "自动释放热压机，15x15大面积，双把手均匀压力，快速加热",
+    "key_features": [
+      "自动释放",
+      "15x15英寸",
+      "双把手",
+      "快速加热"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 7200,
+      "engagement_rate": 5.9,
+      "search_growth_pct": 42.3
+    },
+    "sales_channels": [
+      "Amazon",
+      "HTVRONT官网"
+    ],
+    "consumables": [
+      "HTV热转印膜",
+      "升华纸",
+      "升华墨水"
+    ],
+    "consumable_monthly_sales_est": "$28万"
+  },
+  {
+    "id": "xapr-impact-wrench",
+    "brand": "XAPR",
+    "model": "Impact Wrench 1000NM",
+    "category": "电动工具",
+    "price_usd": 39,
+    "price_change_pct": 0,
+    "monthly_sales": 40700000,
+    "weekly_growth_pct": 5.5,
+    "description": "1/2英寸大扭矩无绳冲击扳手，1000NM扭力，汽车维修和建筑施工必备",
+    "key_features": [
+      "1000NM扭矩",
+      "1/2英寸",
+      "无绳",
+      "紧凑机身"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 42000,
+      "engagement_rate": 7.8,
+      "search_growth_pct": 12.5
+    },
+    "sales_channels": [
+      "TikTok",
+      "Tokopedia",
+      "Shopee"
+    ],
+    "consumables": [
+      "套筒头",
+      "电池",
+      "充电器"
+    ],
+    "consumable_monthly_sales_est": "$15万"
+  },
+  {
+    "id": "victool-rotary-shears",
+    "brand": "Victool",
+    "model": "500W Electric Rotary Shears",
+    "category": "电动工具",
+    "price_usd": 12,
+    "price_change_pct": 0,
+    "monthly_sales": 2170000,
+    "weekly_growth_pct": 8.2,
+    "description": "可充电电动旋转剪刀，支持多层布料/皮革/地毯/纸板切割，ASMR病毒传播",
+    "key_features": [
+      "500W",
+      "可充电",
+      "多层切割",
+      "ASMR友好"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 28500,
+      "engagement_rate": 8.2,
+      "search_growth_pct": 25.8
+    },
+    "sales_channels": [
+      "TikTok",
+      "Tokopedia"
+    ],
+    "consumables": [
+      "替换刀片",
+      "电池"
+    ],
+    "consumable_monthly_sales_est": "$5万"
+  },
+  {
+    "id": "dagmara-dcd03",
+    "brand": "DAGMARA",
+    "model": "DCD03-18V Brushless Drill",
+    "category": "电动工具",
+    "price_usd": 30,
+    "price_change_pct": 0,
+    "monthly_sales": 444000,
+    "weekly_growth_pct": 3.5,
+    "description": "18V无刷无绳电钻，专业级动力，10,800+评论(4.8分)，中高级DIY首选",
+    "key_features": [
+      "18V无刷",
+      "10800+评论",
+      "4.8评分"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 5600,
+      "engagement_rate": 4.5,
+      "search_growth_pct": 5.2
+    },
+    "sales_channels": [
+      "TikTok",
+      "Shopee"
+    ],
+    "consumables": [
+      "钻头套装",
+      "电池",
+      "充电器"
+    ],
+    "consumable_monthly_sales_est": "$8万"
+  },
+  {
+    "id": "bambu-p1s",
+    "brand": "Bambu Lab",
+    "model": "P1S Combo",
+    "category": "3D打印机",
+    "price_usd": 699,
+    "price_change_pct": 0,
+    "monthly_sales": 123480,
+    "weekly_growth_pct": 22.5,
+    "description": "封闭式CoreXY高速FDM打印机(500mm/s)，16色AMS支持，PCMag最佳推荐，TikTok月销12.3万台",
+    "key_features": [
+      "500mm/s",
+      "封闭式CoreXY",
+      "16色AMS",
+      "PCMag最佳",
+      "即开即用"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 25000,
+      "engagement_rate": 7.2,
+      "search_growth_pct": 42.0
+    },
+    "sales_channels": [
+      "Bambu Lab官网",
+      "TikTok",
+      "Amazon"
+    ],
+    "consumables": [
+      "PLA Basic",
+      "PLA Matte",
+      "PETG",
+      "ABS",
+      "碳纤维"
+    ],
+    "consumable_monthly_sales_est": "$250万"
+  },
+  {
+    "id": "anycubic-photon-mono4",
+    "brand": "Anycubic",
+    "model": "Photon Mono 4 10K",
+    "category": "3D打印机",
+    "price_usd": 190,
+    "price_change_pct": -5,
+    "monthly_sales": 22300,
+    "weekly_growth_pct": 7.8,
+    "description": "10K高分辨率入门树脂打印机，超低价格，适合模型/手办/珠宝入门",
+    "key_features": [
+      "10K分辨率",
+      "$190入门价",
+      "高精度"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 3200,
+      "engagement_rate": 3.6,
+      "search_growth_pct": 15.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Anycubic官网"
+    ],
+    "consumables": [
+      "Standard Resin",
+      "ABS-Like Resin"
+    ],
+    "consumable_monthly_sales_est": "$15万"
+  },
+  {
+    "id": "cricut-explore5",
+    "brand": "Cricut",
+    "model": "Explore 5",
+    "category": "智能切割机",
+    "price_usd": 299,
+    "price_change_pct": 0,
+    "monthly_sales": 85000,
+    "weekly_growth_pct": 12.0,
+    "description": "下一代最畅销切割机，精准切割+增强速度+智能材料感应，支持全彩贴纸/T恤/卡片",
+    "key_features": [
+      "精准切割",
+      "增强速度",
+      "智能材料感应",
+      "全彩贴纸"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 5500,
+      "engagement_rate": 4.5,
+      "search_growth_pct": 28.0
+    },
+    "sales_channels": [
+      "Cricut官网",
+      "Amazon",
+      "Michaels"
+    ],
+    "consumables": [
+      "Smart Vinyl",
+      "Smart Iron-On",
+      "Smart Paper",
+      "Infusible Ink"
+    ],
+    "consumable_monthly_sales_est": "$120万"
+  },
+  {
+    "id": "eufymake-e1",
+    "brand": "Anker/eufyMake",
+    "model": "E1 UV Printer",
+    "category": "UV打印机",
+    "price_usd": 2499,
+    "price_change_pct": 0,
+    "monthly_sales": 17822,
+    "weekly_growth_pct": 85.0,
+    "description": "全球首款消费级3D纹理UV打印机，Kickstarter众筹>$46M创历史纪录。Amass3D™实现5mm立体纹理，330×420mm(A3)打印区，1440DPI，AI+双激光+8MP相机对齐，JetClean™自清洁。现已现货$2,499发货，墨水2026-07-13降至$29.99/100ml，墨水GREENGUARD Gold认证。",
+    "key_features": [
+      "全球首款消费级UV打印机",
+      "Amass3D™ 3D纹理",
+      "300+材料",
+      "1440DPI",
+      "5mm纹理高度",
+      "AI驱动",
+      "JetClean™自清洁",
+      "UV DTF支持",
+      "旋转载体"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 12000,
+      "engagement_rate": 8.5,
+      "search_growth_pct": 320.0
+    },
+    "sales_channels": [
+      "Kickstarter",
+      "eufyMake官网",
+      "京东",
+      "Amazon"
+    ],
+    "consumables": [
+      "CMYK UV墨水",
+      "白色UV墨水",
+      "柔性白色墨水",
+      "光油",
+      "清洁液",
+      "打印头"
+    ],
+    "consumable_monthly_sales_est": "UV墨水$29.99/100ml(2026-07降价30%)",
+    "last_verified": "2026-07-20",
+    "verified_note": "零售$2,499现货(2-4天发货)；Kickstarter>$46M史上最高；专用墨水2026-07-13降至$29.99/100ml(约$0.30/ml)"
+  },
+  {
+    "id": "xtool-o1-omni-uv-fabric",
+    "brand": "xTool",
+    "model": "O1 Omni (UV+DT Fabric)",
+    "category": "UV打印机",
+    "price_usd": 2799,
+    "price_change_pct": 0,
+    "monthly_sales": 5000,
+    "weekly_growth_pct": 200.0,
+    "description": "全球首款4合1全能打印机：UV直印+UV DTF转印+DTG直印服装+DTF织物转印，7mm浮雕(竞品最高)，双头Epson F1080，720×1440DPI，330×420mm。预购$2,799(MSRP $3,499)，预计2026年9月发货，唯一覆盖硬物+服装。",
+    "key_features": [
+      "4合1全能打印",
+      "UV+UV DTF+DTG+DTF",
+      "7mm浮雕(最高)",
+      "双头Epson F1080",
+      "330x420mm",
+      "AI驱动",
+      "all-in-one"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 8500,
+      "engagement_rate": 9.2,
+      "search_growth_pct": 450.0
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "UV CMYK墨水",
+      "UV白色墨水",
+      "UV光油",
+      "UV荧光墨水",
+      "DT织物墨水",
+      "DT织物白墨"
+    ],
+    "consumable_monthly_sales_est": "$30万(预估)",
+    "last_verified": "2026-07-20",
+    "verified_note": "预购$2,799 / MSRP $3,499；预计2026年9月发货；唯一支持UV+DTG+DTF服装印花"
+  },
+  {
+    "id": "xtool-o1-omni-uv-single",
+    "brand": "xTool",
+    "model": "O1 Omni (Single UV)",
+    "category": "UV打印机",
+    "price_usd": 1699,
+    "price_change_pct": 0,
+    "monthly_sales": 8000,
+    "weekly_growth_pct": 180.0,
+    "description": "入门级UV平板打印机，单头Epson F1080，CMYK+白+光油，7mm浮雕，330×420mm打印床。预购价$1,699(MSRP $2,499)，预计2026年9月发货，墨水约$0.16/ml，打印头替换$399。适合手机壳/杯垫个性化。",
+    "key_features": [
+      "入门UV打印",
+      "$1699最低价",
+      "7mm浮雕",
+      "330x420mm",
+      "AI驱动"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 6200,
+      "engagement_rate": 8.0,
+      "search_growth_pct": 380.0
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "UV CMYK墨水",
+      "UV白色墨水",
+      "UV光油"
+    ],
+    "consumable_monthly_sales_est": "$20万(预估)",
+    "last_verified": "2026-07-20",
+    "verified_note": "预购$1,699 / MSRP $2,499；预计2026年9月发货(未上市)；墨水~$0.16/ml"
+  },
+  {
+    "id": "epson-v1070",
+    "brand": "Epson",
+    "model": "SureColor V1070",
+    "category": "UV打印机",
+    "price_usd": 8495,
+    "price_change_pct": 0,
+    "monthly_sales": 3000,
+    "weekly_growth_pct": 15.0,
+    "description": "入门级专业UV打印机，1440x1440DPI，CMYK+白+光油，8.3x11.7英寸打印区，2.7英寸物体高度，内置打印头清洁系统",
+    "key_features": [
+      "专业入门UV",
+      "$8495性价比",
+      "1440DPI",
+      "打印头自清洁",
+      "Epson品牌"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 1200,
+      "engagement_rate": 3.5,
+      "search_growth_pct": 25.0
+    },
+    "sales_channels": [
+      "Epson官网",
+      "Amazon",
+      "B&H"
+    ],
+    "consumables": [
+      "UltraChrome UV墨水 CMYK",
+      "UV白色墨水",
+      "UV光油"
+    ],
+    "consumable_monthly_sales_est": "$15万(预估)"
+  },
+  {
+    "id": "heygears-g1x",
+    "brand": "HeyGears",
+    "model": "G1X Full-3D Pack",
+    "category": "UV打印机",
+    "price_usd": 3299,
+    "price_change_pct": 0,
+    "monthly_sales": 2000,
+    "weekly_growth_pct": 60.0,
+    "description": "全彩3D UV打印机，支持130-150mm独立3D打印(非仅浮雕)，5mm浮雕，DTF附件，Kickstarter 2026众筹中",
+    "key_features": [
+      "全彩3D UV打印",
+      "130-150mm独立3D",
+      "5mm浮雕",
+      "DTF附件",
+      "Kickstarter"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 3200,
+      "engagement_rate": 7.8,
+      "search_growth_pct": 220.0
+    },
+    "sales_channels": [
+      "Kickstarter",
+      "HeyGears官网"
+    ],
+    "consumables": [
+      "UV CMYK墨水",
+      "UV白色墨水",
+      "UV光油",
+      "DTF墨水"
+    ],
+    "consumable_monthly_sales_est": "$8万(预估)"
+  },
+  {
+    "id": "sawgrass-sg500",
+    "brand": "Sawgrass",
+    "model": "SG500 Sublimation Printer",
+    "category": "升华打印机",
+    "price_usd": 599,
+    "price_change_pct": 0,
+    "monthly_sales": 15000,
+    "weekly_growth_pct": 8.5,
+    "description": "专业入门级升华打印机，A4尺寸，适合T恤/杯子/帽子/鼠标垫DIY，配套Print Manager和CreativeStudio软件",
+    "key_features": [
+      "专业升华打印",
+      "A4尺寸",
+      "CreativeStudio软件",
+      "入门友好",
+      "DIY T恤"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 4500,
+      "engagement_rate": 4.2,
+      "search_growth_pct": 12.0
+    },
+    "sales_channels": [
+      "Sawgrass官网",
+      "Amazon",
+      "Michaels"
+    ],
+    "consumables": [
+      "Sublijet-U升华墨水",
+      "升华纸",
+      "转印纸"
+    ],
+    "consumable_monthly_sales_est": "$25万"
+  },
+  {
+    "id": "sawgrass-sg1000",
+    "brand": "Sawgrass",
+    "model": "SG1000 Sublimation Printer",
+    "category": "升华打印机",
+    "price_usd": 1495,
+    "price_change_pct": 0,
+    "monthly_sales": 8000,
+    "weekly_growth_pct": 10.2,
+    "description": "专业级大幅面升华打印机，A3尺寸(13x19英寸)，适合批量生产T恤/大幅面料/金属板/陶瓷板",
+    "key_features": [
+      "A3大幅面",
+      "批量升华",
+      "13x19英寸",
+      "专业级"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 2800,
+      "engagement_rate": 4.8,
+      "search_growth_pct": 18.0
+    },
+    "sales_channels": [
+      "Sawgrass官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "Sublijet-U升华墨水",
+      "升华纸",
+      "转印纸"
+    ],
+    "consumable_monthly_sales_est": "$18万"
+  },
+  {
+    "id": "epson-et15000-sub",
+    "brand": "Epson",
+    "model": "EcoTank ET-15000 (改装升华)",
+    "category": "升华打印机",
+    "price_usd": 399,
+    "price_change_pct": -5,
+    "monthly_sales": 25000,
+    "weekly_growth_pct": 12.0,
+    "description": "最受DIY欢迎的升华改装打印机，原装墨仓系统改装为升华墨水，A3尺寸，成本远低于Sawgrass方案",
+    "key_features": [
+      "最便宜升华方案",
+      "A3尺寸",
+      "墨仓系统",
+      "DIY改装",
+      "性价比极高"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 18000,
+      "engagement_rate": 6.5,
+      "search_growth_pct": 35.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Epson官网",
+      "Walmart"
+    ],
+    "consumables": [
+      "第三方升华墨水",
+      "升华纸",
+      "转印纸"
+    ],
+    "consumable_monthly_sales_est": "$40万"
+  },
+  {
+    "id": "brother-se1900",
+    "brand": "Brother",
+    "model": "SE1900 Sewing & Embroidery",
+    "category": "刺绣机",
+    "price_usd": 649,
+    "price_change_pct": 0,
+    "monthly_sales": 12000,
+    "weekly_growth_pct": 5.5,
+    "description": "最受欢迎的家用缝纫刺绣一体机，5x7英寸刺绣区，138种内置图案，11种字体，LCD触摸屏，缝纫+刺绣双功能",
+    "key_features": [
+      "缝纫+刺绣一体",
+      "5x7英寸刺绣区",
+      "138种图案",
+      "LCD触摸屏",
+      "最畅销"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 8500,
+      "engagement_rate": 5.0,
+      "search_growth_pct": 8.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Brother官网",
+      "Walmart"
+    ],
+    "consumables": [
+      "刺绣线",
+      "绣花底线",
+      "水溶衬纸",
+      "绣花稳定剂"
+    ],
+    "consumable_monthly_sales_est": "$20万"
+  },
+  {
+    "id": "brother-pe800",
+    "brand": "Brother",
+    "model": "PE800 Embroidery Only",
+    "category": "刺绣机",
+    "price_usd": 549,
+    "price_change_pct": -8,
+    "monthly_sales": 9000,
+    "weekly_growth_pct": 4.0,
+    "description": "纯刺绣机(无缝纫功能)，5x7英寸刺绣区，138种内置图案，11种字体，适合专注刺绣的DIY爱好者",
+    "key_features": [
+      "纯刺绣机",
+      "5x7英寸",
+      "138种图案",
+      "入门刺绣"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 5200,
+      "engagement_rate": 4.2,
+      "search_growth_pct": 5.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Brother官网"
+    ],
+    "consumables": [
+      "刺绣线",
+      "绣花底线",
+      "水溶衬纸",
+      "绣花稳定剂"
+    ],
+    "consumable_monthly_sales_est": "$15万"
+  },
+  {
+    "id": "prusa-mk4",
+    "brand": "Prusa",
+    "model": "MK4",
+    "category": "3D打印机",
+    "price_usd": 799,
+    "price_change_pct": 0,
+    "monthly_sales": 20000,
+    "weekly_growth_pct": 3.0,
+    "description": "开源社区旗舰FDM打印机，250x210x220mm构建体积，支持MMU2S多色(最多5色)，完全开源，可维修性极强",
+    "key_features": [
+      "开源旗舰",
+      "MMU2S 5色",
+      "完全开源",
+      "可维修性极强",
+      "PrusaSlicer"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 4200,
+      "engagement_rate": 3.8,
+      "search_growth_pct": 2.0
+    },
+    "sales_channels": [
+      "Prusa官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "ASA",
+      "碳纤维",
+      "TPU"
+    ],
+    "consumable_monthly_sales_est": "$35万"
+  },
+  {
+    "id": "prusa-core-one",
+    "brand": "Prusa",
+    "model": "CORE One",
+    "category": "3D打印机",
+    "price_usd": 1099,
+    "price_change_pct": 0,
+    "monthly_sales": 8000,
+    "weekly_growth_pct": 15.0,
+    "description": "Prusa首款全封闭CoreXY打印机，高速打印，全新设计标杆，完美可维修性+封闭腔体支持工程材料",
+    "key_features": [
+      "全封闭CoreXY",
+      "高速",
+      "工程材料支持",
+      "可维修",
+      "新标杆"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 2800,
+      "engagement_rate": 5.5,
+      "search_growth_pct": 45.0
+    },
+    "sales_channels": [
+      "Prusa官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "ASA",
+      "PC",
+      "碳纤维"
+    ],
+    "consumable_monthly_sales_est": "$18万"
+  },
+  {
+    "id": "elegoo-neptune4-plus",
+    "brand": "Elegoo",
+    "model": "Neptune 4 Plus",
+    "category": "3D打印机",
+    "price_usd": 399,
+    "price_change_pct": -10,
+    "monthly_sales": 35000,
+    "weekly_growth_pct": 8.0,
+    "description": "大体积性价比FDM打印机，320x320x385mm构建体积，Klipper固件，500mm/s速度，深受模型爱好者喜爱",
+    "key_features": [
+      "大体积320mm³",
+      "Klipper固件",
+      "500mm/s",
+      "性价比",
+      "模型爱好者首选"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 3800,
+      "engagement_rate": 4.0,
+      "search_growth_pct": 10.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Elegoo官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "TPU"
+    ],
+    "consumable_monthly_sales_est": "$45万"
+  }
+]

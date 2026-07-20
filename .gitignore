@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.codebuddy/
+*.log
+weekly_data/current_week.json
+weekly_data/predictions.json
+weekly_data/history/
+server.log
+diy_server.log
+.vscode/
