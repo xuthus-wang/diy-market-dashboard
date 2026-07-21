@@ -222,9 +222,11 @@ def start_scheduler(interval_hours=6):
     print(f"⏰ 自动刷新调度器已启动（每 {interval_hours} 小时）")
     return t
 
-# ===== 登录 / 付费 鉴权 =====
+# ===== 登录 / 付费 鉴权（已回退为公开版，暂不起作用）=====
+# 如需恢复付费登录，把下面这行 return 去掉即可重新启用鉴权。
 @app.before_request
 def require_auth():
+    return  # ← 公开版：所有路由直接放行，不做登录/付费拦截
     p = request.path
     # 免登录路由
     if p in ('/login', '/logout') or p.startswith('/static/'):

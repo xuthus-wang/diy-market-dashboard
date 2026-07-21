@@ -25,8 +25,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Prepare Pages artifact (gate.html — 无数据，仅登录提示)
-        run: mkdir -p public && cp templates/gate.html public/index.html
+      - name: Prepare Pages artifact (完整静态看板)
+        run: mkdir -p public && cp dashboard_static.html public/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

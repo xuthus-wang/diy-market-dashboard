@@ -6,7 +6,6 @@ weekly_data/current_week.json
 weekly_data/predictions.json
 weekly_data/history/
 weekly_data/users.json
-dashboard_static.html
 .secret
 server.log
 diy_server.log
