@@ -10,10 +10,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,6 +20,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Ensure dashboard_static.html exists (CI 兜底重新生成)
+        run: |
+          if [ ! -f dashboard_static.html ]; then
+            python3.11 -m pip install --quiet flask
+            python3.11 build_static.py
+          fi
 
       - name: Prepare Pages artifact (完整静态看板)
         run: mkdir -p public && cp dashboard_static.html public/index.html
