@@ -161,8 +161,24 @@ def generate_week_data():
     return week_data
 
 # ===== 自动刷新调度器（实现"实时更新"）=====
+def _git_publish():
+    """若有改动，提交并推送到 GitHub（永久公网地址随之自动更新）"""
+    try:
+        import subprocess
+        repo = os.path.dirname(os.path.abspath(__file__))
+        # 仅在确有改动时提交，避免空提交
+        if subprocess.run(['git', '-C', repo, 'diff', '--quiet'], capture_output=True).returncode == 0:
+            return
+        subprocess.run(['git', '-C', repo, 'add', '-A'], capture_output=True)
+        ts = datetime.now().strftime('%Y-%m-%d %H:%M')
+        subprocess.run(['git', '-C', repo, 'commit', '-m', f'auto: 数据刷新 {ts}'], capture_output=True)
+        subprocess.run(['git', '-C', repo, 'push'], capture_output=True)
+        print(f"[git] 已推送更新 @ {ts}")
+    except Exception as e:
+        print(f"[git] 自动推送跳过: {e}")
+
 def _refresh_pipeline():
-    """重算本周数据 + 爆款预测 + 静态快照，返回周标签"""
+    """重算本周数据 + 爆款预测 + 静态快照 + 推送 GitHub，返回周标签"""
     week_data = generate_week_data()
     engine = PredictionEngine(os.path.join(DATA_DIR, 'devices.json'))
     engine.save_predictions(os.path.join(DATA_DIR, 'predictions.json'))
@@ -172,6 +188,7 @@ def _refresh_pipeline():
                        timeout=120, capture_output=True)
     except Exception as e:
         print(f"[scheduler] 静态快照重建跳过: {e}")
+    _git_publish()
     return week_data['week_label']
 
 def _scheduler_loop(interval_seconds):

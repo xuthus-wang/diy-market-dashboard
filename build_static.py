@@ -25,8 +25,10 @@ def build_embedded():
     cw = load_json('current_week.json')
     if not cw:
         sys.path.insert(0, HERE)
-        import diy_weekly_app  # 触发 generate_week_data
-        cw = load_json('current_week.json')
+        import diy_weekly_app
+        cw = diy_weekly_app.generate_week_data()  # 显式生成（CI 全新检出时无 current_week.json）
+        if not cw:
+            cw = load_json('current_week.json')
 
     preds = load_json('predictions.json')
     if not preds:
