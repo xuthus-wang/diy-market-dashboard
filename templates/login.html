@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>登录 · DIY市场周报系统</title>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--border:#334155;--text:#e2e8f0;--t2:#94a3b8;--acc:#3b82f6;--grn:#10b981;--red:#ef4444}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center}
+.box{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:34px 30px;width:360px;max-width:92vw}
+h1{font-size:1.35rem;font-weight:700;background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-align:center}
+.sub{color:var(--t2);font-size:.85rem;text-align:center;margin:6px 0 18px}
+.err{background:rgba(239,68,68,.12);color:var(--red);padding:9px 12px;border-radius:8px;font-size:.82rem;margin-bottom:12px}
+form{display:flex;flex-direction:column;gap:11px}
+input{background:var(--bg);border:1px solid var(--border);color:var(--text);padding:11px 13px;border-radius:8px;font-size:.9rem;outline:none}
+input:focus{border-color:var(--acc)}
+button{background:var(--acc);color:#fff;border:none;padding:11px;border-radius:8px;font-weight:600;font-size:.92rem;cursor:pointer;transition:.2s}
+button:hover{background:#2563eb}
+.hint{color:var(--t2);font-size:.74rem;text-align:center;margin-top:16px;line-height:1.6}
+.hint b{color:var(--text)}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>🔧 DIY市场周报系统</h1>
+  <p class="sub">付费会员登录后查看设备销售看板</p>
+  {% if error %}<div class="err">{{error}}</div>{% endif %}
+  <form method="post" action="/login">
+    <input name="username" placeholder="用户名" autocomplete="username" required>
+    <input name="password" type="password" placeholder="密码" autocomplete="current-password" required>
+    <button type="submit">登 录</button>
+  </form>
+  <p class="hint">演示账号<br>付费 <b>demo / demo123</b> ｜ 未付费 <b>trial / trial123</b><br>管理员 <b>admin / admin123</b></p>
+</div>
+</body>
+</html>

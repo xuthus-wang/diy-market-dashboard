@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>用户管理 · DIY市场周报系统</title>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--border:#334155;--text:#e2e8f0;--t2:#94a3b8;--acc:#3b82f6;--grn:#10b981;--red:#ef4444}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.box{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:30px;width:560px;max-width:96vw}
+h1{font-size:1.3rem;font-weight:700;background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{color:var(--t2);font-size:.85rem;margin:6px 0 14px}
+h3{margin:16px 0 8px;color:var(--t2);font-size:.85rem}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{text-align:left;color:var(--t2);padding:7px 8px;border-bottom:1px solid var(--border)}
+td{padding:7px 8px;border-bottom:1px solid rgba(51,65,85,.4)}
+form{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+input{background:var(--bg);border:1px solid var(--border);color:var(--text);padding:9px 11px;border-radius:7px;font-size:.85rem;outline:none}
+label{font-size:.8rem;color:var(--t2)}
+button{background:var(--acc);color:#fff;border:none;padding:9px 14px;border-radius:7px;font-weight:600;font-size:.85rem;cursor:pointer}
+button:hover{background:#2563eb}
+.hint{color:var(--t2);font-size:.78rem;text-align:center;margin-top:18px}
+.hint a{color:var(--acc);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>⚙️ 用户管理</h1>
+  <p class="sub">当前登录：<b>{{current}}</b>（管理员）</p>
+
+  <h3>用户列表</h3>
+  <table>
+    <tr><th>用户</th><th>角色</th><th>已付费</th><th>操作</th></tr>
+    {% for u,info in users.items() %}
+    <tr>
+      <td>{{u}}</td>
+      <td>{{info.role}}</td>
+      <td>{{'是' if info.paid else '否'}}</td>
+      <td>
+        <form method="post" action="/admin" style="display:inline-flex">
+          <input type="hidden" name="act" value="setpaid">
+          <input type="hidden" name="username" value="{{u}}">
+          <input type="hidden" name="paid" value="{{'false' if info.paid else 'true'}}">
+          <button type="submit" style="padding:5px 10px;font-size:.75rem">{{'取消付费' if info.paid else '设为付费'}}</button>
+        </form>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h3>新建用户</h3>
+  <form method="post" action="/admin">
+    <input type="hidden" name="act" value="create">
+    <input name="username" placeholder="用户名" required>
+    <input name="password" type="password" placeholder="密码" required>
+    <label><input type="checkbox" name="paid" value="on"> 直接设为付费</label>
+    <button type="submit">创建</button>
+  </form>
+
+  <p class="hint"><a href="/">← 返回看板</a> ｜ <a href="/logout">退出登录</a></p>
+</div>
+</body>
+</html>

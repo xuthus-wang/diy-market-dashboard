@@ -153,7 +153,7 @@ async function getJSON(url){
     if(url.indexOf('/api/predictions')>=0)return EMBEDDED.predictions;
     if(url.indexOf('/api/history')>=0)return EMBEDDED.history;
   }
-  var r=await fetch(url); if(!r.ok) throw new Error('HTTP '+r.status); return await r.json();
+  var r=await fetch(url); if(r.status===401){window.location.href='/login';return;} if(!r.ok) throw new Error('HTTP '+r.status); return await r.json();
 }
 function showToast(m){var t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(function(){t.classList.remove('show')},2500)}
 function switchTab(name,btn){

@@ -6,13 +6,26 @@ import os
 import sys
 import threading
 import time
+import secrets
+from functools import wraps
 from datetime import datetime, timedelta
-from flask import Flask, jsonify, request, render_template, send_file
+from flask import Flask, jsonify, request, render_template, send_file, session, redirect
 from prediction_engine import PredictionEngine
 from data_collector import search_market_updates, compute_weekly_changes, generate_week_report
+import auth
 
 app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'weekly_data')
+
+# ===== 会话密钥（生产环境务必用环境变量 SECRET_KEY）=====
+SECRET_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.secret')
+if os.path.exists(SECRET_FILE):
+    app.secret_key = open(SECRET_FILE).read().strip()
+else:
+    app.secret_key = secrets.token_hex(32)
+    with open(SECRET_FILE, 'w') as f:
+        f.write(app.secret_key)
+auth.seed()  # 首次运行创建示例账号
 
 def load_json(filename):
     path = os.path.join(DATA_DIR, filename)
@@ -162,7 +175,9 @@ def generate_week_data():
 
 # ===== 自动刷新调度器（实现"实时更新"）=====
 def _git_publish():
-    """若有改动，提交并推送到 GitHub（永久公网地址随之自动更新）"""
+    """若有改动，提交并推送到 GitHub（仅沙箱启用 ENABLE_AUTO_PUSH 时）"""
+    if os.environ.get('ENABLE_AUTO_PUSH') != '1':
+        return
     try:
         import subprocess
         repo = os.path.dirname(os.path.abspath(__file__))
@@ -206,6 +221,73 @@ def start_scheduler(interval_hours=6):
     t.start()
     print(f"⏰ 自动刷新调度器已启动（每 {interval_hours} 小时）")
     return t
+
+# ===== 登录 / 付费 鉴权 =====
+@app.before_request
+def require_auth():
+    p = request.path
+    # 免登录路由
+    if p in ('/login', '/logout') or p.startswith('/static/'):
+        return
+    # 管理页：仅管理员
+    if p == '/admin':
+        if 'user' not in session:
+            return redirect('/login')
+        if session.get('role') != 'admin':
+            return redirect('/login?msg=noauth')
+        return
+    # 其余：需登录 + 已付费
+    if 'user' not in session:
+        if p.startswith('/api'):
+            return jsonify({'error': 'unauthorized', 'login': '/login'}), 401
+        return redirect('/login')
+    if not session.get('paid'):
+        if p.startswith('/api'):
+            return jsonify({'error': 'payment_required', 'message': '账户未付费，无法查看看板'}), 403
+        return redirect('/login?msg=unpaid')
+
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form.get('username', '')
+        password = request.form.get('password', '')
+        u = auth.authenticate(username, password)
+        if u:
+            session['user'] = username
+            session['paid'] = bool(u.get('paid'))
+            session['role'] = u.get('role', 'user')
+            if not u.get('paid'):
+                return redirect('/login?msg=unpaid')
+            return redirect('/')
+        return render_template('login.html', error='用户名或密码错误')
+    msg = request.args.get('msg')
+    error = None
+    if msg == 'unpaid':
+        error = '账户尚未付费，无法查看看板，请联系管理员开通订阅'
+    elif msg == 'noauth':
+        error = '权限不足'
+    return render_template('login.html', error=error)
+
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect('/login')
+
+
+@app.route('/admin', methods=['GET', 'POST'])
+def admin():
+    # 权限由 before_request 保证（仅管理员可达）
+    if request.method == 'POST':
+        act = request.form.get('act')
+        if act == 'create':
+            auth.create_user(request.form.get('username', ''), request.form.get('password', ''),
+                             paid=(request.form.get('paid') == 'on'))
+        elif act == 'setpaid':
+            auth.set_paid(request.form.get('username', ''), request.form.get('paid') == 'true')
+    return render_template('admin.html', users=auth.list_users(), current=session.get('user'))
+
 
 # ===== API Routes =====
 

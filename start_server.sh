@@ -4,6 +4,8 @@
 cd /workspace
 PORT=8080
 LOG=/tmp/diy_server.log
+# 沙箱内启用：数据刷新后自动提交并推送到 GitHub（永久地址随之更新）
+export ENABLE_AUTO_PUSH=1
 
 # 先清理占用端口的旧进程
 if command -v lsof >/dev/null 2>&1; then

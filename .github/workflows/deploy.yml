@@ -25,14 +25,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install deps
-        run: pip install flask
-
-      - name: Regenerate static dashboard from latest data
-        run: python build_static.py
-
-      - name: Prepare Pages artifact (index.html at root)
-        run: mkdir -p public && cp dashboard_static.html public/index.html
+      - name: Prepare Pages artifact (gate.html — 无数据，仅登录提示)
+        run: mkdir -p public && cp templates/gate.html public/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
