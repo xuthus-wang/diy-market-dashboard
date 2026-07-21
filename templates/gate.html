@@ -3,24 +3,58 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DIY市场周报系统 · 需登录</title>
+<title>DIY市场情报 · 设备销售追踪与爆款预测</title>
 <style>
-:root{--bg:#0f172a;--card:#1e293b;--border:#334155;--text:#e2e8f0;--t2:#94a3b8;--acc:#3b82f6}
+:root{--bg:#0b1020;--card:#141b2e;--border:#26304a;--text:#e6ecf5;--t2:#93a1bd;--acc:#4f8cff;--acc2:#9b6bff}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center}
-.box{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:34px 30px;width:380px;max-width:92vw;text-align:center}
-h1{font-size:1.35rem;font-weight:700;background:linear-gradient(135deg,#3b82f6,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.sub{color:var(--t2);font-size:.85rem;margin:6px 0 16px}
-.note{background:rgba(59,130,246,.12);color:var(--acc);padding:11px 14px;border-radius:9px;font-size:.85rem;line-height:1.6}
-.hint{color:var(--t2);font-size:.78rem;margin-top:16px;line-height:1.6}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:radial-gradient(1200px 600px at 80% -10%,rgba(79,140,255,.18),transparent),radial-gradient(900px 500px at -10% 110%,rgba(155,107,255,.15),transparent),var(--bg);color:var(--text);min-height:100vh;line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:64px 22px 48px}
+.badge{display:inline-block;font-size:.74rem;letter-spacing:.14em;color:var(--acc);background:rgba(79,140,255,.1);border:1px solid rgba(79,140,255,.3);padding:5px 12px;border-radius:999px;margin-bottom:18px}
+h1{font-size:2.5rem;line-height:1.18;font-weight:800;background:linear-gradient(120deg,#7db1ff,#b79bff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:14px}
+.lead{font-size:1.06rem;color:var(--t2);max-width:680px;margin-bottom:30px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0 34px}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 14px;text-align:center}
+.stat b{display:block;font-size:1.7rem;font-weight:800;color:#fff}
+.stat span{font-size:.8rem;color:var(--t2)}
+.feats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:34px}
+.feat{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px}
+.feat h3{font-size:1rem;margin-bottom:6px}
+.feat p{font-size:.86rem;color:var(--t2)}
+.cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;text-decoration:none;font-weight:700;font-size:.95rem;padding:13px 26px;border-radius:11px;background:linear-gradient(120deg,var(--acc),var(--acc2));color:#fff;box-shadow:0 8px 24px rgba(79,140,255,.3)}
+.btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text);box-shadow:none}
+.note{margin-top:18px;font-size:.82rem;color:var(--t2)}
+footer{margin-top:46px;font-size:.78rem;color:#5d6b88;border-top:1px solid var(--border);padding-top:18px}
+@media(max-width:680px){.stats{grid-template-columns:repeat(2,1fr)}.feats{grid-template-columns:1fr}h1{font-size:2rem}}
 </style>
 </head>
 <body>
-<div class="box">
-  <h1>🔧 DIY市场周报系统</h1>
-  <p class="sub">设备销售追踪 · 趋势分析 · 爆款预测</p>
-  <div class="note">本看板为<b>付费会员专享</b>，需登录后查看。<br>请使用管理员提供的专属访问地址登录。</div>
-  <p class="hint">如需订阅或获取访问权限，请联系管理员。</p>
+<div class="wrap">
+  <span class="badge">付费订阅 · 会员专享</span>
+  <h1>DIY 设备市场情报平台</h1>
+  <p class="lead">持续追踪 3D 打印机、激光雕刻机、CNC、刺绣机等 DIY 设备的真实型号、价格、功能、销量与耗材数据，结合 5 维评分模型预测下一件爆款。面向设备经销商、选品团队与内容创作者的周级市场情报。</p>
+
+  <div class="stats">
+    <div class="stat"><b>40+</b><span>在售设备型号</span></div>
+    <div class="stat"><b>6</b><span>核心品类</span></div>
+    <div class="stat"><b>5 维</b><span>爆款预测模型</span></div>
+    <div class="stat"><b>每周</b><span>联网刷新</span></div>
+  </div>
+
+  <div class="feats">
+    <div class="feat"><h3>📦 设备全维度档案</h3><p>型号、价格、功能描述、月销量、价格周环比，逐设备可比对。</p></div>
+    <div class="feat"><h3>🧪 耗材追踪</h3><p>耗材类型、适配设备与耗材销量联动，洞察复购型收入。</p></div>
+    <div class="feat"><h3>📈 趋势与周报</h3><p>品类热度、价格异动、市场信号，自动生成可下载周报。</p></div>
+    <div class="feat"><h3>🔥 5 维爆款预测</h3><p>销量增长 / 价格 / 社媒热度 / 品类趋势 / 创新度 综合评分排序。</p></div>
+  </div>
+
+  <div class="cta">
+    <a class="btn" href="https://8080-5bff4e67-36a1-4227-8efa-c22ad9990906.sh3.sandbox.cloudstudio.club/login">会员登录查看看板</a>
+    <a class="btn ghost" href="https://8080-5bff4e67-36a1-4227-8efa-c22ad9990906.sh3.sandbox.cloudstudio.club/">了解平台</a>
+  </div>
+  <p class="note">看板为付费会员专享内容，需登录后查看。订阅与开通请联系平台管理员。<br>应用服务运行于独立应用服务器（非 GitHub Pages，GitHub Pages 仅托管本落地页）。正式生产环境建议部署到 Render / Railway / Fly 等 Python 托管平台以获得永久公网地址。</p>
+
+  <footer>DIY Market Intelligence · 数据来源公开网络采集与厂商公开资料 · 仅供市场研究参考</footer>
 </div>
 </body>
 </html>
