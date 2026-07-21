@@ -147,7 +147,7 @@ def generate_week_data():
     }
 
     # 计算真实周环比变化
-    weekly_changes = compute_weekly_changes(week_devices, previous_week)
+    weekly_changes = compute_weekly_changes(week_devices, previous_week) or []
     week_data['weekly_changes'] = weekly_changes
 
     # 保存

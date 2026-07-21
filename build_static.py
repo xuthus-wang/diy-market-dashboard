@@ -38,9 +38,9 @@ def build_embedded():
 
     # === 复刻 /api/market_updates ===
     mu = {
-        'categories': cw.get('market_updates', {}),
-        'emerging_signals': cw.get('emerging_signals', []),
-        'weekly_changes': cw.get('weekly_changes', [])[:10],
+        'categories': cw.get('market_updates') or {},
+        'emerging_signals': cw.get('emerging_signals') or [],
+        'weekly_changes': (cw.get('weekly_changes') or [])[:10],
     }
     # === 复刻 /api/trends ===
     hist_dir = os.path.join(DATA_DIR, 'history')
@@ -53,8 +53,8 @@ def build_embedded():
                 trends.append({
                     'week': d['week_label'],
                     'summary': d['summary'],
-                    'categories': d.get('category_breakdown', {}),
-                    'changes': d.get('weekly_changes', [])[:5],
+                    'categories': d.get('category_breakdown') or {},
+                    'changes': (d.get('weekly_changes') or [])[:5],
                 })
     # === 复刻 /api/history ===
     weeks, reports = [], []
