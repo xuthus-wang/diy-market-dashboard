@@ -36,7 +36,9 @@
       "Infusible Ink",
       "Cardstock"
     ],
-    "consumable_monthly_sales_est": "$250万"
+    "consumable_monthly_sales_est": "$250万",
+    "last_verified": "2026-07-22",
+    "verified_note": "Maker 4 $399；2026-07官网售价稳定"
   },
   {
     "id": "cricut-explore4",
@@ -175,7 +177,9 @@
       "PETG",
       "AMS lite"
     ],
-    "consumable_monthly_sales_est": "$350万"
+    "consumable_monthly_sales_est": "$350万",
+    "last_verified": "2026-07-22",
+    "verified_note": "A1 Mini Combo $349(含AMS lite)；2026价格稳定"
   },
   {
     "id": "bambu-a1",
@@ -245,8 +249,8 @@
       "激光材料"
     ],
     "consumable_monthly_sales_est": "$120万",
-    "last_verified": "2026-07-20",
-    "verified_note": "Bambu Lab 2026-07达100万台桌面机里程碑，$195M建厂"
+    "last_verified": "2026-07-22",
+    "verified_note": "Bambu Lab 2026-07达100万台桌面机里程碑，$195M建厂；H2D四合一体机$1,899稳定"
   },
   {
     "id": "creality-ender3v3se",
@@ -318,7 +322,9 @@
       "ASA",
       "碳纤维"
     ],
-    "consumable_monthly_sales_est": "$50万"
+    "consumable_monthly_sales_est": "$50万",
+    "last_verified": "2026-07-22",
+    "verified_note": "K2 Plus Combo $899；2026价格稳定"
   },
   {
     "id": "anycubic-m7pro",
@@ -592,7 +598,9 @@
       "Proofgrade Draftboard",
       "Proofgrade Acrylic"
     ],
-    "consumable_monthly_sales_est": "$18万"
+    "consumable_monthly_sales_est": "$18万",
+    "last_verified": "2026-07-22",
+    "verified_note": "Aura $999；Glowforge入门6W二极管激光；2026价格稳定"
   },
   {
     "id": "cricut-easypress-se",
@@ -795,7 +803,9 @@
       "ABS",
       "碳纤维"
     ],
-    "consumable_monthly_sales_est": "$250万"
+    "consumable_monthly_sales_est": "$250万",
+    "last_verified": "2026-07-22",
+    "verified_note": "P1S Combo $699(含AMS)，基础版$399；500mm/s封闭式CoreXY；2026价格稳定"
   },
   {
     "id": "anycubic-photon-mono4",
@@ -905,8 +915,8 @@
       "打印头"
     ],
     "consumable_monthly_sales_est": "UV墨水$29.99/100ml(2026-07降价30%)",
-    "last_verified": "2026-07-20",
-    "verified_note": "零售$2,499现货(2-4天发货)；Kickstarter>$46M史上最高；专用墨水2026-07-13降至$29.99/100ml(约$0.30/ml)"
+    "last_verified": "2026-07-22",
+    "verified_note": "零售$2,499(基础套装)，豪华$3,299，仅机身$2,199；Kickstarter>$46M史上最高；墨水2026-07-13降至$29.99/100ml(约$0.30/ml)；截至2026-07-22仍在售"
   },
   {
     "id": "xtool-o1-omni-uv-fabric",
@@ -946,8 +956,8 @@
       "DT织物白墨"
     ],
     "consumable_monthly_sales_est": "$30万(预估)",
-    "last_verified": "2026-07-20",
-    "verified_note": "预购$2,799 / MSRP $3,499；预计2026年9月发货；唯一支持UV+DTG+DTF服装印花"
+    "last_verified": "2026-07-22",
+    "verified_note": "预购$2,799 / MSRP $3,499；2026-07已开放直购预订；发货预计2026-09中旬(定金支持者8月起)"
   },
   {
     "id": "xtool-o1-omni-uv-single",
@@ -982,8 +992,8 @@
       "UV光油"
     ],
     "consumable_monthly_sales_est": "$20万(预估)",
-    "last_verified": "2026-07-20",
-    "verified_note": "预购$1,699 / MSRP $2,499；预计2026年9月发货(未上市)；墨水~$0.16/ml"
+    "last_verified": "2026-07-22",
+    "verified_note": "预购$1,699 / MSRP $2,499；2026-07开放预订；发货预计2026-09中旬；墨水~$0.16/ml"
   },
   {
     "id": "epson-v1070",
@@ -1192,7 +1202,9 @@
       "水溶衬纸",
       "绣花稳定剂"
     ],
-    "consumable_monthly_sales_est": "$20万"
+    "consumable_monthly_sales_est": "$20万",
+    "last_verified": "2026-07-22",
+    "verified_note": "SE1900 $649(Amazon区间$599-$649)；2026价格稳定"
   },
   {
     "id": "brother-pe800",
@@ -1335,5 +1347,43 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$45万"
+  },
+  {
+    "id": "xtool-o1-omni-dual-uv",
+    "brand": "xTool",
+    "model": "O1 Omni (Dual-Head UV)",
+    "category": "UV打印机",
+    "price_usd": 2699,
+    "price_change_pct": 0,
+    "monthly_sales": 3000,
+    "weekly_growth_pct": 220.0,
+    "description": "xTool O1 Omni 双头UV版：双Epson F1080喷头，CMYK+白+光油，7mm浮雕，330×420mm打印床。2026-07开放直购预订，预计2026-09初发货。预购$2,699/MSRP $3,299。",
+    "key_features": [
+      "双头Epson F1080",
+      "7mm浮雕(最高)",
+      "330x420mm",
+      "CMYK+白+光油",
+      "AI驱动",
+      "all-in-one"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 6000,
+      "engagement_rate": 8.5,
+      "search_growth_pct": 400.0
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "UV CMYK墨水",
+      "UV白色墨水",
+      "UV光油",
+      "UV荧光墨水"
+    ],
+    "consumable_monthly_sales_est": "$25万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "预购$2,699 / MSRP $3,299；2026-07开放直购预订；双头UV版；发货预计2026-09初"
   }
 ]
