@@ -1385,5 +1385,500 @@
     "consumable_monthly_sales_est": "$25万(预估)",
     "last_verified": "2026-07-22",
     "verified_note": "预购$2,699 / MSRP $3,299；2026-07开放直购预订；双头UV版；发货预计2026-09初"
+  },
+  {
+    "id": "xtool-m2",
+    "brand": "xTool",
+    "model": "M2 (Color Craft Laser)",
+    "category": "激光雕刻机",
+    "price_usd": 599,
+    "price_change_pct": 0,
+    "monthly_sales": 15000,
+    "weekly_growth_pct": 32.0,
+    "description": "2026-05上市的全能创作机：CMYK彩色喷墨打印+激光雕刻+刀片切割三合一，基础款$599(国内¥3299起)。ACS自动创作系统+双摄像头，让打印/雕刻/切割在同一工作台无缝衔接。",
+    "key_features": [
+      "打印+雕刻+切割三合一",
+      "CMYK彩色喷墨",
+      "激光雕刻",
+      "刀片切割",
+      "双摄像头",
+      "ACS自动创作"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 9800,
+      "engagement_rate": 8.1,
+      "search_growth_pct": 280.0
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon",
+      "京东"
+    ],
+    "consumables": [
+      "CMYK墨水",
+      "胶合板",
+      "亚克力板",
+      "替换刀片",
+      "皮革"
+    ],
+    "consumable_monthly_sales_est": "$45万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "2026-05-27上市，MSRP $599起(国内¥3299起)；打印+雕刻+切割三合一；截至2026-07-22在售"
+  },
+  {
+    "id": "xtool-f1-ultra",
+    "brand": "xTool",
+    "model": "F1 Ultra",
+    "category": "激光雕刻机",
+    "price_usd": 2899,
+    "price_change_pct": 0,
+    "monthly_sales": 4000,
+    "weekly_growth_pct": 6.0,
+    "description": "双光源旗舰便携激光雕刻机：20W光纤+20W二极管双激光，支持金属深雕/3D浮雕，10.5英寸触屏+摄像头预览，旗舰级现场定制神器。",
+    "key_features": [
+      "20W光纤+20W二极管",
+      "双光源",
+      "3D深雕浮雕",
+      "10.5英寸触屏",
+      "便携旗舰"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 5200,
+      "engagement_rate": 5.6,
+      "search_growth_pct": 22.0
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "金属试件",
+      "胶合板",
+      "亚克力板",
+      "皮革"
+    ],
+    "consumable_monthly_sales_est": "$20万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "F1 Ultra 双光源(20W光纤+20W二极管)；$2,899起；2026价格稳定"
+  },
+  {
+    "id": "xtool-f1",
+    "brand": "xTool",
+    "model": "F1 (Portable)",
+    "category": "激光雕刻机",
+    "price_usd": 1599,
+    "price_change_pct": 0,
+    "monthly_sales": 12000,
+    "weekly_growth_pct": 8.5,
+    "description": "全球首款便携双激光雕刻机：10W二极管+2W红外双光源，极速雕刻金属/亚克力/皮革，掌心大小可现场接单，TikTok摆摊爆款。",
+    "key_features": [
+      "10W二极管+2W红外",
+      "便携掌心大小",
+      "极速雕刻",
+      "双光源",
+      "现场接单"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 14500,
+      "engagement_rate": 6.8,
+      "search_growth_pct": 18.0
+    },
+    "sales_channels": [
+      "xTool官网",
+      "Amazon",
+      "淘宝"
+    ],
+    "consumables": [
+      "金属试件",
+      "胶合板",
+      "亚克力板",
+      "皮革"
+    ],
+    "consumable_monthly_sales_est": "$25万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "F1 便携双激光(10W二极管+2W IR)；街价约$1,599(Amazon/官网在售)；2026在售"
+  },
+  {
+    "id": "bambu-x1c",
+    "brand": "Bambu Lab",
+    "model": "X1 Carbon",
+    "category": "3D打印机",
+    "price_usd": 1199,
+    "price_change_pct": 0,
+    "monthly_sales": 60000,
+    "weekly_growth_pct": 10.0,
+    "description": "Bambu旗舰标杆FDM：微动平台+LiDAR激光雷达首次层检测，350mm/s高速，支持AMS多色，铝合金框架+主动腔体加热，创作者/工作室首选。",
+    "key_features": [
+      "LiDAR激光雷达",
+      "350mm/s",
+      "AMS多色",
+      "主动腔体加热",
+      "微动平台"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 21000,
+      "engagement_rate": 6.5,
+      "search_growth_pct": 14.0
+    },
+    "sales_channels": [
+      "Bambu Lab官网",
+      "Amazon",
+      "京东"
+    ],
+    "consumables": [
+      "PLA Basic",
+      "PLA Matte",
+      "PETG",
+      "ABS",
+      "碳纤维"
+    ],
+    "consumable_monthly_sales_est": "$220万",
+    "last_verified": "2026-07-22",
+    "verified_note": "X1 Carbon ~$1,199(含AMS)；Bambu flagship；2026价格稳定"
+  },
+  {
+    "id": "bambu-x1e",
+    "brand": "Bambu Lab",
+    "model": "X1E (Enterprise)",
+    "category": "3D打印机",
+    "price_usd": 1499,
+    "price_change_pct": 0,
+    "monthly_sales": 3000,
+    "weekly_growth_pct": 3.0,
+    "description": "X1 Carbon的企业安全版：在 flagship 基础上增加数据加密、WPA2-Enterprise、可离线本地运行(无需Bambu云)，面向教育/企业/科研场景。",
+    "key_features": [
+      "企业级安全",
+      "数据加密",
+      "WPA2-Enterprise",
+      "离线本地运行",
+      "X1C同平台"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 1800,
+      "engagement_rate": 3.2,
+      "search_growth_pct": 4.0
+    },
+    "sales_channels": [
+      "Bambu Lab官网"
+    ],
+    "consumables": [
+      "PLA Basic",
+      "PETG",
+      "ABS",
+      "ASA",
+      "碳纤维"
+    ],
+    "consumable_monthly_sales_est": "$12万",
+    "last_verified": "2026-07-22",
+    "verified_note": "X1E 企业版(基于X1C+安全特性)；Bambu官网$1,499区间；2026在售"
+  },
+  {
+    "id": "bambu-p2s",
+    "brand": "Bambu Lab",
+    "model": "P2S",
+    "category": "3D打印机",
+    "price_usd": 549,
+    "price_change_pct": 0,
+    "monthly_sales": 40000,
+    "weekly_growth_pct": 25.0,
+    "description": "Bambu高性价比CoreXY旗舰：在P1S基础上强化结构/速度/多色能力，500mm/s高速+大构建体积，AMS多色，DIY进阶玩家热门之选。",
+    "key_features": [
+      "500mm/s",
+      "CoreXY",
+      "AMS多色",
+      "高性价比",
+      "进阶旗舰"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 13800,
+      "engagement_rate": 6.0,
+      "search_growth_pct": 38.0
+    },
+    "sales_channels": [
+      "Bambu Lab官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "PLA Basic",
+      "PLA Matte",
+      "PETG",
+      "ABS",
+      "碳纤维"
+    ],
+    "consumable_monthly_sales_est": "$160万",
+    "last_verified": "2026-07-22",
+    "verified_note": "P2S $549(基础版)；Bambu高性价比CoreXY；2026价格稳定"
+  },
+  {
+    "id": "bambu-h2s",
+    "brand": "Bambu Lab",
+    "model": "H2S",
+    "category": "3D打印机",
+    "price_usd": 1399,
+    "price_change_pct": 0,
+    "monthly_sales": 15000,
+    "weekly_growth_pct": 30.0,
+    "description": "H2D的精简高性能版：340×320×340mm大构建体积(约X1C两倍)，30%更快，支持AMS+激光模块扩展，五重火焰/门盖安全传感，桌面制造新主力。",
+    "key_features": [
+      "340mm³大体积",
+      "比X1C快30%",
+      "AMS+激光模块",
+      "五重安全传感",
+      "PMSM伺服"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 9600,
+      "engagement_rate": 6.8,
+      "search_growth_pct": 110.0
+    },
+    "sales_channels": [
+      "Bambu Lab官网",
+      "Amazon"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "ASA",
+      "碳纤维",
+      "激光材料"
+    ],
+    "consumable_monthly_sales_est": "$60万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "H2S $1,399(AMS Combo区间；machinesformakers从$1,399/originalpricing记$1,249基础)；2026在售"
+  },
+  {
+    "id": "creality-k1",
+    "brand": "Creality",
+    "model": "K1",
+    "category": "3D打印机",
+    "price_usd": 399,
+    "price_change_pct": -10,
+    "monthly_sales": 30000,
+    "weekly_growth_pct": 5.0,
+    "description": "Creality高速CoreXY入门旗舰：600mm/s极速，双冷却风道，AI智能功能，开箱即印，是Ender系列向高速时代升级的标杆。",
+    "key_features": [
+      "600mm/s",
+      "CoreXY",
+      "双冷却风道",
+      "AI智能",
+      "开箱即印"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 7600,
+      "engagement_rate": 5.0,
+      "search_growth_pct": 9.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Creality官网",
+      "京东"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "TPU"
+    ],
+    "consumable_monthly_sales_est": "$55万",
+    "last_verified": "2026-07-22",
+    "verified_note": "Creality K1 高速CoreXY(600mm/s)；官网/Amazon在售，街价约$399(发布价$599)；2026在售"
+  },
+  {
+    "id": "creality-k1-max",
+    "brand": "Creality",
+    "model": "K1 Max",
+    "category": "3D打印机",
+    "price_usd": 699,
+    "price_change_pct": -12,
+    "monthly_sales": 15000,
+    "weekly_growth_pct": 5.0,
+    "description": "K1的大尺寸AI版：300×300×300mm构建，AI摄像头监控+失败检测，双冷却，高速CoreXY，适合大件/批量创作。",
+    "key_features": [
+      "300mm³大体积",
+      "AI摄像头监控",
+      "600mm/s",
+      "双冷却",
+      "失败检测"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 4200,
+      "engagement_rate": 4.4,
+      "search_growth_pct": 7.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Creality官网",
+      "京东"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "ASA"
+    ],
+    "consumable_monthly_sales_est": "$30万",
+    "last_verified": "2026-07-22",
+    "verified_note": "Creality K1 Max 大尺寸AI版(300mm³)；官网/Amazon在售，街价约$699(发布价$899)；2026在售"
+  },
+  {
+    "id": "creality-ender3-v3-ke",
+    "brand": "Creality",
+    "model": "Ender-3 V3 KE",
+    "category": "3D打印机",
+    "price_usd": 229,
+    "price_change_pct": -8,
+    "monthly_sales": 40000,
+    "weekly_growth_pct": 6.0,
+    "description": "Ender-3系列高速迭代款：220×220×240mm，300mm/s速度，±0.1mm精度，自动调平+PEI面板，多材料支持，入门性价比之王。",
+    "key_features": [
+      "300mm/s",
+      "±0.1mm精度",
+      "自动调平",
+      "PEI面板",
+      "入门性价比"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 9100,
+      "engagement_rate": 5.2,
+      "search_growth_pct": 11.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Creality官网",
+      "京东",
+      "淘宝"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "TPU"
+    ],
+    "consumable_monthly_sales_est": "$70万",
+    "last_verified": "2026-07-22",
+    "verified_note": "Ender-3 V3 KE 高速入门款(300mm/s)；Creality官网在售，街价约$229(发布价$279)；2026在售"
+  },
+  {
+    "id": "elegoo-centauri-carbon",
+    "brand": "Elegoo",
+    "model": "Centauri Carbon",
+    "category": "3D打印机",
+    "price_usd": 299,
+    "price_change_pct": 0,
+    "monthly_sales": 50000,
+    "weekly_growth_pct": 35.0,
+    "description": "Elegoo 2025爆款全封闭CoreXY：500mm/s高速，多色FDM支持，结构刚性强+性价比炸裂，被认为是Bambu A1的强力挑战者。",
+    "key_features": [
+      "全封闭CoreXY",
+      "500mm/s",
+      "多色FDM",
+      "刚性结构",
+      "$299性价比"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 12400,
+      "engagement_rate": 7.0,
+      "search_growth_pct": 130.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Elegoo官网",
+      "京东"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "ASA",
+      "TPU"
+    ],
+    "consumable_monthly_sales_est": "$90万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "Elegoo Centauri Carbon MSRP $299(originalpricing核实；市价$265-$440)；2026热销"
+  },
+  {
+    "id": "flashforge-adventurer-5m",
+    "brand": "Flashforge",
+    "model": "Adventurer 5M",
+    "category": "3D打印机",
+    "price_usd": 299,
+    "price_change_pct": 0,
+    "monthly_sales": 25000,
+    "weekly_growth_pct": 12.0,
+    "description": "Flashforge 2025最佳入门之选：300mm/s快速打印，OrcaSlicer深度适配，全封闭静音，新手即开即用，性价比突出。",
+    "key_features": [
+      "300mm/s",
+      "OrcaSlicer适配",
+      "全封闭静音",
+      "入门友好",
+      "$299性价比"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 6800,
+      "engagement_rate": 5.4,
+      "search_growth_pct": 24.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Flashforge官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS"
+    ],
+    "consumable_monthly_sales_est": "$45万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "Flashforge Adventurer 5M $299(printpick核实)；2026价格稳定"
+  },
+  {
+    "id": "anycubic-kobra-s1-combo",
+    "brand": "Anycubic",
+    "model": "Kobra S1 Combo",
+    "category": "3D打印机",
+    "price_usd": 459,
+    "price_change_pct": 0,
+    "monthly_sales": 18000,
+    "weekly_growth_pct": 15.0,
+    "description": "Anycubic全封闭CoreXY多色机：250×250×250mm，配ACE Pro可达8色，600mm/s极速，性价比多色方案，挑战Bambu P1S。",
+    "key_features": [
+      "全封闭CoreXY",
+      "8色(双ACE Pro)",
+      "600mm/s",
+      "ACE Pro多色",
+      "性价比多色"
+    ],
+    "is_new": false,
+    "social_metrics": {
+      "tiktok_videos": 5400,
+      "engagement_rate": 5.2,
+      "search_growth_pct": 26.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Anycubic官网"
+    ],
+    "consumables": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "TPU"
+    ],
+    "consumable_monthly_sales_est": "$40万(预估)",
+    "last_verified": "2026-07-22",
+    "verified_note": "Anycubic Kobra S1 Combo 含ACE Pro多色(8色)；Anycubic官网在售，街价约$459；2026在售"
   }
 ]
