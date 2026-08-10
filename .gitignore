@@ -10,3 +10,7 @@ weekly_data/users.json
 server.log
 diy_server.log
 .vscode/
+
+# 推送失败时导出的降级交付物
+*.patch
+ws_backup_*/
