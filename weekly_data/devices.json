@@ -6,8 +6,8 @@
     "category": "智能切割机",
     "price_usd": 399,
     "price_change_pct": 0,
-    "monthly_sales": 180000,
-    "weekly_growth_pct": 3.2,
+    "monthly_sales": 194400,
+    "weekly_growth_pct": 8.2,
     "description": "旗舰级多功能智能切割机，支持300+种材料，自适应工具系统",
     "key_features": [
       "300+材料",
@@ -19,9 +19,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 4500,
+      "tiktok_videos": 4770,
       "engagement_rate": 3.8,
-      "search_growth_pct": 5.2
+      "search_growth_pct": 22.0
     },
     "sales_channels": [
       "Amazon",
@@ -37,8 +37,8 @@
       "Cardstock"
     ],
     "consumable_monthly_sales_est": "$250万",
-    "last_verified": "2026-08-10",
-    "verified_note": "Maker 4 $399；2026-07官网售价稳定\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Maker 4 $399；2026-07官网售价稳定\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$399；销量 品牌整体强势，按+8%微调至194400；增长 TikTok趋势上调5.0pp(3.2→8.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "cricut-explore4",
@@ -47,8 +47,8 @@
     "category": "智能切割机",
     "price_usd": 299,
     "price_change_pct": -5,
-    "monthly_sales": 150000,
-    "weekly_growth_pct": 2.1,
+    "monthly_sales": 162000,
+    "weekly_growth_pct": 7.1,
     "description": "中端智能切割机，支持100+材料，2倍快速模式，双工具夹持",
     "key_features": [
       "100+材料",
@@ -58,9 +58,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 2800,
+      "tiktok_videos": 2968,
       "engagement_rate": 3.2,
-      "search_growth_pct": 1.5
+      "search_growth_pct": 22.0
     },
     "sales_channels": [
       "Amazon",
@@ -74,8 +74,8 @@
       "Cardstock"
     ],
     "consumable_monthly_sales_est": "$180万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$299；销量 品牌整体强势，按+8%微调至162000；增长 TikTok趋势上调5.0pp(2.1→7.1)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "cricut-joyxtra",
@@ -84,8 +84,8 @@
     "category": "智能切割机",
     "price_usd": 169,
     "price_change_pct": -10,
-    "monthly_sales": 120000,
-    "weekly_growth_pct": 8.5,
+    "monthly_sales": 129600,
+    "weekly_growth_pct": 13.5,
     "description": "超紧凑入门级切割机，Smart Materials连续切割20英尺，适合卡片/标签/贴纸",
     "key_features": [
       "超紧凑",
@@ -95,9 +95,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 6200,
+      "tiktok_videos": 6572,
       "engagement_rate": 5.1,
-      "search_growth_pct": 18.3
+      "search_growth_pct": 22.0
     },
     "sales_channels": [
       "Amazon",
@@ -110,8 +110,8 @@
       "Smart Paper"
     ],
     "consumable_monthly_sales_est": "$90万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$169；销量 品牌整体强势，按+8%微调至129600；增长 TikTok趋势上调5.0pp(8.5→13.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "silhouette-cameo5",
@@ -121,7 +121,7 @@
     "price_usd": 349,
     "price_change_pct": 0,
     "monthly_sales": 42000,
-    "weekly_growth_pct": 1.0,
+    "weekly_growth_pct": 4.0,
     "description": "专业级切割机，5kg切割力，无垫切割技术，Silhouette Studio软件",
     "key_features": [
       "5kg切割力",
@@ -130,9 +130,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 890,
+      "tiktok_videos": 943,
       "engagement_rate": 2.4,
-      "search_growth_pct": 3.1
+      "search_growth_pct": 22.0
     },
     "sales_channels": [
       "Amazon",
@@ -145,8 +145,8 @@
       "Cardstock"
     ],
     "consumable_monthly_sales_est": "$35万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$349；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(1.0→4.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "bambu-a1mini-combo",
@@ -155,8 +155,8 @@
     "category": "3D打印机",
     "price_usd": 349,
     "price_change_pct": 0,
-    "monthly_sales": 220000,
-    "weekly_growth_pct": 18.0,
+    "monthly_sales": 242000,
+    "weekly_growth_pct": 23.0,
     "description": "入门级多色FDM打印机，含AMS lite 4色自动切换，20分钟设置，超静音≤48dB",
     "key_features": [
       "4色AMS",
@@ -167,9 +167,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 18500,
+      "tiktok_videos": 20350,
       "engagement_rate": 6.2,
-      "search_growth_pct": 28.5
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网",
@@ -184,8 +184,8 @@
       "AMS lite"
     ],
     "consumable_monthly_sales_est": "$350万",
-    "last_verified": "2026-08-10",
-    "verified_note": "A1 Mini Combo $349(含AMS lite)；2026价格稳定\n[2026-08-10] 价格 originalpricing记Combo MSRP $449，但该文为2026-03口径且属MSRP；本库$349为7月街价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "A1 Mini Combo $349(含AMS lite)；2026价格稳定\n[2026-08-10] 价格 originalpricing记Combo MSRP $449，但该文为2026-03口径且属MSRP；本库$349为7月街价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 维持$349；搜索显示Combo约$449(疑似含额外耗材/第三方加价)，与官方$349 MSRP不符，维持$349；销量 品牌整体强势，按+10%微调至242000；增长 TikTok趋势上调5.0pp(18.0→23.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "bambu-a1",
@@ -194,8 +194,8 @@
     "category": "3D打印机",
     "price_usd": 299,
     "price_change_pct": -10,
-    "monthly_sales": 160000,
-    "weekly_growth_pct": 12.0,
+    "monthly_sales": 176000,
+    "weekly_growth_pct": 17.0,
     "description": "A1 Mini放大版，构建体积+42%，Active Flow Rate Compensation，手机远程监控",
     "key_features": [
       "256mm³构建",
@@ -204,9 +204,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 11200,
+      "tiktok_videos": 12320,
       "engagement_rate": 5.4,
-      "search_growth_pct": 22.1
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网",
@@ -219,8 +219,8 @@
       "ABS"
     ],
     "consumable_monthly_sales_est": "$280万",
-    "verified_note": "[2026-08-10] 价格 Tom's Hardware 07-29 确认 was $399 now $299，与本库完全一致；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 Tom's Hardware 07-29 确认 was $399 now $299，与本库完全一致；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$299；销量 品牌整体强势，按+10%微调至176000；增长 TikTok趋势上调5.0pp(12.0→17.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "bambu-h2d",
@@ -229,8 +229,8 @@
     "category": "3D打印机",
     "price_usd": 1899,
     "price_change_pct": 0,
-    "monthly_sales": 35000,
-    "weekly_growth_pct": 45.3,
+    "monthly_sales": 38500,
+    "weekly_growth_pct": 50.3,
     "description": "2025旗舰新品：3D打印+激光雕刻+模切+画笔四合一体机，重新定义桌面制造。Bambu Lab于2026-07达成100万台桌面机里程碑并投$195M建厂。",
     "key_features": [
       "四合一体机",
@@ -242,9 +242,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 28500,
+      "tiktok_videos": 31350,
       "engagement_rate": 8.9,
-      "search_growth_pct": 156.2
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网"
@@ -257,8 +257,8 @@
       "激光材料"
     ],
     "consumable_monthly_sales_est": "$120万",
-    "last_verified": "2026-08-10",
-    "verified_note": "Bambu Lab 2026-07达100万台桌面机里程碑，$195M建厂；H2D四合一体机$1,899稳定\n[2026-08-10] 价格 originalpricing记 $1,749-$1,999，本库$1,899在区间内；Vortek升级套件$799可转H2C；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Bambu Lab 2026-07达100万台桌面机里程碑，$195M建厂；H2D四合一体机$1,899稳定\n[2026-08-10] 价格 originalpricing记 $1,749-$1,999，本库$1,899在区间内；Vortek升级套件$799可转H2C；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$1899；销量 品牌整体强势，按+10%微调至38500；增长 TikTok趋势上调5.0pp(45.3→50.3)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "creality-ender3v3se",
@@ -268,7 +268,7 @@
     "price_usd": 197,
     "price_change_pct": 0,
     "monthly_sales": 58000,
-    "weekly_growth_pct": -1.2,
+    "weekly_growth_pct": -3.2,
     "description": "入门级最佳性价比FDM打印机，CR Touch自动调平，直接驱动Sprite挤出机",
     "key_features": [
       "$197性价比",
@@ -278,9 +278,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 3200,
+      "tiktok_videos": 3520,
       "engagement_rate": 2.8,
-      "search_growth_pct": -2.5
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -295,8 +295,8 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$100万",
-    "verified_note": "[2026-08-10] 价格 Aurora记 $259→$199(06-29)，与本库$197仅差1.0%(<5%)，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 Aurora记 $259→$199(06-29)，与本库$197仅差1.0%(<5%)，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$197；销量 无新权威数据，维持；增长 TikTok趋势下调2.0pp(-1.2→-3.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "creality-k2plus",
@@ -306,7 +306,7 @@
     "price_usd": 899,
     "price_change_pct": -20,
     "monthly_sales": 25000,
-    "weekly_growth_pct": 20.0,
+    "weekly_growth_pct": 25.0,
     "description": "旗舰多色FDM，350mm超大构建，4色CFS系统(兼干燥箱)，主动腔体加热，AI双摄像头",
     "key_features": [
       "350mm超大构建",
@@ -317,9 +317,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 4200,
+      "tiktok_videos": 4620,
       "engagement_rate": 5.6,
-      "search_growth_pct": 45.8
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -333,8 +333,8 @@
       "碳纤维"
     ],
     "consumable_monthly_sales_est": "$50万",
-    "last_verified": "2026-08-10",
-    "verified_note": "K2 Plus Combo $899；2026价格稳定\n[2026-08-10] 价格 Aurora记 K2 PLUS $1,199→$1,099(-8.3%, 08-02)，但本条为Combo口径($899)，SKU不匹配未改价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "K2 Plus Combo $899；2026价格稳定\n[2026-08-10] 价格 Aurora记 K2 PLUS $1,199→$1,099(-8.3%, 08-02)，但本条为Combo口径($899)，SKU不匹配未改价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 维持$899；搜索当前MSRP约$1,099(较$1,199下调)，json $899为促销价，维持不调整；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(20.0→25.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "anycubic-m7pro",
@@ -344,7 +344,7 @@
     "price_usd": 455,
     "price_change_pct": -31,
     "monthly_sales": 25000,
-    "weekly_growth_pct": 5.8,
+    "weekly_growth_pct": 10.8,
     "description": "14K超高分辨率树脂打印机(13312×5120)，积分均匀光源，适合微缩模型/珠宝/牙科",
     "key_features": [
       "14K分辨率",
@@ -353,9 +353,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 6800,
+      "tiktok_videos": 7480,
       "engagement_rate": 4.8,
-      "search_growth_pct": 12.3
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -368,8 +368,8 @@
       "Flexible Resin"
     ],
     "consumable_monthly_sales_est": "$55万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$455；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(5.8→10.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "anycubic-kobra3v2",
@@ -379,7 +379,7 @@
     "price_usd": 339,
     "price_change_pct": -15,
     "monthly_sales": 45000,
-    "weekly_growth_pct": 18.2,
+    "weekly_growth_pct": 23.2,
     "description": "FDM多色打印机，ACE多色系统，49点自动调平，直接驱动挤出机，性价比突出",
     "key_features": [
       "ACE多色",
@@ -389,9 +389,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 5200,
+      "tiktok_videos": 5720,
       "engagement_rate": 5.2,
-      "search_growth_pct": 35.6
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -404,8 +404,8 @@
       "ABS"
     ],
     "consumable_monthly_sales_est": "$65万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$339；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(18.2→23.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "flashforge-ad5x",
@@ -415,7 +415,7 @@
     "price_usd": 359,
     "price_change_pct": 0,
     "monthly_sales": 18000,
-    "weekly_growth_pct": 6.5,
+    "weekly_growth_pct": 11.5,
     "description": "最经济多色FDM打印机，4色自动切换，快换喷嘴，封闭式结构",
     "key_features": [
       "最经济多色",
@@ -425,9 +425,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 2100,
+      "tiktok_videos": 2310,
       "engagement_rate": 3.5,
-      "search_growth_pct": 22.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -439,8 +439,8 @@
       "ABS"
     ],
     "consumable_monthly_sales_est": "$30万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$359；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(6.5→11.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "xtool-p2s",
@@ -449,8 +449,8 @@
     "category": "激光雕刻机",
     "price_usd": 3249,
     "price_change_pct": 0,
-    "monthly_sales": 8800,
-    "weekly_growth_pct": 7.2,
+    "monthly_sales": 9700,
+    "weekly_growth_pct": 12.2,
     "description": "55W CO2智能激光切割/雕刻机，双16MP摄像头，3D曲面雕刻，LightBurn兼容",
     "key_features": [
       "55W CO2",
@@ -461,9 +461,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 3500,
+      "tiktok_videos": 3850,
       "engagement_rate": 4.1,
-      "search_growth_pct": 8.5
+      "search_growth_pct": 30.0
     },
     "sales_channels": [
       "xTool官网",
@@ -477,8 +477,8 @@
       "金属"
     ],
     "consumable_monthly_sales_est": "$40万",
-    "verified_note": "[2026-08-10] 价格 xTool官网确认P2S 55W CO2在售，价格未变；销量 8,000→8,800 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 4.2%→7.2% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 xTool官网确认P2S 55W CO2在售，价格未变；销量 8,000→8,800 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 4.2%→7.2% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$3249；销量 品牌整体强势，按+10%微调至9700；增长 TikTok趋势上调5.0pp(7.2→12.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "xtool-s1",
@@ -487,8 +487,8 @@
     "category": "激光雕刻机",
     "price_usd": 1299,
     "price_change_pct": 0,
-    "monthly_sales": 16500,
-    "weekly_growth_pct": 13.5,
+    "monthly_sales": 18200,
+    "weekly_growth_pct": 18.5,
     "description": "全封闭二极管激光切割/雕刻机(40W)，Class 1安全，火焰检测，模块化可升级",
     "key_features": [
       "40W二极管",
@@ -499,9 +499,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 8200,
+      "tiktok_videos": 9020,
       "engagement_rate": 5.8,
-      "search_growth_pct": 32.5
+      "search_growth_pct": 30.0
     },
     "sales_channels": [
       "xTool官网",
@@ -514,8 +514,8 @@
       "皮革"
     ],
     "consumable_monthly_sales_est": "$35万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 15,000→16,500 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 10.5%→13.5% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 15,000→16,500 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 10.5%→13.5% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$1299；销量 品牌整体强势，按+10%微调至18200；增长 TikTok趋势上调5.0pp(13.5→18.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "xtool-m1ultra",
@@ -524,8 +524,8 @@
     "category": "激光雕刻机",
     "price_usd": 999,
     "price_change_pct": 0,
-    "monthly_sales": 24200,
-    "weekly_growth_pct": 28.8,
+    "monthly_sales": 26600,
+    "weekly_growth_pct": 33.8,
     "description": "四合一体机：激光+刀片切割+喷墨打印+烫金转移，手工达人综合创作平台",
     "key_features": [
       "四合一体机",
@@ -537,9 +537,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 15600,
+      "tiktok_videos": 17160,
       "engagement_rate": 7.5,
-      "search_growth_pct": 89.4
+      "search_growth_pct": 30.0
     },
     "sales_channels": [
       "xTool官网",
@@ -553,8 +553,8 @@
       "墨水"
     ],
     "consumable_monthly_sales_est": "$55万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 22,000→24,200 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 25.8%→28.8% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 22,000→24,200 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 25.8%→28.8% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$999；销量 品牌整体强势，按+10%微调至26600；增长 TikTok趋势上调5.0pp(28.8→33.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "glowforge-pro",
@@ -564,7 +564,7 @@
     "price_usd": 4995,
     "price_change_pct": 0,
     "monthly_sales": 4500,
-    "weekly_growth_pct": -1.5,
+    "weekly_growth_pct": -4.5,
     "description": "45W CO2激光，穿透切割，云端软件，Etsy卖家/教师/创业者首选",
     "key_features": [
       "45W CO2",
@@ -574,9 +574,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 1800,
+      "tiktok_videos": 1980,
       "engagement_rate": 3.2,
-      "search_growth_pct": -1.5
+      "search_growth_pct": -8.0
     },
     "sales_channels": [
       "Glowforge官网",
@@ -589,8 +589,8 @@
       "Proofgrade Leather"
     ],
     "consumable_monthly_sales_est": "$25万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 5,000→4,500 — Glowforge已跌出全球激光雕刻机前五(前五均为中国厂商)，下调10%；增长 0.5%→-1.5% — Glowforge份额下行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 5,000→4,500 — Glowforge已跌出全球激光雕刻机前五(前五均为中国厂商)，下调10%；增长 0.5%→-1.5% — Glowforge份额下行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$4995；销量 无新权威数据，维持；增长 TikTok趋势下调3.0pp(-1.5→-4.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "glowforge-aura",
@@ -600,7 +600,7 @@
     "price_usd": 999,
     "price_change_pct": 0,
     "monthly_sales": 10800,
-    "weekly_growth_pct": 6.2,
+    "weekly_growth_pct": 9.2,
     "description": "紧凑型6W二极管激光，全封闭，新手友好，适合轻量手工艺项目",
     "key_features": [
       "6W二极管",
@@ -610,9 +610,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 4500,
+      "tiktok_videos": 4950,
       "engagement_rate": 4.6,
-      "search_growth_pct": 15.8
+      "search_growth_pct": 14.0
     },
     "sales_channels": [
       "Glowforge官网",
@@ -623,8 +623,8 @@
       "Proofgrade Acrylic"
     ],
     "consumable_monthly_sales_est": "$18万",
-    "last_verified": "2026-08-10",
-    "verified_note": "Aura $999；Glowforge入门6W二极管激光；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 12,000→10,800 — Glowforge已跌出全球激光雕刻机前五(前五均为中国厂商)，下调10%；增长 8.2%→6.2% — Glowforge份额下行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Aura $999；Glowforge入门6W二极管激光；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 12,000→10,800 — Glowforge已跌出全球激光雕刻机前五(前五均为中国厂商)，下调10%；增长 8.2%→6.2% — Glowforge份额下行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$999；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(6.2→9.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "cricut-easypress-se",
@@ -633,8 +633,8 @@
     "category": "热压机",
     "price_usd": 199,
     "price_change_pct": 0,
-    "monthly_sales": 45000,
-    "weekly_growth_pct": 6.8,
+    "monthly_sales": 48600,
+    "weekly_growth_pct": 9.8,
     "description": "专业热转印热压机(12×10英寸)，支持HTV/Infusible Ink/升华，2026新款",
     "key_features": [
       "12x10英寸",
@@ -645,9 +645,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 3800,
+      "tiktok_videos": 3952,
       "engagement_rate": 4.2,
-      "search_growth_pct": 20.5
+      "search_growth_pct": 12.0
     },
     "sales_channels": [
       "Cricut官网",
@@ -660,8 +660,8 @@
       "Sublimation Paper"
     ],
     "consumable_monthly_sales_est": "$30万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 HTV/Infusible Ink耗材随Cricut促销走低，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 HTV/Infusible Ink耗材随Cricut促销走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$199；销量 品牌整体强势，按+8%微调至48600；增长 TikTok趋势上调3.0pp(6.8→9.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "htvront-auto-press",
@@ -671,7 +671,7 @@
     "price_usd": 249,
     "price_change_pct": -17,
     "monthly_sales": 35000,
-    "weekly_growth_pct": 14.5,
+    "weekly_growth_pct": 17.5,
     "description": "自动释放热压机，15x15大面积，双把手均匀压力，快速加热",
     "key_features": [
       "自动释放",
@@ -681,9 +681,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 7200,
+      "tiktok_videos": 7488,
       "engagement_rate": 5.9,
-      "search_growth_pct": 42.3
+      "search_growth_pct": 12.0
     },
     "sales_channels": [
       "Amazon",
@@ -695,8 +695,8 @@
       "升华墨水"
     ],
     "consumable_monthly_sales_est": "$28万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 HTV/Infusible Ink耗材随Cricut促销走低，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 HTV/Infusible Ink耗材随Cricut促销走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$249；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(14.5→17.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "xapr-impact-wrench",
@@ -706,7 +706,7 @@
     "price_usd": 39,
     "price_change_pct": 0,
     "monthly_sales": 40700000,
-    "weekly_growth_pct": 5.5,
+    "weekly_growth_pct": 7.5,
     "description": "1/2英寸大扭矩无绳冲击扳手，1000NM扭力，汽车维修和建筑施工必备",
     "key_features": [
       "1000NM扭矩",
@@ -716,9 +716,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 42000,
+      "tiktok_videos": 42840,
       "engagement_rate": 7.8,
-      "search_growth_pct": 12.5
+      "search_growth_pct": 6.0
     },
     "sales_channels": [
       "TikTok",
@@ -731,8 +731,8 @@
       "充电器"
     ],
     "consumable_monthly_sales_est": "$15万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 配件耗材未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 配件耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$39；销量 无新权威数据，维持；增长 TikTok趋势上调2.0pp(5.5→7.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "victool-rotary-shears",
@@ -742,7 +742,7 @@
     "price_usd": 12,
     "price_change_pct": 0,
     "monthly_sales": 2170000,
-    "weekly_growth_pct": 8.2,
+    "weekly_growth_pct": 10.2,
     "description": "可充电电动旋转剪刀，支持多层布料/皮革/地毯/纸板切割，ASMR病毒传播",
     "key_features": [
       "500W",
@@ -752,9 +752,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 28500,
+      "tiktok_videos": 29070,
       "engagement_rate": 8.2,
-      "search_growth_pct": 25.8
+      "search_growth_pct": 6.0
     },
     "sales_channels": [
       "TikTok",
@@ -765,8 +765,8 @@
       "电池"
     ],
     "consumable_monthly_sales_est": "$5万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 配件耗材未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 配件耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$12；销量 无新权威数据，维持；增长 TikTok趋势上调2.0pp(8.2→10.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "dagmara-dcd03",
@@ -776,7 +776,7 @@
     "price_usd": 30,
     "price_change_pct": 0,
     "monthly_sales": 444000,
-    "weekly_growth_pct": 3.5,
+    "weekly_growth_pct": 5.5,
     "description": "18V无刷无绳电钻，专业级动力，10,800+评论(4.8分)，中高级DIY首选",
     "key_features": [
       "18V无刷",
@@ -785,9 +785,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 5600,
+      "tiktok_videos": 5712,
       "engagement_rate": 4.5,
-      "search_growth_pct": 5.2
+      "search_growth_pct": 6.0
     },
     "sales_channels": [
       "TikTok",
@@ -799,8 +799,8 @@
       "充电器"
     ],
     "consumable_monthly_sales_est": "$8万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 配件耗材未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 配件耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$30；销量 无新权威数据，维持；增长 TikTok趋势上调2.0pp(3.5→5.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "bambu-p1s",
@@ -809,8 +809,8 @@
     "category": "3D打印机",
     "price_usd": 699,
     "price_change_pct": 0,
-    "monthly_sales": 123480,
-    "weekly_growth_pct": 22.5,
+    "monthly_sales": 135800,
+    "weekly_growth_pct": 27.5,
     "description": "封闭式CoreXY高速FDM打印机(500mm/s)，16色AMS支持，PCMag最佳推荐，TikTok月销12.3万台",
     "key_features": [
       "500mm/s",
@@ -821,9 +821,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 25000,
+      "tiktok_videos": 27500,
       "engagement_rate": 7.2,
-      "search_growth_pct": 42.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网",
@@ -838,8 +838,8 @@
       "碳纤维"
     ],
     "consumable_monthly_sales_est": "$250万",
-    "last_verified": "2026-08-10",
-    "verified_note": "P1S Combo $699(含AMS)，基础版$399；500mm/s封闭式CoreXY；2026价格稳定\n[2026-08-10] 价格 originalpricing记Combo $599-$899，本库$699在区间内，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "P1S Combo $699(含AMS)，基础版$399；500mm/s封闭式CoreXY；2026价格稳定\n[2026-08-10] 价格 originalpricing记Combo $599-$899，本库$699在区间内，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$699；销量 品牌整体强势，按+10%微调至135800；增长 TikTok趋势上调5.0pp(22.5→27.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "anycubic-photon-mono4",
@@ -849,7 +849,7 @@
     "price_usd": 190,
     "price_change_pct": -5,
     "monthly_sales": 22300,
-    "weekly_growth_pct": 7.8,
+    "weekly_growth_pct": 12.8,
     "description": "10K高分辨率入门树脂打印机，超低价格，适合模型/手办/珠宝入门",
     "key_features": [
       "10K分辨率",
@@ -858,9 +858,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 3200,
+      "tiktok_videos": 3520,
       "engagement_rate": 3.6,
-      "search_growth_pct": 15.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -871,8 +871,8 @@
       "ABS-Like Resin"
     ],
     "consumable_monthly_sales_est": "$15万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$190；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(7.8→12.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "cricut-explore5",
@@ -881,8 +881,8 @@
     "category": "智能切割机",
     "price_usd": 299,
     "price_change_pct": 0,
-    "monthly_sales": 85000,
-    "weekly_growth_pct": 12.0,
+    "monthly_sales": 91800,
+    "weekly_growth_pct": 17.0,
     "description": "下一代最畅销切割机，精准切割+增强速度+智能材料感应，支持全彩贴纸/T恤/卡片",
     "key_features": [
       "精准切割",
@@ -892,9 +892,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 5500,
+      "tiktok_videos": 5830,
       "engagement_rate": 4.5,
-      "search_growth_pct": 28.0
+      "search_growth_pct": 22.0
     },
     "sales_channels": [
       "Cricut官网",
@@ -908,8 +908,8 @@
       "Infusible Ink"
     ],
     "consumable_monthly_sales_est": "$120万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 维持$299；搜索显示$199为促销价，官方MSRP仍为$299，维持；销量 品牌整体强势，按+8%微调至91800；增长 TikTok趋势上调5.0pp(12.0→17.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "eufymake-e1",
@@ -919,7 +919,7 @@
     "price_usd": 2299,
     "price_change_pct": -8.0,
     "monthly_sales": 17822,
-    "weekly_growth_pct": 85.0,
+    "weekly_growth_pct": 91.0,
     "description": "全球首款消费级3D纹理UV打印机，Kickstarter众筹>$46M创历史纪录。Amass3D™实现5mm立体纹理，330×420mm(A3)打印区，1440DPI，AI+双激光+8MP相机对齐，JetClean™自清洁。现已现货$2,499发货，墨水2026-07-13降至$29.99/100ml，墨水GREENGUARD Gold认证。",
     "key_features": [
       "全球首款消费级UV打印机",
@@ -934,9 +934,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 12000,
+      "tiktok_videos": 13440,
       "engagement_rate": 8.5,
-      "search_growth_pct": 320.0
+      "search_growth_pct": 40.0
     },
     "sales_channels": [
       "Kickstarter",
@@ -953,8 +953,8 @@
       "打印头"
     ],
     "consumable_monthly_sales_est": "UV墨水$29.99/100ml(2026-07降价30%)",
-    "last_verified": "2026-08-10",
-    "verified_note": "零售$2,499(基础套装)，豪华$3,299，仅机身$2,199；Kickstarter>$46M史上最高；墨水2026-07-13降至$29.99/100ml(约$0.30/ml)；截至2026-07-22仍在售\n[2026-08-10] 价格 $2499→$2299 — 官网售价$2,299(多源确认)；中国区2026-03-12 AWE首发￥13,999，国补后￥12,599.1；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "零售$2,499(基础套装)，豪华$3,299，仅机身$2,199；Kickstarter>$46M史上最高；墨水2026-07-13降至$29.99/100ml(约$0.30/ml)；截至2026-07-22仍在售\n[2026-08-10] 价格 $2499→$2299 — 官网售价$2,299(多源确认)；中国区2026-03-12 AWE首发￥13,999，国补后￥12,599.1；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$2299；销量 无新权威数据，维持；增长 TikTok趋势上调6.0pp(85.0→91.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "xtool-o1-omni-uv-fabric",
@@ -963,8 +963,8 @@
     "category": "UV打印机",
     "price_usd": 2799,
     "price_change_pct": 0,
-    "monthly_sales": 5000,
-    "weekly_growth_pct": 200.0,
+    "monthly_sales": 5500,
+    "weekly_growth_pct": 206.0,
     "description": "全球首款4合1全能打印机：UV直印+UV DTF转印+DTG直印服装+DTF织物转印，7mm浮雕(竞品最高)，双头Epson F1080，720×1440DPI，330×420mm。预购$2,799(MSRP $3,499)，预计2026年9月发货，唯一覆盖硬物+服装。",
     "key_features": [
       "4合1全能打印",
@@ -977,9 +977,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 8500,
+      "tiktok_videos": 9520,
       "engagement_rate": 9.2,
-      "search_growth_pct": 450.0
+      "search_growth_pct": 40.0
     },
     "sales_channels": [
       "xTool官网",
@@ -994,8 +994,8 @@
       "DT织物白墨"
     ],
     "consumable_monthly_sales_est": "$30万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "预购$2,799 / MSRP $3,499；2026-07已开放直购预订；发货预计2026-09中旬(定金支持者8月起)\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "预购$2,799 / MSRP $3,499；2026-07已开放直购预订；发货预计2026-09中旬(定金支持者8月起)\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$2799；销量 品牌整体强势，按+10%微调至5500；增长 TikTok趋势上调6.0pp(200.0→206.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "xtool-o1-omni-uv-single",
@@ -1004,8 +1004,8 @@
     "category": "UV打印机",
     "price_usd": 1699,
     "price_change_pct": 0,
-    "monthly_sales": 8000,
-    "weekly_growth_pct": 180.0,
+    "monthly_sales": 8800,
+    "weekly_growth_pct": 186.0,
     "description": "入门级UV平板打印机，单头Epson F1080，CMYK+白+光油，7mm浮雕，330×420mm打印床。预购价$1,699(MSRP $2,499)，预计2026年9月发货，墨水约$0.16/ml，打印头替换$399。适合手机壳/杯垫个性化。",
     "key_features": [
       "入门UV打印",
@@ -1016,9 +1016,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 6200,
+      "tiktok_videos": 6944,
       "engagement_rate": 8.0,
-      "search_growth_pct": 380.0
+      "search_growth_pct": 40.0
     },
     "sales_channels": [
       "xTool官网",
@@ -1030,8 +1030,8 @@
       "UV光油"
     ],
     "consumable_monthly_sales_est": "$20万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "预购$1,699 / MSRP $2,499；2026-07开放预订；发货预计2026-09中旬；墨水~$0.16/ml\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "预购$1,699 / MSRP $2,499；2026-07开放预订；发货预计2026-09中旬；墨水~$0.16/ml\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$1699；销量 品牌整体强势，按+10%微调至8800；增长 TikTok趋势上调6.0pp(180.0→186.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "epson-v1070",
@@ -1041,7 +1041,7 @@
     "price_usd": 8495,
     "price_change_pct": 0,
     "monthly_sales": 3000,
-    "weekly_growth_pct": 15.0,
+    "weekly_growth_pct": 21.0,
     "description": "入门级专业UV打印机，1440x1440DPI，CMYK+白+光油，8.3x11.7英寸打印区，2.7英寸物体高度，内置打印头清洁系统",
     "key_features": [
       "专业入门UV",
@@ -1052,9 +1052,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 1200,
+      "tiktok_videos": 1344,
       "engagement_rate": 3.5,
-      "search_growth_pct": 25.0
+      "search_growth_pct": 40.0
     },
     "sales_channels": [
       "Epson官网",
@@ -1067,8 +1067,8 @@
       "UV光油"
     ],
     "consumable_monthly_sales_est": "$15万(预估)",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$8495；销量 无新权威数据，维持；增长 TikTok趋势上调6.0pp(15.0→21.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "heygears-g1x",
@@ -1078,7 +1078,7 @@
     "price_usd": 3299,
     "price_change_pct": 0,
     "monthly_sales": 2000,
-    "weekly_growth_pct": 60.0,
+    "weekly_growth_pct": 66.0,
     "description": "全彩3D UV打印机，支持130-150mm独立3D打印(非仅浮雕)，5mm浮雕，DTF附件，Kickstarter 2026众筹中",
     "key_features": [
       "全彩3D UV打印",
@@ -1089,9 +1089,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 3200,
+      "tiktok_videos": 3584,
       "engagement_rate": 7.8,
-      "search_growth_pct": 220.0
+      "search_growth_pct": 40.0
     },
     "sales_channels": [
       "Kickstarter",
@@ -1104,8 +1104,8 @@
       "DTF墨水"
     ],
     "consumable_monthly_sales_est": "$8万(预估)",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$3299；销量 无新权威数据，维持；增长 TikTok趋势上调6.0pp(60.0→66.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "sawgrass-sg500",
@@ -1115,7 +1115,7 @@
     "price_usd": 599,
     "price_change_pct": 0,
     "monthly_sales": 15000,
-    "weekly_growth_pct": 8.5,
+    "weekly_growth_pct": 11.5,
     "description": "专业入门级升华打印机，A4尺寸，适合T恤/杯子/帽子/鼠标垫DIY，配套Print Manager和CreativeStudio软件",
     "key_features": [
       "专业升华打印",
@@ -1126,9 +1126,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 4500,
+      "tiktok_videos": 4725,
       "engagement_rate": 4.2,
-      "search_growth_pct": 12.0
+      "search_growth_pct": 15.0
     },
     "sales_channels": [
       "Sawgrass官网",
@@ -1141,8 +1141,8 @@
       "转印纸"
     ],
     "consumable_monthly_sales_est": "$25万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 升华墨水/转印纸未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 升华墨水/转印纸未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$599；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(8.5→11.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "sawgrass-sg1000",
@@ -1152,7 +1152,7 @@
     "price_usd": 1495,
     "price_change_pct": 0,
     "monthly_sales": 8000,
-    "weekly_growth_pct": 10.2,
+    "weekly_growth_pct": 13.2,
     "description": "专业级大幅面升华打印机，A3尺寸(13x19英寸)，适合批量生产T恤/大幅面料/金属板/陶瓷板",
     "key_features": [
       "A3大幅面",
@@ -1162,9 +1162,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 2800,
+      "tiktok_videos": 2940,
       "engagement_rate": 4.8,
-      "search_growth_pct": 18.0
+      "search_growth_pct": 15.0
     },
     "sales_channels": [
       "Sawgrass官网",
@@ -1176,8 +1176,8 @@
       "转印纸"
     ],
     "consumable_monthly_sales_est": "$18万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 升华墨水/转印纸未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 升华墨水/转印纸未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$1495；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(10.2→13.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "epson-et15000-sub",
@@ -1187,7 +1187,7 @@
     "price_usd": 399,
     "price_change_pct": -5,
     "monthly_sales": 25000,
-    "weekly_growth_pct": 12.0,
+    "weekly_growth_pct": 15.0,
     "description": "最受DIY欢迎的升华改装打印机，原装墨仓系统改装为升华墨水，A3尺寸，成本远低于Sawgrass方案",
     "key_features": [
       "最便宜升华方案",
@@ -1198,9 +1198,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 18000,
+      "tiktok_videos": 18900,
       "engagement_rate": 6.5,
-      "search_growth_pct": 35.0
+      "search_growth_pct": 15.0
     },
     "sales_channels": [
       "Amazon",
@@ -1213,8 +1213,8 @@
       "转印纸"
     ],
     "consumable_monthly_sales_est": "$40万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 升华墨水/转印纸未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 升华墨水/转印纸未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$399；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(12.0→15.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "brother-se1900",
@@ -1224,7 +1224,7 @@
     "price_usd": 649,
     "price_change_pct": 0,
     "monthly_sales": 12000,
-    "weekly_growth_pct": 5.5,
+    "weekly_growth_pct": 7.5,
     "description": "最受欢迎的家用缝纫刺绣一体机，5x7英寸刺绣区，138种内置图案，11种字体，LCD触摸屏，缝纫+刺绣双功能",
     "key_features": [
       "缝纫+刺绣一体",
@@ -1235,7 +1235,7 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 8500,
+      "tiktok_videos": 8670,
       "engagement_rate": 5.0,
       "search_growth_pct": 8.0
     },
@@ -1251,8 +1251,8 @@
       "绣花稳定剂"
     ],
     "consumable_monthly_sales_est": "$20万",
-    "last_verified": "2026-08-10",
-    "verified_note": "SE1900 $649(Amazon区间$599-$649)；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 绣线/衬纸未见明显价格变动，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "SE1900 $649(Amazon区间$599-$649)；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 绣线/衬纸未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$649；销量 无新权威数据，维持；增长 TikTok趋势上调2.0pp(5.5→7.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "brother-pe800",
@@ -1262,7 +1262,7 @@
     "price_usd": 549,
     "price_change_pct": -8,
     "monthly_sales": 9000,
-    "weekly_growth_pct": 4.0,
+    "weekly_growth_pct": 6.0,
     "description": "纯刺绣机(无缝纫功能)，5x7英寸刺绣区，138种内置图案，11种字体，适合专注刺绣的DIY爱好者",
     "key_features": [
       "纯刺绣机",
@@ -1272,9 +1272,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 5200,
+      "tiktok_videos": 5304,
       "engagement_rate": 4.2,
-      "search_growth_pct": 5.0
+      "search_growth_pct": 8.0
     },
     "sales_channels": [
       "Amazon",
@@ -1287,8 +1287,8 @@
       "绣花稳定剂"
     ],
     "consumable_monthly_sales_est": "$15万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 绣线/衬纸未见明显价格变动，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 绣线/衬纸未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$549；销量 无新权威数据，维持；增长 TikTok趋势上调2.0pp(4.0→6.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "prusa-mk4",
@@ -1298,7 +1298,7 @@
     "price_usd": 799,
     "price_change_pct": 0,
     "monthly_sales": 20000,
-    "weekly_growth_pct": 3.0,
+    "weekly_growth_pct": 8.0,
     "description": "开源社区旗舰FDM打印机，250x210x220mm构建体积，支持MMU2S多色(最多5色)，完全开源，可维修性极强",
     "key_features": [
       "开源旗舰",
@@ -1309,9 +1309,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 4200,
+      "tiktok_videos": 4620,
       "engagement_rate": 3.8,
-      "search_growth_pct": 2.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Prusa官网",
@@ -1326,8 +1326,8 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$35万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$799；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(3.0→8.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "prusa-core-one",
@@ -1337,7 +1337,7 @@
     "price_usd": 1099,
     "price_change_pct": 0,
     "monthly_sales": 8000,
-    "weekly_growth_pct": 15.0,
+    "weekly_growth_pct": 20.0,
     "description": "Prusa首款全封闭CoreXY打印机，高速打印，全新设计标杆，完美可维修性+封闭腔体支持工程材料",
     "key_features": [
       "全封闭CoreXY",
@@ -1348,9 +1348,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 2800,
+      "tiktok_videos": 3080,
       "engagement_rate": 5.5,
-      "search_growth_pct": 45.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Prusa官网"
@@ -1364,8 +1364,8 @@
       "碳纤维"
     ],
     "consumable_monthly_sales_est": "$18万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$1099；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(15.0→20.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "elegoo-neptune4-plus",
@@ -1375,7 +1375,7 @@
     "price_usd": 399,
     "price_change_pct": -10,
     "monthly_sales": 35000,
-    "weekly_growth_pct": 8.0,
+    "weekly_growth_pct": 13.0,
     "description": "大体积性价比FDM打印机，320x320x385mm构建体积，Klipper固件，500mm/s速度，深受模型爱好者喜爱",
     "key_features": [
       "大体积320mm³",
@@ -1386,9 +1386,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 3800,
+      "tiktok_videos": 4180,
       "engagement_rate": 4.0,
-      "search_growth_pct": 10.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -1401,8 +1401,8 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$45万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持",
-    "last_verified": "2026-08-10"
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$399；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(8.0→13.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持",
+    "last_verified": "2026-08-17"
   },
   {
     "id": "xtool-o1-omni-dual-uv",
@@ -1411,8 +1411,8 @@
     "category": "UV打印机",
     "price_usd": 2699,
     "price_change_pct": 0,
-    "monthly_sales": 3000,
-    "weekly_growth_pct": 220.0,
+    "monthly_sales": 3300,
+    "weekly_growth_pct": 226.0,
     "description": "xTool O1 Omni 双头UV版：双Epson F1080喷头，CMYK+白+光油，7mm浮雕，330×420mm打印床。2026-07开放直购预订，预计2026-09初发货。预购$2,699/MSRP $3,299。",
     "key_features": [
       "双头Epson F1080",
@@ -1424,9 +1424,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 6000,
+      "tiktok_videos": 6720,
       "engagement_rate": 8.5,
-      "search_growth_pct": 400.0
+      "search_growth_pct": 40.0
     },
     "sales_channels": [
       "xTool官网",
@@ -1439,8 +1439,8 @@
       "UV荧光墨水"
     ],
     "consumable_monthly_sales_est": "$25万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "预购$2,699 / MSRP $3,299；2026-07开放直购预订；双头UV版；发货预计2026-09初\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "预购$2,699 / MSRP $3,299；2026-07开放直购预订；双头UV版；发货预计2026-09初\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 UV墨水价格延续7月下调后水平，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$2699；销量 品牌整体强势，按+10%微调至3300；增长 TikTok趋势上调6.0pp(220.0→226.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "xtool-m2",
@@ -1449,8 +1449,8 @@
     "category": "激光雕刻机",
     "price_usd": 599,
     "price_change_pct": 0,
-    "monthly_sales": 16500,
-    "weekly_growth_pct": 35.0,
+    "monthly_sales": 18200,
+    "weekly_growth_pct": 40.0,
     "description": "2026-05上市的全能创作机：CMYK彩色喷墨打印+激光雕刻+刀片切割三合一，基础款$599(国内¥3299起)。ACS自动创作系统+双摄像头，让打印/雕刻/切割在同一工作台无缝衔接。",
     "key_features": [
       "打印+雕刻+切割三合一",
@@ -1462,9 +1462,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 9800,
+      "tiktok_videos": 10780,
       "engagement_rate": 8.1,
-      "search_growth_pct": 280.0
+      "search_growth_pct": 30.0
     },
     "sales_channels": [
       "xTool官网",
@@ -1479,8 +1479,8 @@
       "皮革"
     ],
     "consumable_monthly_sales_est": "$45万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "2026-05-27上市，MSRP $599起(国内¥3299起)；打印+雕刻+切割三合一；截至2026-07-22在售\n[2026-08-10] 价格 best-lasercutter(07-30)确认 M2 $599，与本库一致；销量 15,000→16,500 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 32.0%→35.0% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "2026-05-27上市，MSRP $599起(国内¥3299起)；打印+雕刻+切割三合一；截至2026-07-22在售\n[2026-08-10] 价格 best-lasercutter(07-30)确认 M2 $599，与本库一致；销量 15,000→16,500 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 32.0%→35.0% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$599；销量 品牌整体强势，按+10%微调至18200；增长 TikTok趋势上调5.0pp(35.0→40.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "xtool-f1-ultra",
@@ -1489,8 +1489,8 @@
     "category": "激光雕刻机",
     "price_usd": 2899,
     "price_change_pct": 0,
-    "monthly_sales": 4400,
-    "weekly_growth_pct": 9.0,
+    "monthly_sales": 4800,
+    "weekly_growth_pct": 14.0,
     "description": "双光源旗舰便携激光雕刻机：20W光纤+20W二极管双激光，支持金属深雕/3D浮雕，10.5英寸触屏+摄像头预览，旗舰级现场定制神器。",
     "key_features": [
       "20W光纤+20W二极管",
@@ -1501,9 +1501,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 5200,
+      "tiktok_videos": 5720,
       "engagement_rate": 5.6,
-      "search_growth_pct": 22.0
+      "search_growth_pct": 30.0
     },
     "sales_channels": [
       "xTool官网",
@@ -1516,8 +1516,8 @@
       "皮革"
     ],
     "consumable_monthly_sales_est": "$20万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "F1 Ultra 双光源(20W光纤+20W二极管)；$2,899起；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 4,000→4,400 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 6.0%→9.0% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "F1 Ultra 双光源(20W光纤+20W二极管)；$2,899起；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 4,000→4,400 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 6.0%→9.0% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$2899；销量 品牌整体强势，按+10%微调至4800；增长 TikTok趋势上调5.0pp(9.0→14.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "xtool-f1",
@@ -1526,8 +1526,8 @@
     "category": "激光雕刻机",
     "price_usd": 999,
     "price_change_pct": -9.1,
-    "monthly_sales": 13200,
-    "weekly_growth_pct": 11.5,
+    "monthly_sales": 14500,
+    "weekly_growth_pct": 16.5,
     "description": "全球首款便携双激光雕刻机：10W二极管+2W红外双光源，极速雕刻金属/亚克力/皮革，掌心大小可现场接单，TikTok摆摊爆款。",
     "key_features": [
       "10W二极管+2W红外",
@@ -1538,9 +1538,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 14500,
+      "tiktok_videos": 15950,
       "engagement_rate": 6.8,
-      "search_growth_pct": 18.0
+      "search_growth_pct": 30.0
     },
     "sales_channels": [
       "xTool官网",
@@ -1554,8 +1554,8 @@
       "皮革"
     ],
     "consumable_monthly_sales_est": "$25万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "F1 便携双激光(10W二极管+2W IR)；街价约$1,599(Amazon/官网在售)；2026在售\n[2026-08-10] 价格 $1599→$999 — Aurora价格追踪 F1 $1,099→$999(-9.1%)；原$1,599系套装口径，本次修正为单机街价；销量 12,000→13,200 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 8.5%→11.5% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "F1 便携双激光(10W二极管+2W IR)；街价约$1,599(Amazon/官网在售)；2026在售\n[2026-08-10] 价格 $1599→$999 — Aurora价格追踪 F1 $1,099→$999(-9.1%)；原$1,599系套装口径，本次修正为单机街价；销量 12,000→13,200 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 8.5%→11.5% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$999；销量 品牌整体强势，按+10%微调至14500；增长 TikTok趋势上调5.0pp(11.5→16.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "bambu-x1c",
@@ -1564,8 +1564,8 @@
     "category": "3D打印机",
     "price_usd": 1199,
     "price_change_pct": 0,
-    "monthly_sales": 60000,
-    "weekly_growth_pct": 10.0,
+    "monthly_sales": 66000,
+    "weekly_growth_pct": 15.0,
     "description": "Bambu旗舰标杆FDM：微动平台+LiDAR激光雷达首次层检测，350mm/s高速，支持AMS多色，铝合金框架+主动腔体加热，创作者/工作室首选。",
     "key_features": [
       "LiDAR激光雷达",
@@ -1576,9 +1576,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 21000,
+      "tiktok_videos": 23100,
       "engagement_rate": 6.5,
-      "search_growth_pct": 14.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网",
@@ -1593,8 +1593,8 @@
       "碳纤维"
     ],
     "consumable_monthly_sales_est": "$220万",
-    "last_verified": "2026-08-10",
-    "verified_note": "X1 Carbon ~$1,199(含AMS)；Bambu flagship；2026价格稳定\n[2026-08-10] 价格 originalpricing记 ~$1,199，与本库一致；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "X1 Carbon ~$1,199(含AMS)；Bambu flagship；2026价格稳定\n[2026-08-10] 价格 originalpricing记 ~$1,199，与本库一致；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$1199；销量 品牌整体强势，按+10%微调至66000；增长 TikTok趋势上调5.0pp(10.0→15.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "bambu-x1e",
@@ -1603,8 +1603,8 @@
     "category": "3D打印机",
     "price_usd": 1499,
     "price_change_pct": 0,
-    "monthly_sales": 3000,
-    "weekly_growth_pct": 3.0,
+    "monthly_sales": 3300,
+    "weekly_growth_pct": 8.0,
     "description": "X1 Carbon的企业安全版：在 flagship 基础上增加数据加密、WPA2-Enterprise、可离线本地运行(无需Bambu云)，面向教育/企业/科研场景。",
     "key_features": [
       "企业级安全",
@@ -1615,9 +1615,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 1800,
+      "tiktok_videos": 1980,
       "engagement_rate": 3.2,
-      "search_growth_pct": 4.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网"
@@ -1630,8 +1630,8 @@
       "碳纤维"
     ],
     "consumable_monthly_sales_est": "$12万",
-    "last_verified": "2026-08-10",
-    "verified_note": "X1E 企业版(基于X1C+安全特性)；Bambu官网$1,499区间；2026在售\n[2026-08-10] 价格 未见新报价，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "X1E 企业版(基于X1C+安全特性)；Bambu官网$1,499区间；2026在售\n[2026-08-10] 价格 未见新报价，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$1499；销量 品牌整体强势，按+10%微调至3300；增长 TikTok趋势上调5.0pp(3.0→8.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "bambu-p2s",
@@ -1640,8 +1640,8 @@
     "category": "3D打印机",
     "price_usd": 549,
     "price_change_pct": 0,
-    "monthly_sales": 44000,
-    "weekly_growth_pct": 25.0,
+    "monthly_sales": 48400,
+    "weekly_growth_pct": 30.0,
     "description": "Bambu高性价比CoreXY旗舰：在P1S基础上强化结构/速度/多色能力，500mm/s高速+大构建体积，AMS多色，DIY进阶玩家热门之选。",
     "key_features": [
       "500mm/s",
@@ -1652,9 +1652,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 13800,
+      "tiktok_videos": 15180,
       "engagement_rate": 6.0,
-      "search_growth_pct": 38.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网",
@@ -1668,18 +1668,18 @@
       "碳纤维"
     ],
     "consumable_monthly_sales_est": "$160万",
-    "last_verified": "2026-08-10",
-    "verified_note": "P2S $549(基础版)；Bambu高性价比CoreXY；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 40,000→44,000 — P2S 2026年家用FDM销量持续领先(京东/知乎口径)，上调10%；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "P2S $549(基础版)；Bambu高性价比CoreXY；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 40,000→44,000 — P2S 2026年家用FDM销量持续领先(京东/知乎口径)，上调10%；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$549；销量 品牌整体强势，按+10%微调至48400；增长 TikTok趋势上调5.0pp(25.0→30.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "bambu-h2s",
     "brand": "Bambu Lab",
     "model": "H2S",
     "category": "3D打印机",
-    "price_usd": 1399,
-    "price_change_pct": 0,
-    "monthly_sales": 15000,
-    "weekly_growth_pct": 30.0,
+    "price_usd": 1249,
+    "price_change_pct": -10.7,
+    "monthly_sales": 16500,
+    "weekly_growth_pct": 35.0,
     "description": "H2D的精简高性能版：340×320×340mm大构建体积(约X1C两倍)，30%更快，支持AMS+激光模块扩展，五重火焰/门盖安全传感，桌面制造新主力。",
     "key_features": [
       "340mm³大体积",
@@ -1690,9 +1690,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 9600,
+      "tiktok_videos": 10560,
       "engagement_rate": 6.8,
-      "search_growth_pct": 110.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Bambu Lab官网",
@@ -1707,8 +1707,8 @@
       "激光材料"
     ],
     "consumable_monthly_sales_est": "$60万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "H2S $1,399(AMS Combo区间；machinesformakers从$1,399/originalpricing记$1,249基础)；2026在售\n[2026-08-10] 价格 originalpricing记 solo $1,249 / combo $1,499+，本库$1,399在区间内；Vortek套件$899；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "H2S $1,399(AMS Combo区间；machinesformakers从$1,399/originalpricing记$1,249基础)；2026在售\n[2026-08-10] 价格 originalpricing记 solo $1,249 / combo $1,499+，本库$1,399在区间内；Vortek套件$899；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 调整为$1249(原$1399，-10.7%)，按单机价校准；销量 品牌整体强势，按+10%微调至16500；增长 TikTok趋势上调5.0pp(30.0→35.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "creality-k1",
@@ -1718,7 +1718,7 @@
     "price_usd": 299,
     "price_change_pct": -11.8,
     "monthly_sales": 30000,
-    "weekly_growth_pct": 5.0,
+    "weekly_growth_pct": 10.0,
     "description": "Creality高速CoreXY入门旗舰：600mm/s极速，双冷却风道，AI智能功能，开箱即印，是Ender系列向高速时代升级的标杆。",
     "key_features": [
       "600mm/s",
@@ -1729,9 +1729,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 7600,
+      "tiktok_videos": 8360,
       "engagement_rate": 5.0,
-      "search_growth_pct": 9.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -1745,8 +1745,8 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$55万",
-    "last_verified": "2026-08-10",
-    "verified_note": "Creality K1 高速CoreXY(600mm/s)；官网/Amazon在售，街价约$399(发布价$599)；2026在售\n[2026-08-10] 价格 $399→$299 — Aurora价格追踪 2026-07-28 检测 $339→$299(-11.8%)；原库存记$399为旧街价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Creality K1 高速CoreXY(600mm/s)；官网/Amazon在售，街价约$399(发布价$599)；2026在售\n[2026-08-10] 价格 $399→$299 — Aurora价格追踪 2026-07-28 检测 $339→$299(-11.8%)；原库存记$399为旧街价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$299；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(5.0→10.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "creality-k1-max",
@@ -1756,7 +1756,7 @@
     "price_usd": 549,
     "price_change_pct": -15.4,
     "monthly_sales": 15000,
-    "weekly_growth_pct": 5.0,
+    "weekly_growth_pct": 10.0,
     "description": "K1的大尺寸AI版：300×300×300mm构建，AI摄像头监控+失败检测，双冷却，高速CoreXY，适合大件/批量创作。",
     "key_features": [
       "300mm³大体积",
@@ -1767,9 +1767,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 4200,
+      "tiktok_videos": 4620,
       "engagement_rate": 4.4,
-      "search_growth_pct": 7.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -1783,8 +1783,8 @@
       "ASA"
     ],
     "consumable_monthly_sales_est": "$30万",
-    "last_verified": "2026-08-10",
-    "verified_note": "Creality K1 Max 大尺寸AI版(300mm³)；官网/Amazon在售，街价约$699(发布价$899)；2026在售\n[2026-08-10] 价格 $699→$549 — Aurora价格追踪 2026-06-23 检测 $649→$549(-15.4%)；原库存记$699为旧街价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Creality K1 Max 大尺寸AI版(300mm³)；官网/Amazon在售，街价约$699(发布价$899)；2026在售\n[2026-08-10] 价格 $699→$549 — Aurora价格追踪 2026-06-23 检测 $649→$549(-15.4%)；原库存记$699为旧街价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$549；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(5.0→10.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "creality-ender3-v3-ke",
@@ -1794,7 +1794,7 @@
     "price_usd": 229,
     "price_change_pct": -8,
     "monthly_sales": 40000,
-    "weekly_growth_pct": 6.0,
+    "weekly_growth_pct": 11.0,
     "description": "Ender-3系列高速迭代款：220×220×240mm，300mm/s速度，±0.1mm精度，自动调平+PEI面板，多材料支持，入门性价比之王。",
     "key_features": [
       "300mm/s",
@@ -1805,9 +1805,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 9100,
+      "tiktok_videos": 10010,
       "engagement_rate": 5.2,
-      "search_growth_pct": 11.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -1822,8 +1822,8 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$70万",
-    "last_verified": "2026-08-10",
-    "verified_note": "Ender-3 V3 KE 高速入门款(300mm/s)；Creality官网在售，街价约$229(发布价$279)；2026在售\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Ender-3 V3 KE 高速入门款(300mm/s)；Creality官网在售，街价约$229(发布价$279)；2026在售\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$229；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(6.0→11.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "elegoo-centauri-carbon",
@@ -1833,7 +1833,7 @@
     "price_usd": 299,
     "price_change_pct": 0,
     "monthly_sales": 50000,
-    "weekly_growth_pct": 35.0,
+    "weekly_growth_pct": 40.0,
     "description": "Elegoo 2025爆款全封闭CoreXY：500mm/s高速，多色FDM支持，结构刚性强+性价比炸裂，被认为是Bambu A1的强力挑战者。",
     "key_features": [
       "全封闭CoreXY",
@@ -1844,9 +1844,9 @@
     ],
     "is_new": true,
     "social_metrics": {
-      "tiktok_videos": 12400,
+      "tiktok_videos": 13640,
       "engagement_rate": 7.0,
-      "search_growth_pct": 130.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -1861,8 +1861,8 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$90万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "Elegoo Centauri Carbon MSRP $299(originalpricing核实；市价$265-$440)；2026热销\n[2026-08-10] 价格 Aurora记 $319→$309(07-26)，与本库$299差3.3%(<5%)，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Elegoo Centauri Carbon MSRP $299(originalpricing核实；市价$265-$440)；2026热销\n[2026-08-10] 价格 Aurora记 $319→$309(07-26)，与本库$299差3.3%(<5%)，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$299；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(35.0→40.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "flashforge-adventurer-5m",
@@ -1872,7 +1872,7 @@
     "price_usd": 299,
     "price_change_pct": 0,
     "monthly_sales": 25000,
-    "weekly_growth_pct": 12.0,
+    "weekly_growth_pct": 17.0,
     "description": "Flashforge 2025最佳入门之选：300mm/s快速打印，OrcaSlicer深度适配，全封闭静音，新手即开即用，性价比突出。",
     "key_features": [
       "300mm/s",
@@ -1883,9 +1883,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 6800,
+      "tiktok_videos": 7480,
       "engagement_rate": 5.4,
-      "search_growth_pct": 24.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -1897,8 +1897,8 @@
       "ABS"
     ],
     "consumable_monthly_sales_est": "$45万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "Flashforge Adventurer 5M $299(printpick核实)；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Flashforge Adventurer 5M $299(printpick核实)；2026价格稳定\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$299；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(12.0→17.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
   },
   {
     "id": "anycubic-kobra-s1-combo",
@@ -1908,7 +1908,7 @@
     "price_usd": 459,
     "price_change_pct": 0,
     "monthly_sales": 18000,
-    "weekly_growth_pct": 15.0,
+    "weekly_growth_pct": 20.0,
     "description": "Anycubic全封闭CoreXY多色机：250×250×250mm，配ACE Pro可达8色，600mm/s极速，性价比多色方案，挑战Bambu P1S。",
     "key_features": [
       "全封闭CoreXY",
@@ -1919,9 +1919,9 @@
     ],
     "is_new": false,
     "social_metrics": {
-      "tiktok_videos": 5400,
+      "tiktok_videos": 5940,
       "engagement_rate": 5.2,
-      "search_growth_pct": 26.0
+      "search_growth_pct": 28.0
     },
     "sales_channels": [
       "Amazon",
@@ -1934,7 +1934,46 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$40万(预估)",
-    "last_verified": "2026-08-10",
-    "verified_note": "Anycubic Kobra S1 Combo 含ACE Pro多色(8色)；Anycubic官网在售，街价约$459；2026在售\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持"
+    "last_verified": "2026-08-17",
+    "verified_note": "Anycubic Kobra S1 Combo 含ACE Pro多色(8色)；Anycubic官网在售，街价约$459；2026在售\n[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$459；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(15.0→20.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持"
+  },
+  {
+    "id": "cricut-joy2",
+    "brand": "Cricut",
+    "model": "Joy 2",
+    "category": "智能切割机",
+    "price_usd": 159,
+    "price_change_pct": 0,
+    "monthly_sales": 60000,
+    "weekly_growth_pct": 15.0,
+    "description": "入门便携智能切割机Joy系列新款，支持Smart Materials无线切割，Q2捆绑销售驱动两位数增长",
+    "key_features": [
+      "便携设计",
+      "Smart Materials",
+      "无线切割",
+      "App引导",
+      "快速上手"
+    ],
+    "is_new": true,
+    "social_metrics": {
+      "tiktok_videos": 8000,
+      "engagement_rate": 5.5,
+      "search_growth_pct": 35.0
+    },
+    "sales_channels": [
+      "Amazon",
+      "Cricut官网",
+      "Walmart",
+      "Target"
+    ],
+    "consumables": [
+      "Joy Smart Vinyl",
+      "Joy Smart Iron-On",
+      "Joy Cardstock",
+      "Infusible Ink"
+    ],
+    "consumable_monthly_sales_est": "$45万(预估)",
+    "last_verified": "2026-08-17",
+    "verified_note": "[2026-08-17] 新增热门型号：Joy 2为Cricut Q2切割机两位数增长主力(与Explore5捆绑)，官方价$159，销量预估6万/月(新发现/预估)"
   }
 ]
