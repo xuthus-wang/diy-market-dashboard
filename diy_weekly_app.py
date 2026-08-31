@@ -207,9 +207,13 @@ def _refresh_pipeline():
     return week_data['week_label']
 
 def _scheduler_loop(interval_seconds):
+    import subprocess
+    runner = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'weekly_runner.py')
     while True:
         time.sleep(interval_seconds)
         try:
+            # 每周一自动出一期（幂等：本周已出刊则跳过；沙箱若在周一后唤醒也会补出）
+            subprocess.run([sys.executable, runner], capture_output=True, timeout=240)
             wl = _refresh_pipeline()
             print(f"[scheduler] 数据已自动刷新至 {wl} @ {datetime.now().isoformat()}")
         except Exception as e:

@@ -14,3 +14,4 @@ diy_server.log
 # 推送失败时导出的降级交付物
 *.patch
 ws_backup_*/
+weekly_push_bundle.bin
