@@ -209,8 +209,8 @@ def _refresh_pipeline():
 def _scheduler_loop(interval_seconds):
     import subprocess
     runner = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'weekly_runner.py')
-    while True:
-        time.sleep(interval_seconds)
+
+    def _tick():
         try:
             # 每周一自动出一期（幂等：本周已出刊则跳过；沙箱若在周一后唤醒也会补出）
             subprocess.run([sys.executable, runner], capture_output=True, timeout=240)
@@ -218,6 +218,11 @@ def _scheduler_loop(interval_seconds):
             print(f"[scheduler] 数据已自动刷新至 {wl} @ {datetime.now().isoformat()}")
         except Exception as e:
             print(f"[scheduler] 自动刷新失败: {e}")
+
+    _tick()  # 启动即执行一次（确保周一 08:00 被唤醒时立即出刊，无需等首个 6h 窗口）
+    while True:
+        time.sleep(interval_seconds)
+        _tick()
 
 def start_scheduler(interval_hours=6):
     """启动后台守护线程，定时重算数据/预测/快照"""
