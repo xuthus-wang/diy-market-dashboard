@@ -15,3 +15,4 @@ diy_server.log
 *.patch
 ws_backup_*/
 weekly_push_bundle.bin
+weekly_data/_weekly_issue.json

@@ -47,9 +47,9 @@ def build_embedded():
     trends = []
     if os.path.exists(hist_dir):
         files = sorted([f for f in os.listdir(hist_dir) if not f.endswith('_report.json')])
-        for f in files[-8:]:
-            d = load_json(f'history/{f}')
-            if d:
+    for f in files[-8:]:
+        d = load_json(f'history/{f}')
+        if d and isinstance(d.get('devices'), list) and d.get('summary'):
                 trends.append({
                     'week': d['week_label'],
                     'summary': d['summary'],
@@ -62,7 +62,7 @@ def build_embedded():
         for f in sorted(os.listdir(hist_dir), reverse=True):
             if f.endswith('_report.json'):
                 reports.append(f.replace('_report.json', ''))
-            else:
+            elif f.endswith('.json') and '_weekly' not in f and '_issue' not in f:
                 weeks.append(f.replace('.json', ''))
 
     embedded = {

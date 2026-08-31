@@ -65,7 +65,7 @@ def generate_week_data():
         for pf in past_files:
             if pf.replace('.json', '') != week_label:
                 prev_data = load_json(f'history/{pf}')
-                if prev_data:
+                if prev_data and isinstance(prev_data.get('devices'), list):
                     previous_week = prev_data
                     break
 

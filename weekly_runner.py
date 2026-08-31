@@ -68,16 +68,10 @@ def issue(week_label, today):
             x["verified_note"] = (x["verified_note"] + "\n" + note).strip()
     save(DEVICES, devs)
 
-    # 写本期出刊记录（同时作为幂等判断依据，避免被每6小时快照刷新污染）
+    # 写本期出刊记录（幂等判断依据，放在 DATA 根目录，不污染 history/）
     save(os.path.join(DATA, "_weekly_issue.json"), {
         "week": week_label,
         "issued_at": today,
-        "devices": len(devs),
-        "mode": "auto-weekly",
-    })
-    save(os.path.join(DATA, f"history/{week_label}_weekly.json"), {
-        "issued_at": today,
-        "week_label": week_label,
         "devices": len(devs),
         "mode": "auto-weekly",
     })
