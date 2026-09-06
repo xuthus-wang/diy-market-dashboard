@@ -50,7 +50,8 @@
       "confidence": "anchored",
       "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "cricut-explore4",
@@ -99,7 +100,8 @@
       "confidence": "anchored",
       "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "cricut-joyxtra",
@@ -147,7 +149,8 @@
       "confidence": "anchored",
       "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "silhouette-cameo5",
@@ -164,7 +167,7 @@
       "无垫切割",
       "专业软件"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 952,
       "engagement_rate": 2.4,
@@ -181,7 +184,7 @@
       "Cardstock"
     ],
     "consumable_monthly_sales_est": "$35万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$349；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(1.0→4.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 Silhouette美国MSRP $329.99(本库$349偏高, 对齐MSRP)→$330(-5.4%); 销量 按品类动能×1.01(42000→42420); 增长 TikTok趋势↓2.0pp; 社媒 TikTok视频/搜索热度↓; 耗材 价格稳定\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$330; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 42420→38601 (品类池294,000/月, 置信度=anchored); 来源: Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$349；销量 无新权威数据，维持；增长 TikTok趋势上调3.0pp(1.0→4.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 Silhouette美国MSRP $329.99(本库$349偏高, 对齐MSRP)→$330(-5.4%); 销量 按品类动能×1.01(42000→42420); 增长 TikTok趋势↓2.0pp; 社媒 TikTok视频/搜索热度↓; 耗材 价格稳定\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$330; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 42420→38601 (品类池294,000/月, 置信度=anchored); 来源: Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "last_verified": "2026-08-31",
     "monthly_sales_legacy": 42420,
     "sales_calibration": {
@@ -194,7 +197,8 @@
       "confidence": "anchored",
       "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-a1mini-combo",
@@ -245,7 +249,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-a1",
@@ -292,7 +297,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-h2d",
@@ -342,7 +348,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "creality-ender3v3se",
@@ -392,7 +399,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "creality-k2plus",
@@ -411,7 +419,7 @@
       "AI双摄像头",
       "600mm/s"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 5234,
       "engagement_rate": 5.6,
@@ -430,7 +438,7 @@
     ],
     "consumable_monthly_sales_est": "$50万",
     "last_verified": "2026-08-31",
-    "verified_note": "K2 Plus Combo $899；2026价格稳定\n[2026-08-10] 价格 Aurora记 K2 PLUS $1,199→$1,099(-8.3%, 08-02)，但本条为Combo口径($899)，SKU不匹配未改价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 维持$899；搜索当前MSRP约$1,099(较$1,199下调)，json $899为促销价，维持不调整；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(20.0→25.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(25000→25500); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 调整为$1099(原$899, 22.2%): 校准: K2 Plus 官方约$1,099(Combo现$1,199), 原$899偏低,本次修正; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 25500→10643 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "K2 Plus Combo $899；2026价格稳定\n[2026-08-10] 价格 Aurora记 K2 PLUS $1,199→$1,099(-8.3%, 08-02)，但本条为Combo口径($899)，SKU不匹配未改价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 维持$899；搜索当前MSRP约$1,099(较$1,199下调)，json $899为促销价，维持不调整；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(20.0→25.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(25000→25500); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 调整为$1099(原$899, 22.2%): 校准: K2 Plus 官方约$1,099(Combo现$1,199), 原$899偏低,本次修正; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 25500→10643 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "monthly_sales_legacy": 25500,
     "sales_calibration": {
       "method": "category_anchor_x_price_elasticity",
@@ -442,7 +450,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "anycubic-m7pro",
@@ -489,7 +498,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "anycubic-kobra3v2",
@@ -507,7 +517,7 @@
       "直接驱动",
       "高性价比"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 6481,
       "engagement_rate": 5.2,
@@ -524,7 +534,7 @@
       "ABS"
     ],
     "consumable_monthly_sales_est": "$65万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$339；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(18.2→23.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(45000→45900); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$339; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 45900→20324 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$339；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(18.2→23.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(45000→45900); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$339; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 45900→20324 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "last_verified": "2026-08-31",
     "monthly_sales_legacy": 45900,
     "sales_calibration": {
@@ -537,7 +547,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "flashforge-ad5x",
@@ -555,7 +566,7 @@
       "快换喷嘴",
       "封闭式"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 2617,
       "engagement_rate": 3.5,
@@ -571,7 +582,7 @@
       "ABS"
     ],
     "consumable_monthly_sales_est": "$30万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$359；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(6.5→11.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(18000→18360); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$359; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 18360→17124 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$359；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(6.5→11.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(18000→18360); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$359; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 18360→17124 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "last_verified": "2026-08-31",
     "monthly_sales_legacy": 18360,
     "sales_calibration": {
@@ -584,7 +595,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-p2s",
@@ -634,7 +646,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-s1",
@@ -683,7 +696,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-m1ultra",
@@ -703,7 +717,7 @@
       "烫金转移",
       "all-in-one"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 19442,
       "engagement_rate": 7.5,
@@ -721,7 +735,7 @@
       "墨水"
     ],
     "consumable_monthly_sales_est": "$55万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 22,000→24,200 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 25.8%→28.8% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$999；销量 品牌整体强势，按+10%微调至26600；增长 TikTok趋势上调5.0pp(28.8→33.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.03(26600→27398); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 激光材料(木/亚克力)价格稳定, xTool 8月材料闪购促销\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$999; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 27398→2666 (品类池22,400/月, 置信度=anchored); 来源: xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 22,000→24,200 — xTool激光雕刻机全球份额 42.8%(2024)→47%(2026)，同比例上调10%；增长 25.8%→28.8% — xTool份额上行；耗材 木板/亚克力等耗材未见明显价格变动，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$999；销量 品牌整体强势，按+10%微调至26600；增长 TikTok趋势上调5.0pp(28.8→33.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.03(26600→27398); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 激光材料(木/亚克力)价格稳定, xTool 8月材料闪购促销\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$999; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 27398→2666 (品类池22,400/月, 置信度=anchored); 来源: xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "last_verified": "2026-08-31",
     "monthly_sales_legacy": 27398,
     "sales_calibration": {
@@ -734,7 +748,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "glowforge-pro",
@@ -782,7 +797,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "glowforge-aura",
@@ -828,7 +844,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "cricut-easypress-se",
@@ -877,7 +894,8 @@
       "confidence": "low",
       "source": "切割/烫压生态配件, 无公开单品数据, 按生态量级建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "htvront-auto-press",
@@ -924,7 +942,8 @@
       "confidence": "low",
       "source": "切割/烫压生态配件, 无公开单品数据, 按生态量级建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xapr-impact-wrench",
@@ -972,7 +991,8 @@
       "confidence": "low",
       "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "victool-rotary-shears",
@@ -1018,7 +1038,8 @@
       "confidence": "low",
       "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "dagmara-dcd03",
@@ -1064,7 +1085,8 @@
       "confidence": "low",
       "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-p1s",
@@ -1083,7 +1105,7 @@
       "PCMag最佳",
       "即开即用"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 31158,
       "engagement_rate": 7.2,
@@ -1103,7 +1125,7 @@
     ],
     "consumable_monthly_sales_est": "$250万",
     "last_verified": "2026-08-31",
-    "verified_note": "P1S Combo $699(含AMS)，基础版$399；500mm/s封闭式CoreXY；2026价格稳定\n[2026-08-10] 价格 originalpricing记Combo $599-$899，本库$699在区间内，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$699；销量 品牌整体强势，按+10%微调至135800；增长 TikTok趋势上调5.0pp(22.5→27.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.03(135800→139874); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 调整为$579(原$699, -17.2%): Bambu Anniversary Sale: P1S AMS 2 Pro Combo 官方$579(原MSRP $1,124), json $699偏高; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 139874→15140 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "P1S Combo $699(含AMS)，基础版$399；500mm/s封闭式CoreXY；2026价格稳定\n[2026-08-10] 价格 originalpricing记Combo $599-$899，本库$699在区间内，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$699；销量 品牌整体强势，按+10%微调至135800；增长 TikTok趋势上调5.0pp(22.5→27.5)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.03(135800→139874); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 调整为$579(原$699, -17.2%): Bambu Anniversary Sale: P1S AMS 2 Pro Combo 官方$579(原MSRP $1,124), json $699偏高; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 139874→15140 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "monthly_sales_legacy": 139874,
     "sales_calibration": {
       "method": "category_anchor_x_price_elasticity",
@@ -1115,7 +1137,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "anycubic-photon-mono4",
@@ -1132,7 +1155,7 @@
       "$190入门价",
       "高精度"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 3988,
       "engagement_rate": 3.6,
@@ -1147,7 +1170,7 @@
       "ABS-Like Resin"
     ],
     "consumable_monthly_sales_est": "$15万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$190；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(7.8→12.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(22300→22746); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$190; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 22746→24300 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$190；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(7.8→12.8)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(22300→22746); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$190; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 22746→24300 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "last_verified": "2026-08-31",
     "monthly_sales_legacy": 22746,
     "sales_calibration": {
@@ -1160,7 +1183,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "cricut-explore5",
@@ -1178,7 +1202,7 @@
       "智能材料感应",
       "全彩贴纸"
     ],
-    "is_new": true,
+    "is_new": false,
     "social_metrics": {
       "tiktok_videos": 6306,
       "engagement_rate": 4.5,
@@ -1196,7 +1220,7 @@
       "Infusible Ink"
     ],
     "consumable_monthly_sales_est": "$120万",
-    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 维持$299；搜索显示$199为促销价，官方MSRP仍为$299，维持；销量 品牌整体强势，按+8%微调至91800；增长 TikTok趋势上调5.0pp(12.0→17.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 cricut.com官网Explore 5列价$199(本库$299偏高, 对齐官网)→$199(-33.4%); 销量 按品类动能×1.03(91800→94554); 增长 TikTok趋势↑2.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 Cricut材料8月大促(最高83% off), 单价下行; 机器增长带动量增\n[2026-08-25] 价格 调整为$199(原$199, 0.0%): 校准: Explore 5 官方MSRP $199(2026-02上市), 原$299为旧/估价值,本次修正; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 94554→50982 (品类池294,000/月, 置信度=anchored); 来源: Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub",
+    "verified_note": "[2026-08-10] 价格 未见新报价，维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 Cricut官方Smart Iron-On等耗材促销20% off，耗材单价走低，销售额预估维持\n[2026-08-17] 价格 维持$299；搜索显示$199为促销价，官方MSRP仍为$299，维持；销量 品牌整体强势，按+8%微调至91800；增长 TikTok趋势上调5.0pp(12.0→17.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 cricut.com官网Explore 5列价$199(本库$299偏高, 对齐官网)→$199(-33.4%); 销量 按品类动能×1.03(91800→94554); 增长 TikTok趋势↑2.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 Cricut材料8月大促(最高83% off), 单价下行; 机器增长带动量增\n[2026-08-25] 价格 调整为$199(原$199, 0.0%): 校准: Explore 5 官方MSRP $199(2026-02上市), 原$299为旧/估价值,本次修正; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 94554→50982 (品类池294,000/月, 置信度=anchored); 来源: Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-06] 数据校准: 取消is_new(成熟在售机型, 非本周期新品)",
     "last_verified": "2026-08-31",
     "monthly_sales_legacy": 94554,
     "sales_calibration": {
@@ -1209,7 +1233,8 @@
       "confidence": "anchored",
       "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "eufymake-e1",
@@ -1266,7 +1291,8 @@
       "confidence": "low",
       "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-o1-omni-uv-fabric",
@@ -1319,7 +1345,8 @@
       "confidence": "low",
       "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-o1-omni-uv-single",
@@ -1367,7 +1394,8 @@
       "confidence": "low",
       "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "epson-v1070",
@@ -1416,7 +1444,8 @@
       "confidence": "low",
       "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "heygears-g1x",
@@ -1465,7 +1494,8 @@
       "confidence": "low",
       "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "sawgrass-sg500",
@@ -1514,7 +1544,8 @@
       "confidence": "low",
       "source": "升华打印小众品类, 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "sawgrass-sg1000",
@@ -1561,7 +1592,8 @@
       "confidence": "low",
       "source": "升华打印小众品类, 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "epson-et15000-sub",
@@ -1610,7 +1642,8 @@
       "confidence": "low",
       "source": "升华打印小众品类, 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "brother-se1900",
@@ -1660,7 +1693,8 @@
       "confidence": "low",
       "source": "Brother刺绣机 niche 品类, 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "brother-pe800",
@@ -1708,7 +1742,8 @@
       "confidence": "low",
       "source": "Brother刺绣机 niche 品类, 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "prusa-mk4",
@@ -1759,7 +1794,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "prusa-core-one",
@@ -1809,7 +1845,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "elegoo-neptune4-plus",
@@ -1858,7 +1895,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-o1-omni-dual-uv",
@@ -1908,7 +1946,8 @@
       "confidence": "low",
       "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
     },
-    "sales_confidence": "low"
+    "sales_confidence": "low",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-m2",
@@ -1960,7 +1999,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-f1-ultra",
@@ -2009,7 +2049,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "xtool-f1",
@@ -2059,7 +2100,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-x1c",
@@ -2110,7 +2152,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-x1e",
@@ -2159,7 +2202,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-p2s",
@@ -2209,7 +2253,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "bambu-h2s",
@@ -2260,7 +2305,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "creality-k1",
@@ -2310,7 +2356,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "creality-k1-max",
@@ -2360,7 +2407,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "creality-ender3-v3-ke",
@@ -2411,7 +2459,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "elegoo-centauri-carbon",
@@ -2462,7 +2511,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "flashforge-adventurer-5m",
@@ -2510,7 +2560,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "anycubic-kobra-s1-combo",
@@ -2559,7 +2610,8 @@
       "confidence": "anchored",
       "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W33"
   },
   {
     "id": "cricut-joy2",
@@ -2610,7 +2662,8 @@
       "confidence": "anchored",
       "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W34"
   },
   {
     "id": "glowforge-pro-hd",
@@ -2659,7 +2712,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W35"
   },
   {
     "id": "xtool-p3",
@@ -2708,7 +2762,8 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W35"
   },
   {
     "id": "glowforge-spark",
@@ -2757,6 +2812,7 @@
       "confidence": "anchored",
       "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
     },
-    "sales_confidence": "anchored"
+    "sales_confidence": "anchored",
+    "first_tracked_week": "2026-W35"
   }
 ]

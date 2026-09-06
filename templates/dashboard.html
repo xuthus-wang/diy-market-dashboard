@@ -223,7 +223,7 @@ allDevices=dR;var summary=sR;catData=cR;var mi=mR;
 }catch(e){console.error('fetch overview',e);return}
 document.getElementById('kpiGrid').innerHTML=
 '<div class="kc"><div class="l">📦 追踪设备</div><div class="v ac">'+summary.total_devices+'</div><div class="s">覆盖 '+summary.categories+' 个品类</div></div>'+
-'<div class="kc" style="cursor:pointer" onclick="openNewProductsList()" title="点击查看本周新品列表"><div class="l">🆕 本周新品</div><div class="v up">'+summary.new_devices+'</div><div class="s">点击查看新上市型号 ›</div></div>'+
+'<div class="kc" style="cursor:pointer" onclick="openNewProductsList()" title="点击查看新品列表"><div class="l">🆕 本周新品</div><div class="v up">'+summary.new_devices+'</div><div class="s">在库新品型号 · 点击查看 ›</div></div>'+
 '<div class="kc"><div class="l">💰 价格变动</div><div class="v">'+summary.price_changes+'</div><div class="s">设备价格有调整</div></div>'+
 '<div class="kc"><div class="l">🔥 最热品类</div><div class="v up">'+summary.hottest_category+'</div><div class="s">周增长 +'+summary.hottest_growth+'%</div></div>';
 // Pie chart - by sales volume (CSS-based)
@@ -415,17 +415,18 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'&&PM.classLis
 function pmBadge(txt,cls){return '<span class="bg '+(cls||'')+'">'+txt+'</span>';}
 function openNewProductsList(){
   var news=allDevices.filter(function(d){return d.is_new});
-  if(news.length===0){showToast('本周暂无新品');return;}
-  var h='<div class="pm-head"><h2 style="font-size:1.15rem">🆕 本周新品 ('+news.length+')</h2>'+
+  if(news.length===0){showToast('本库暂无新品');return;}
+  news.sort(function(a,b){return (b.first_tracked_week||'').localeCompare(a.first_tracked_week||'');});
+  var h='<div class="pm-head"><h2 style="font-size:1.15rem">🆕 在库新品 ('+news.length+')</h2>'+
         '<button class="pm-close" onclick="closeModal()">✕</button></div>'+
-        '<div class="pm-sub" style="margin-bottom:10px">点击任意型号查看完整信息（功能描述 / 价格 / 销量 / 耗材）</div>'+
+        '<div class="pm-sub" style="margin-bottom:10px">点击任意型号查看完整信息（功能描述 / 价格 / 销量 / 耗材）。标注为收录周次，可区分「新上市」与「新收录」。</div>'+
         '<div class="pm-list">';
   news.forEach(function(d){
     var catc=COLORS[d.category]||'#64748b';
     h+='<div class="pm-item" onclick="openProductModal(\''+d.id+'\')">'+
        '<span class="pm-dot" style="background:'+catc+'"></span>'+
        '<div class="pm-item-main"><div class="pm-item-title">'+d.brand+' '+d.model+'</div>'+
-       '<div class="pm-item-sub">'+d.category+' · $'+(d.current_price||d.price_usd)+' · 月销 '+((d.monthly_sales/1000).toFixed(0))+'K</div></div>'+
+       '<div class="pm-item-sub">'+d.category+' · $'+(d.current_price||d.price_usd)+' · 月销 '+((d.monthly_sales/1000).toFixed(0))+'K · 收录 '+(d.first_tracked_week||'—')+'</div></div>'+
        '<span class="pm-arrow">›</span></div>';
   });
   h+='</div>';
