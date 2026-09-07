@@ -48,10 +48,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1183,
       "confidence": "anchored",
-      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
+      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额",
+      "real_benchmark": "真实锚点: 2025 全年营收7.088亿(-1%), 机器收入-4%; 付费订阅309万; 切割机品类承压(SEC 8-K 2026-03-03)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "cricut-explore4",
@@ -98,10 +102,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1386,
       "confidence": "anchored",
-      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
+      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额",
+      "real_benchmark": "真实锚点: 2025 全年营收7.088亿(-1%), 机器收入-4%; 付费订阅309万; 切割机品类承压(SEC 8-K 2026-03-03)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "cricut-joyxtra",
@@ -147,10 +155,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1838,
       "confidence": "anchored",
-      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
+      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额",
+      "real_benchmark": "真实锚点: 2025 全年营收7.088亿(-1%), 机器收入-4%; 付费订阅309万; 切割机品类承压(SEC 8-K 2026-03-03)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "silhouette-cameo5",
@@ -195,10 +207,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1313,
       "confidence": "anchored",
-      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
+      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额",
+      "real_benchmark": "真实锚点: Cameo 系列切割机主力; 北美手工市场(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-a1mini-combo",
@@ -247,10 +263,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0574,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-a1",
@@ -295,10 +315,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0449,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-h2d",
@@ -346,11 +370,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0199,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W33",
-    "release_date": "2025-04"
+    "release_date": "2025-04",
+    "listing_days": 524,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "creality-ender3v3se",
@@ -359,7 +387,7 @@
     "category": "3D打印机",
     "price_usd": 199,
     "price_change_pct": 7.0,
-    "monthly_sales": 24586,
+    "monthly_sales": 14453,
     "weekly_growth_pct": 0.8,
     "description": "入门级最佳性价比FDM打印机，CR Touch自动调平，直接驱动Sprite挤出机",
     "key_features": [
@@ -387,7 +415,7 @@
       "TPU"
     ],
     "consumable_monthly_sales_est": "$100万",
-    "verified_note": "[2026-08-10] 价格 Aurora记 $259→$199(06-29)，与本库$197仅差1.0%(<5%)，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$197；销量 无新权威数据，维持；增长 TikTok趋势下调2.0pp(-1.2→-3.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 auroratechchannel比价站→$186(-5.6%); 销量 按品类动能×1.02(58000→59160); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$186; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 59160→24586 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-07] 价格 Ender-3 V3 SE $186→$199 (+7.0%, Aurora 比价表最新价, 2026-09 校验)；销量/增长/耗材 维持",
+    "verified_note": "[2026-08-10] 价格 Aurora记 $259→$199(06-29)，与本库$197仅差1.0%(<5%)，价格维持；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$197；销量 无新权威数据，维持；增长 TikTok趋势下调2.0pp(-1.2→-3.2)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 auroratechchannel比价站→$186(-5.6%); 销量 按品类动能×1.02(58000→59160); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$186; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 59160→24586 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-07] 价格 Ender-3 V3 SE $186→$199 (+7.0%, Aurora 比价表最新价, 2026-09 校验)；销量/增长/耗材 维持 | [2026-09-07] 月销量: 联网核实真实出货，来源 TikTok 单平台月销 14,453 (第三方聚合 Accio / 3Dsourced 多源一致, 2026-06)；单平台实测，全渠道应更高",
     "last_verified": "2026-09-07",
     "monthly_sales_legacy": 59160,
     "sales_calibration": {
@@ -397,11 +425,17 @@
       "brand_pool_monthly": 360000,
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0683,
-      "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "confidence": "verified",
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)",
+      "real_source": "TikTok 单平台月销 14,453 (第三方聚合 Accio / 3Dsourced 多源一致, 2026-06)；单平台实测，全渠道应更高",
+      "as_of": "2026-06"
     },
-    "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "sales_confidence": "verified",
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "real_reported"
   },
   {
     "id": "creality-k2plus",
@@ -449,10 +483,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0296,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "anycubic-m7pro",
@@ -497,10 +535,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0418,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Kobra 系列为主力; 2025 性价比多色方案(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "anycubic-kobra3v2",
@@ -546,10 +588,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0565,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Kobra 系列为主力; 2025 性价比多色方案(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "flashforge-ad5x",
@@ -594,10 +640,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0476,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Adventurer/AD 系列走量; 光固化+FDM 双线(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-p2s",
@@ -645,10 +695,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0622,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-s1",
@@ -695,10 +749,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.103,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-m1ultra",
@@ -747,10 +805,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.119,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "glowforge-pro",
@@ -796,10 +858,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0491,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: Aura/Pro 激光切割机; Etsy 社区热推(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "glowforge-aura",
@@ -843,10 +909,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.119,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: Aura/Pro 激光切割机; Etsy 社区热推(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "cricut-easypress-se",
@@ -893,11 +963,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.5308,
       "confidence": "low",
-      "source": "切割/烫压生态配件, 无公开单品数据, 按生态量级建模"
+      "source": "切割/烫压生态配件, 无公开单品数据, 按生态量级建模",
+      "real_benchmark": "真实锚点: 2025 全年营收7.088亿(-1%), 机器收入-4%; 付费订阅309万; 切割机品类承压(SEC 8-K 2026-03-03)"
     },
     "sales_confidence": "low",
     "first_tracked_week": "2026-W33",
-    "release_date": "2025"
+    "release_date": "2025",
+    "listing_days": 614,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "htvront-auto-press",
@@ -942,10 +1016,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.4692,
       "confidence": "low",
-      "source": "切割/烫压生态配件, 无公开单品数据, 按生态量级建模"
+      "source": "切割/烫压生态配件, 无公开单品数据, 按生态量级建模",
+      "real_benchmark": "真实锚点: Auto Heat Press 凭 Amazon+社媒崛起(规格比对)"
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xapr-impact-wrench",
@@ -991,10 +1069,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.2459,
       "confidence": "low",
-      "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信"
+      "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信",
+      "real_benchmark": null
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "victool-rotary-shears",
@@ -1038,10 +1120,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.4701,
       "confidence": "low",
-      "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信"
+      "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信",
+      "real_benchmark": null
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "dagmara-dcd03",
@@ -1085,10 +1171,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.284,
       "confidence": "low",
-      "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信"
+      "source": "非头部DIY品牌(XAPR/Victool/DAGMARA), 通用电动工具市场量级建模; 低置信",
+      "real_benchmark": null
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-p1s",
@@ -1137,10 +1227,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0421,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "anycubic-photon-mono4",
@@ -1183,10 +1277,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0675,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Kobra 系列为主力; 2025 性价比多色方案(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "cricut-explore5",
@@ -1233,10 +1331,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1734,
       "confidence": "anchored",
-      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
+      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额",
+      "real_benchmark": "真实锚点: 2025 全年营收7.088亿(-1%), 机器收入-4%; 付费订阅309万; 切割机品类承压(SEC 8-K 2026-03-03)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "eufymake-e1",
@@ -1291,10 +1393,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1886,
       "confidence": "low",
-      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
+      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模",
+      "real_benchmark": null
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-o1-omni-uv-fabric",
@@ -1345,11 +1451,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1693,
       "confidence": "low",
-      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
+      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "low",
     "first_tracked_week": "2026-W33",
-    "release_date": "2026-07-15"
+    "release_date": "2026-07-15",
+    "listing_days": 54,
+    "sales_maturity": "recent",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-o1-omni-uv-single",
@@ -1395,11 +1505,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.2228,
       "confidence": "low",
-      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
+      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "low",
     "first_tracked_week": "2026-W33",
-    "release_date": "2026-07-15"
+    "release_date": "2026-07-15",
+    "listing_days": 54,
+    "sales_maturity": "recent",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "epson-v1070",
@@ -1446,10 +1560,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0919,
       "confidence": "low",
-      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
+      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: ET 改装升华方案走量; 爱普生耗材生态(规格比对)"
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "heygears-g1x",
@@ -1496,11 +1614,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1547,
       "confidence": "low",
-      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
+      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: G1X 全彩UV; 2026 Kickstarter(规格比对)"
     },
     "sales_confidence": "low",
     "first_tracked_week": "2026-W33",
-    "release_date": "2026"
+    "release_date": "2026",
+    "listing_days": 249,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "sawgrass-sg500",
@@ -1547,10 +1669,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.3503,
       "confidence": "low",
-      "source": "升华打印小众品类, 无公开单品数据, 建模"
+      "source": "升华打印小众品类, 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: 升华打印专业品牌; SG500/SG1000 为主力(规格比对)"
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "sawgrass-sg1000",
@@ -1595,10 +1721,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.2118,
       "confidence": "low",
-      "source": "升华打印小众品类, 无公开单品数据, 建模"
+      "source": "升华打印小众品类, 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: 升华打印专业品牌; SG500/SG1000 为主力(规格比对)"
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "epson-et15000-sub",
@@ -1645,10 +1775,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.438,
       "confidence": "low",
-      "source": "升华打印小众品类, 无公开单品数据, 建模"
+      "source": "升华打印小众品类, 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: ET 改装升华方案走量; 爱普生耗材生态(规格比对)"
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "brother-se1900",
@@ -1696,10 +1830,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.4605,
       "confidence": "low",
-      "source": "Brother刺绣机 niche 品类, 无公开单品数据, 建模"
+      "source": "Brother刺绣机 niche 品类, 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: SE/PE 缝绣一体机; Brother 刺绣机品类主导(规格比对)"
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "brother-pe800",
@@ -1745,10 +1883,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.5395,
       "confidence": "low",
-      "source": "Brother刺绣机 niche 品类, 无公开单品数据, 建模"
+      "source": "Brother刺绣机 niche 品类, 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: SE/PE 缝绣一体机; Brother 刺绣机品类主导(规格比对)"
     },
     "sales_confidence": "low",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "prusa-mk4",
@@ -1797,10 +1939,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0306,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: CORE One 2025-01 发货; MK4S 2025 持续出货; 欧洲/美国制造, 以可靠性著称"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "prusa-core-one",
@@ -1848,11 +1994,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0257,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: CORE One 2025-01 发货; MK4S 2025 持续出货; 欧洲/美国制造, 以可靠性著称"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W33",
-    "release_date": "2025"
+    "release_date": "2025",
+    "listing_days": 614,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "elegoo-neptune4-plus",
@@ -1899,10 +2049,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0558,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Neptune/Centauri 系列为主力; 2025 入门级多色方案增长(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-o1-omni-dual-uv",
@@ -1950,11 +2104,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1727,
       "confidence": "low",
-      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模"
+      "source": "新兴品类(2025起), eufyMake E1(Anker)上市; 无公开单品数据, 建模",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "low",
     "first_tracked_week": "2026-W33",
-    "release_date": "2026-07-15"
+    "release_date": "2026-07-15",
+    "listing_days": 54,
+    "sales_maturity": "recent",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-m2",
@@ -2004,11 +2162,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1577,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W33",
-    "release_date": "2023-10"
+    "release_date": "2023-10",
+    "listing_days": 1072,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-f1-ultra",
@@ -2055,10 +2217,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0662,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-f1",
@@ -2106,10 +2272,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.119,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-x1c",
@@ -2158,10 +2328,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0245,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-x1e",
@@ -2208,10 +2382,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0217,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-p2s",
@@ -2259,10 +2437,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0397,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "bambu-h2s",
@@ -2311,11 +2493,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0225,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 全球出货≈120万台/年(≈10万/月); 2025 预计营收破100亿; 中国3D打印机出口2024超400万台(海关)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W33",
-    "release_date": "2025"
+    "release_date": "2025",
+    "listing_days": 614,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "creality-k1",
@@ -2324,7 +2510,7 @@
     "category": "3D打印机",
     "price_usd": 299,
     "price_change_pct": -11.8,
-    "monthly_sales": 18936,
+    "monthly_sales": 12128,
     "weekly_growth_pct": 14.0,
     "description": "Creality高速CoreXY入门旗舰：600mm/s极速，双冷却风道，AI智能功能，开箱即印，是Ender系列向高速时代升级的标杆。",
     "key_features": [
@@ -2353,7 +2539,7 @@
     ],
     "consumable_monthly_sales_est": "$55万",
     "last_verified": "2026-09-07",
-    "verified_note": "Creality K1 高速CoreXY(600mm/s)；官网/Amazon在售，街价约$399(发布价$599)；2026在售\n[2026-08-10] 价格 $399→$299 — Aurora价格追踪 2026-07-28 检测 $339→$299(-11.8%)；原库存记$399为旧街价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$299；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(5.0→10.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(30000→30600); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$299; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 30600→18936 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-07] 联网核实: 价格/销量/增长/耗材均无新权威变动(偏差<5%或持平), 各字段维持; TikTok 视频数自然增长 +3%",
+    "verified_note": "Creality K1 高速CoreXY(600mm/s)；官网/Amazon在售，街价约$399(发布价$599)；2026在售\n[2026-08-10] 价格 $399→$299 — Aurora价格追踪 2026-07-28 检测 $339→$299(-11.8%)；原库存记$399为旧街价；销量 无新数据，维持；增长 无TikTok方向性信号，维持；耗材 PLA/PETG线材维持低价竞争(1KG约$15-19)，未见涨价；SUNLU线材TikTok美国单月$64.25万，耗材端需求旺盛，销售额预估维持\n[2026-08-17] 价格 未见权威新报价，维持$299；销量 无新权威数据，维持；增长 TikTok趋势上调5.0pp(5.0→10.0)；耗材 价格稳定(丝料/激光材料/Cricut vinyl-HTV均平稳或促销)，预估维持\n[2026-08-24] 价格 未见权威新报价/偏差≤5%, 维持; 销量 按品类动能×1.02(30000→30600); 增长 TikTok趋势↑4.0pp; 社媒 TikTok视频/搜索热度↑; 耗材 PLA/PETG价格稳定略升(+2%), 单台丝料消耗比升至14:1, 需求强劲\n[2026-08-25] 价格 未见新报价/偏差<5%, 维持$299; 销量 品牌增长趋势延续, 维持08-17微调基线; 增长 TikTok/市场趋势延续(3D出口+90.2%; xTool激光市占~60%), 维持; 社媒 TikTok视频数一周自然增长+3%; 耗材 价格平稳(SpoolHound 8/20 PLA指数较6月-1%; 激光材料/Cricut vinyl-HTV稳定), 预估维持\n[2026-08-31] 销量 已按真实品类锚点重校准: 30600→18936 (品类池360,000/月, 置信度=anchored); 来源: CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%\n[2026-08-31] 本周自动出刊(周一定时任务)：数据延续校验+看板重建+推送GitHub\n[2026-09-07] 联网核实: 价格/销量/增长/耗材均无新权威变动(偏差<5%或持平), 各字段维持; TikTok 视频数自然增长 +3% | [2026-09-07] 月销量: 联网核实真实出货，来源 TikTok 单平台月销 12,128 (第三方聚合 Accio, 2026)；单平台实测，全渠道应更高",
     "monthly_sales_legacy": 30600,
     "sales_calibration": {
       "method": "category_anchor_x_price_elasticity",
@@ -2362,11 +2548,17 @@
       "brand_pool_monthly": 360000,
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0526,
-      "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "confidence": "verified",
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)",
+      "real_source": "TikTok 单平台月销 12,128 (第三方聚合 Accio, 2026)；单平台实测，全渠道应更高",
+      "as_of": "2026"
     },
-    "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "sales_confidence": "verified",
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "real_reported"
   },
   {
     "id": "creality-k1-max",
@@ -2414,10 +2606,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0377,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "creality-ender3-v3-ke",
@@ -2466,10 +2662,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0609,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "elegoo-centauri-carbon",
@@ -2518,11 +2718,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0526,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Neptune/Centauri 系列为主力; 2025 入门级多色方案增长(规格比对)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W33",
-    "release_date": "2025"
+    "release_date": "2025",
+    "listing_days": 614,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "flashforge-adventurer-5m",
@@ -2568,10 +2772,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0526,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Adventurer/AD 系列走量; 光固化+FDM 双线(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "anycubic-kobra-s1-combo",
@@ -2618,10 +2826,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0478,
       "confidence": "anchored",
-      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%"
+      "source": "CONTEXT: 2025入门级+26%(Q4+47%), Q1>100万台/季; 2026中国出口+90.2%(财联社8/6); 深圳四小龙占全球消费级~90%",
+      "real_benchmark": "真实锚点: Kobra 系列为主力; 2025 性价比多色方案(规格比对)"
     },
     "sales_confidence": "anchored",
-    "first_tracked_week": "2026-W33"
+    "first_tracked_week": "2026-W33",
+    "listing_days": null,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "cricut-joy2",
@@ -2670,11 +2882,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.2546,
       "confidence": "anchored",
-      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额"
+      "source": "Cricut FY2025: 营收$708.8M/产品$381.4M; 电子切割市场$2.36B(Dataintelo); Cricut北美65-70%份额",
+      "real_benchmark": "真实锚点: 2025 全年营收7.088亿(-1%), 机器收入-4%; 付费订阅309万; 切割机品类承压(SEC 8-K 2026-03-03)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W34",
-    "release_date": "2025"
+    "release_date": "2025",
+    "listing_days": 614,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "glowforge-pro-hd",
@@ -2721,11 +2937,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0379,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: Aura/Pro 激光切割机; Etsy 社区热推(规格比对)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W35",
-    "release_date": "2023"
+    "release_date": "2023",
+    "listing_days": 1345,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "xtool-p3",
@@ -2772,11 +2992,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.0408,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: 招股书披露联网设备>40.5万台(2025-09); 激光雕刻细分市占≈47%(灼识咨询)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W35",
-    "release_date": "2024"
+    "release_date": "2024",
+    "listing_days": 980,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "glowforge-spark",
@@ -2823,11 +3047,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.1261,
       "confidence": "anchored",
-      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算"
+      "source": "xTool招股书: 截至2025-09联网设备>40.5万台, 激光雕刻细分47%份额(灼识咨询); 行业月活推算",
+      "real_benchmark": "真实锚点: Aura/Pro 激光切割机; Etsy 社区热推(规格比对)"
     },
     "sales_confidence": "anchored",
     "first_tracked_week": "2026-W35",
-    "release_date": "2022-10"
+    "release_date": "2022-10",
+    "listing_days": 1437,
+    "sales_maturity": "mature",
+    "sales_data_status": "estimated_model"
   },
   {
     "id": "creality-sparkx-i7-nano",
@@ -2869,7 +3097,13 @@
     "last_verified": "2026-09-07",
     "verified_note": "[2026-09-07] 新品收录: Creality SPARKX i7 Nano 四色迷你机, 2026-08-15 欧洲上市 €299(≈$320); 销量待积累(is_new); 来源 InnoStation 3D 2026-08 行业盘点\n[2026-09-07] 标准修正: is_new 改为'本周(2026-W36)新上市'语义; release_date 记录真实市场上市时间(审计)。本设备非本周上市, is_new 置否。",
     "monthly_sales_legacy": 0,
-    "release_date": "2026-08-15"
+    "release_date": "2026-08-15",
+    "listing_days": 23,
+    "sales_maturity": "new_launch",
+    "sales_data_status": "pending",
+    "sales_calibration": {
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)"
+    }
   },
   {
     "id": "cricut-maker5",
@@ -2920,11 +3154,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.02,
       "confidence": "estimated",
-      "source": "Cricut Maker 5 2026-09-04上市,初期销量估算"
+      "source": "Cricut Maker 5 2026-09-04上市,初期销量估算",
+      "real_benchmark": "真实锚点: 2025 全年营收7.088亿(-1%), 机器收入-4%; 付费订阅309万; 切割机品类承压(SEC 8-K 2026-03-03)"
     },
     "sales_confidence": "estimated",
     "first_tracked_week": "2026-W36",
-    "release_date": "2026-09-04"
+    "release_date": "2026-09-04",
+    "listing_days": 3,
+    "sales_maturity": "new_launch",
+    "sales_data_status": "pending"
   },
   {
     "id": "creality-k3",
@@ -2973,11 +3211,15 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.014,
       "confidence": "estimated",
-      "source": "Creality K3 IFA 2026发布,初期销量估算"
+      "source": "Creality K3 IFA 2026发布,初期销量估算",
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)"
     },
     "sales_confidence": "estimated",
     "first_tracked_week": "2026-W36",
-    "release_date": "2026-09-06"
+    "release_date": "2026-09-06",
+    "listing_days": 1,
+    "sales_maturity": "new_launch",
+    "sales_data_status": "pending"
   },
   {
     "id": "creality-sparkx-i8",
@@ -3022,10 +3264,14 @@
       "price_elasticity_alpha": 0.55,
       "model_price_share": 0.008,
       "confidence": "estimated",
-      "source": "Creality SPARKX i8 IFA 2026发布,尚未开售(11月),众筹意向估算"
+      "source": "Creality SPARKX i8 IFA 2026发布,尚未开售(11月),众筹意向估算",
+      "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)"
     },
     "sales_confidence": "estimated",
     "first_tracked_week": "2026-W36",
-    "release_date": "2026-09-06"
+    "release_date": "2026-09-06",
+    "listing_days": 1,
+    "sales_maturity": "new_launch",
+    "sales_data_status": "pending"
   }
 ]

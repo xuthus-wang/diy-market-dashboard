@@ -274,19 +274,31 @@ document.getElementById('marketIntel').innerHTML='<div class="kg">'+miHtml+'</di
 document.getElementById('catFilter').innerHTML='<option value="">全部品类</option>'+cats.map(function(c){return'<option value="'+c+'">'+c+'</option>'}).join('');
 loadDeviceTable();
 }
+function maturityBadge(d){
+  var m=d.sales_maturity||'mature';
+  if(m==='new_launch') return ' <span class="bg nw" title="上市不足30天或尚未积累真实销量，月销为初期估算·待积累，不计入同权排名">待积累</span>';
+  if(m==='recent') return ' <span style="color:#f59e0b;font-size:.7rem;border:1px solid #f59e0b66;border-radius:6px;padding:1px 5px" title="上市不足180天，数据仍在积累">近期</span>';
+  return '';
+}
+function salesStatusBadge(d){
+  var s=d.sales_data_status||'estimated_model';
+  if(s==='real_reported') return ' <span style="color:var(--grn);font-size:.62rem;border:1px solid var(--grn);border-radius:6px;padding:1px 4px" title="已联网核实真实出货（厂商披露/第三方榜单）">实</span>';
+  if(s==='pending') return '';
+  return ' <span style="color:var(--t2);font-size:.62rem;border:1px solid #ffffff22;border-radius:6px;padding:1px 4px" title="份额模型估算·非实测出货，仅供参考">估</span>';
+}
 function loadDeviceTable(){
 var cat=document.getElementById('catFilter').value;
 var search=document.getElementById('searchInput').value.toLowerCase();
 var devices=allDevices;
 if(cat)devices=devices.filter(function(d){return d.category===cat});
 if(search)devices=devices.filter(function(d){return d.brand.toLowerCase().indexOf(search)>=0||d.model.toLowerCase().indexOf(search)>=0});
-document.getElementById('dth').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格(USD)</th><th>月销量</th><th>周增长</th><th>社交热度</th><th>状态</th></tr>';
+document.getElementById('dth').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格(USD)</th><th>月销量<span style="font-weight:400;font-size:.6rem;color:var(--t2);display:block">新机标·待积累</span></th><th>周增长</th><th>社交热度</th><th>状态</th></tr>';
 document.getElementById('dtb').innerHTML=devices.map(function(d){
 var g=d.current_weekly_growth||0;
 var pc=d.price_change_this_week||0;
 return '<tr><td><strong>'+d.brand+'</strong></td><td>'+d.model+'</td><td>'+d.category+'</td>'+
 '<td>$'+(d.current_price||d.price_usd)+(pc?(pc>0?' <span class="bg up">↑</span>':' <span class="bg dn">↓</span>'):'')+'</td>'+
-'<td>'+(d.monthly_sales/1000).toFixed(0)+'K</td>'+
+'<td>'+(d.sales_maturity==='new_launch'?'<span style="color:var(--t2);font-size:.85rem">待积累</span>':(d.monthly_sales/1000).toFixed(0)+'K'+maturityBadge(d)+salesStatusBadge(d))+'</td>'+
 '<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g+'%</span></td>'+
 '<td>'+(d.social_metrics&&d.social_metrics.tiktok_videos||0)+' 视频</td>'+
 '<td>'+(d.is_new?'<span class="bg nw" style="cursor:pointer" onclick="openProductModal(\''+d.id+'\')" title="点击查看新品详情">🆕</span>':'')+(g>15?'<span class="bg ht">🔥</span>':'')+(d.last_verified?' <span style="color:var(--grn);font-weight:600" title="'+d.verified_note+'">✓核实</span>':'')+'</td></tr>';
@@ -333,7 +345,7 @@ var html='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">'+
 '<div style="text-align:right"><div style="font-size:1.5rem;font-weight:700;color:'+(g>10?'var(--grn)':'var(--acc)')+'">'+(g>0?'+':'')+g+'%</div><div style="color:var(--t2);font-size:.8rem">周增长率</div></div>'+
 '</div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px">'+
 '<div class="kc"><div class="l">💰 价格</div><div class="v" style="font-size:1.3rem">$'+(d.current_price||d.price_usd)+'</div></div>'+
-'<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+(d.monthly_sales/1000).toFixed(0)+'K</div></div>'+
+'<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+(d.sales_maturity==='new_launch'?'<span style="font-size:.9rem;color:var(--t2)">待积累</span>':(d.monthly_sales/1000).toFixed(0)+'K'+salesStatusBadge(d))+'</div></div>'+
 '<div class="kc"><div class="l">📱 TikTok视频</div><div class="v" style="font-size:1.3rem">'+(sm.tiktok_videos||0).toLocaleString()+'</div></div>'+
 '</div><div style="margin-top:10px"><strong>耗材类型:</strong> '+((d.consumables||[]).join(', '))+'<br><strong>耗材月销:</strong> '+(d.consumable_monthly_sales_est||'—')+'</div>';
 if(d.verified_note){html+='<div style="margin-top:10px;padding:7px 11px;background:rgba(16,185,129,.08);border-left:3px solid var(--grn);font-size:.76rem;color:var(--t2);line-height:1.5">✓ <strong style="color:var(--grn)">已联网核实 '+(d.last_verified||'')+'</strong>：'+d.verified_note+'</div>';}
@@ -419,7 +431,7 @@ function openNewProductsList(){
   news.sort(function(a,b){return (b.first_tracked_week||'').localeCompare(a.first_tracked_week||'');});
   var h='<div class="pm-head"><h2 style="font-size:1.15rem">🆕 在库新品 ('+news.length+')</h2>'+
         '<button class="pm-close" onclick="closeModal()">✕</button></div>'+
-        '<div class="pm-sub" style="margin-bottom:10px">点击任意型号查看完整信息（功能描述 / 价格 / 销量 / 耗材）。标注为收录周次，可区分「新上市」与「新收录」。</div>'+
+        '<div class="pm-sub" style="margin-bottom:10px">点击任意型号查看完整信息（功能描述 / 价格 / 销量 / 耗材）。标注为收录周次，可区分「新上市」与「新收录」。上市不足30天的机型月销标注「待积累」（初期估算，不计入同权排名）。</div>'+
         '<div class="pm-list">';
   news.forEach(function(d){
     var catc=COLORS[d.category]||'#64748b';
@@ -447,7 +459,7 @@ function openProductModal(id){
   h+='<div class="pm-title">'+d.brand+' '+d.model+(d.is_new?' 🆕':'')+'</div>';
   h+='<div class="pm-price">$'+(d.current_price||d.price_usd)+(pc?' ':'' )+(pc?'<span class="bg '+(pc>0?'up':'dn')+'">'+(pc>0?'+':'')+pc+'%</span>':'')+'</div>';
   h+='<div class="pm-grid">'+
-     '<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+((d.monthly_sales/1000).toFixed(0))+'K</div></div>'+
+     '<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+((d.sales_maturity==='new_launch')?'<span style="font-size:.9rem;color:var(--t2)">待积累</span>':(d.monthly_sales/1000).toFixed(0)+'K'+maturityBadge(d)+salesStatusBadge(d))+'</div></div>'+
      '<div class="kc"><div class="l">📈 周增长</div><div class="v up" style="font-size:1.3rem">'+(g>0?'+':'')+g+'%</div></div>'+
      '<div class="kc"><div class="l">📱 TikTok视频</div><div class="v" style="font-size:1.3rem">'+((sm.tiktok_videos||0).toLocaleString())+'</div></div>'+
      '<div class="kc"><div class="l">🎯 销量置信度</div><div class="v" style="font-size:1rem">'+confHtml+'</div></div>'+

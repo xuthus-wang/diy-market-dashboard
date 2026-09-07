@@ -249,6 +249,39 @@ def compute_emerging_signals(devices, week_label, curated=None):
     return {'signals': signals, 'details': details}
 
 
+def verify_monthly_sales(devices, verified=None):
+    """用真实数据源核实并回写月销量（周报联网核实环节调用）。
+
+    数据源可信度优先级（高→低）：
+        verified(厂商披露/第三方榜单真实出货) > anchored(品类份额模型) > low > estimated
+    verified: {device_id: {'monthly_sales': int, 'source': str, 'as_of': str}}
+        仅当提供且值比现有估算更可信时回写；回写后 sales_confidence='verified'，
+        并追加 sales_calibration 真实来源、刷新 last_verified / verified_note、标记 sales_data_status='real_reported'。
+    返回更新后的 devices（原地修改）。
+    """
+    if not verified:
+        return devices
+    byid = {d['id']: d for d in devices}
+    today = datetime.now().strftime('%Y-%m-%d')
+    for did, info in verified.items():
+        d = byid.get(did)
+        if not d or info.get('monthly_sales') is None:
+            continue
+        d['monthly_sales'] = info['monthly_sales']
+        d['sales_confidence'] = 'verified'
+        d['sales_data_status'] = 'real_reported'
+        cal = d.get('sales_calibration') or {}
+        if isinstance(cal, dict):
+            cal['real_source'] = info.get('source')
+            cal['confidence'] = 'verified'
+            cal['as_of'] = info.get('as_of', today)
+        d['sales_calibration'] = cal
+        note = f"[{today}] 月销量: 联网核实真实出货，来源 {info.get('source')}"
+        d['verified_note'] = (d.get('verified_note') or '') + ' | ' + note if d.get('verified_note') else note
+        d['last_verified'] = today
+    return devices
+
+
 def compute_weekly_changes(current_devices, previous_week_data):
     """对比上周数据，计算真实环比变化"""
     if not previous_week_data:

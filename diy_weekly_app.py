@@ -11,7 +11,7 @@ from functools import wraps
 from datetime import datetime, timedelta
 from flask import Flask, jsonify, request, render_template, send_file, session, redirect
 from prediction_engine import PredictionEngine
-from data_collector import search_market_updates, compute_weekly_changes, generate_week_report, compute_emerging_signals
+from data_collector import search_market_updates, compute_weekly_changes, generate_week_report, compute_emerging_signals, verify_monthly_sales
 import auth
 
 app = Flask(__name__)
@@ -52,6 +52,16 @@ def generate_week_data():
     """
     devices = load_json('devices.json') or []
     week_label = get_week_label()
+
+    # 月销量真实数据源核实：若周报联网环节产出 weekly_data/verified_sales.json，
+    # 用真实出货覆盖 anchored 估算值（机制见 data_collector.verify_monthly_sales）。
+    vs_path = os.path.join(DATA_DIR, 'verified_sales.json')
+    if os.path.exists(vs_path):
+        try:
+            verified = json.load(open(vs_path, encoding='utf-8'))
+            verify_monthly_sales(devices, verified)
+        except Exception as e:
+            print(f'[WARN] verified_sales.json 应用失败: {e}')
 
     # 1. 获取市场动态情报
     market_updates = search_market_updates()
