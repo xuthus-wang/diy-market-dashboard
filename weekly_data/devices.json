@@ -2878,7 +2878,7 @@
     "category": "智能切割机",
     "price_usd": 349,
     "price_change_pct": 0,
-    "monthly_sales": 6000,
+    "monthly_sales": 0,
     "weekly_growth_pct": 15.0,
     "description": "Cricut新一代旗舰智能切割机，切割/雕刻厚度提升至3mm(+25%)，体积缩小30%，兼容300+材料/13种工具，2026-09-04上市。",
     "key_features": [
@@ -2910,7 +2910,7 @@
     ],
     "consumable_monthly_sales_est": "待积累(新上市)",
     "last_verified": "2026-09-07",
-    "verified_note": "[2026-09-07] 本周新品(新标准=本周新上市): Cricut Maker 5 官方2026-09-04上市, $349起(essentials bundle $399); 销量/社媒为上市初期估算,待积累",
+    "verified_note": "[2026-09-07] 本周新品(新标准=本周新上市): Cricut Maker 5 官方2026-09-04上市, $349起(essentials bundle $399); 销量/社媒为上市初期估算,待积累 | [2026-09-07] 月销量: 上市初期(9/4),真实月销量待积累,移除份额模型估算6000",
     "monthly_sales_legacy": 6000,
     "sales_calibration": {
       "method": "new_launch_estimate",
@@ -2933,7 +2933,7 @@
     "category": "3D打印机",
     "price_usd": 849,
     "price_change_pct": 0,
-    "monthly_sales": 5000,
+    "monthly_sales": 0,
     "weekly_growth_pct": 15.0,
     "description": "Creality新一代旗舰FDM，KliTek多通道系统4.8秒换喷头，支持混合喷嘴/TPU，AI辅助；IFA 2026(2026-09-06)发布，9月国内开售。",
     "key_features": [
@@ -2963,7 +2963,7 @@
     ],
     "consumable_monthly_sales_est": "待积累(新上市)",
     "last_verified": "2026-09-07",
-    "verified_note": "[2026-09-07] 本周新品(新标准): Creality K3 IFA 2026(2026-09-06)发布,定价$800-900(取$849); 9月国内开售,欧美约1个月后; 销量/社媒为初期估算,待积累",
+    "verified_note": "[2026-09-07] 本周新品(新标准): Creality K3 IFA 2026(2026-09-06)发布,定价$800-900(取$849); 9月国内开售,欧美约1个月后; 销量/社媒为初期估算,待积累 | [2026-09-07] 月销量: 上市初期(9/6),真实月销量待积累,移除份额模型估算5000",
     "monthly_sales_legacy": 5000,
     "sales_calibration": {
       "method": "new_launch_estimate",
@@ -2986,7 +2986,7 @@
     "category": "3D打印机",
     "price_usd": 400,
     "price_change_pct": 0,
-    "monthly_sales": 1500,
+    "monthly_sales": 0,
     "weekly_growth_pct": 15.0,
     "description": "Creality入门级四色3D打印机，4通道热端单熔腔，零废料换色，AI辅助；IFA 2026(2026-09-06)发布，9月众筹/11月上市。",
     "key_features": [
@@ -3012,7 +3012,7 @@
     ],
     "consumable_monthly_sales_est": "待积累(新上市)",
     "last_verified": "2026-09-07",
-    "verified_note": "[2026-09-07] 本周新品(新标准): Creality SPARKX i8 IFA 2026(2026-09-06)发布,定价~$400; 9月众筹/11月正式上市,当前销量为众筹意向估算",
+    "verified_note": "[2026-09-07] 本周新品(新标准): Creality SPARKX i8 IFA 2026(2026-09-06)发布,定价~$400; 9月众筹/11月正式上市,当前销量为众筹意向估算 | [2026-09-07] 月销量: 尚未开售(11月众筹),众筹意向非月销,移除估算1500",
     "monthly_sales_legacy": 1500,
     "sales_calibration": {
       "method": "new_launch_estimate",
