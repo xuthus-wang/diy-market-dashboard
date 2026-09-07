@@ -6,6 +6,7 @@ DIY市场数据采集模块
 """
 import json
 import os
+import re
 from datetime import datetime
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'weekly_data')
@@ -108,14 +109,145 @@ def search_market_updates():
                 "news": "TikTok/Tokopedia成为电动工具新增长渠道，短视频驱动销售"
             }
         },
-        "emerging_signals": [
-            "All-in-One设备（打印+雕刻+切割）是2025年最大趋势，xTool M1 Ultra和Bambu Lab H2D领跑",
-            "Bambu Lab于2026-07达成100万台桌面机里程碑并投$195M建厂，桌面3D打印进入百万级规模",
-            "UV打印机墨水价格战打响：eufyMake E1墨水2026-07-13降至$29.99/100ml，xTool O1 Omni以~$0.16/ml更低单价切入",
-            "碳纤维复合耗材增长最快(CAGR 18.4%)，高端耗材利润空间大",
-            "TikTok社交电商改变DIY设备销售模式，ASMR/教程类内容成关键转化路径"
-        ]
+        # 新兴信号已改为动态归纳：见 compute_emerging_signals(devices, week_label)。
+        # 此处不再写死文案；如需补充"行业级事件/联网核实"类信号，
+        # 请通过 compute_emerging_signals(devices, week_label, curated=[...]) 传入。
+        "emerging_signals": []
     }
+
+
+def _parse_money_est(s):
+    """解析 'consumable_monthly_sales_est' 字符串为美元估算数值；失败返回 None。
+    支持 $250万 / $1.2亿 / $500 / $1.8M 等形式。"""
+    if not isinstance(s, str):
+        return None
+    m = re.search(r'\$?\s*([\d.]+)\s*(万|亿|M)?', s)
+    if not m:
+        return None
+    val = float(m.group(1))
+    unit = m.group(2) or ''
+    if unit == '万':
+        val *= 1e4
+    elif unit == '亿':
+        val *= 1e8
+    elif unit.upper() == 'M':
+        val *= 1e6
+    return val
+
+
+def compute_emerging_signals(devices, week_label, curated=None):
+    """基于设备基准库动态归纳本周新兴信号（纯数据驱动，不编造）。
+
+    维度覆盖：本周新上市 / 增长跃升 / 社媒热度 / 价格异动 / 耗材经济学。
+    每条信号都附数据来源(evidence/source)，便于审计与可追溯。
+    curated: 可选的人工/联网核实补充信号(dict 列表)，合并进结果。
+
+    返回 {'signals': [可读字符串...], 'details': [结构化 dict...]}。
+    """
+    devices = devices or []
+    signals, details = [], []
+
+    def add(sig_type, title, text, evidence, source, dev_ids=None):
+        signals.append(f"【{title}】{text}")
+        details.append({
+            'type': sig_type, 'title': title, 'signal': text,
+            'evidence': evidence, 'source': source,
+            'devices': dev_ids or [], 'week': week_label,
+        })
+
+    # A. 本周新上市（is_new 已由周报标准修正为「本周新上市」语义）
+    new_devs = [d for d in devices if d.get('is_new')]
+    if new_devs:
+        names = [f"{d['brand']} {d['model']}" for d in new_devs]
+        cat_count = {}
+        for d in new_devs:
+            cat_count[d['category']] = cat_count.get(d['category'], 0) + 1
+        cat_txt = '、'.join(f"{c}{n}台" for c, n in cat_count.items())
+        ev = '；'.join(f"{d['brand']} {d['model']} 上市 {d.get('release_date')}" for d in new_devs)
+        add('new_release', '本周新上市',
+            f"本周（{week_label}）新上市 {len(new_devs)} 台设备（{cat_txt}）：{', '.join(names)}。",
+            ev, 'devices.json (is_new + release_date)',
+            [d['id'] for d in new_devs])
+
+    # B. 增长跃升（品类均值 + 个体 Top）
+    if devices:
+        avg_growth = sum(d.get('weekly_growth_pct', 0) for d in devices) / len(devices)
+        cat_g = {}
+        for d in devices:
+            cat_g.setdefault(d['category'], []).append(d.get('weekly_growth_pct', 0))
+        cat_avg = {c: sum(v) / len(v) for c, v in cat_g.items()}
+        top_cat = max(cat_avg.items(), key=lambda x: x[1])
+        top_devs = sorted(devices, key=lambda d: d.get('weekly_growth_pct', 0), reverse=True)[:5]
+        if top_devs and top_devs[0]['weekly_growth_pct'] >= 8:
+            top_names = '、'.join(
+                f"{d['brand']} {d['model']}({d['weekly_growth_pct']}%)" for d in top_devs)
+            ev = f"全样本周增长均值 {avg_growth:.1f}%；最快品类 {top_cat[0]} 均值 {top_cat[1]:.1f}%"
+            add('growth_surge', '增长领跑',
+                f"周增长率居前品类为「{top_cat[0]}」(均值 {top_cat[1]:.1f}%)，个体 Top5：{top_names}。",
+                ev, 'devices.json (weekly_growth_pct)',
+                [d['id'] for d in top_devs])
+
+    # C. 社媒热度（search_growth_pct / tiktok_videos Top）
+    if devices:
+        top_social = sorted(
+            devices,
+            key=lambda d: (d.get('social_metrics', {}).get('search_growth_pct', 0),
+                           d.get('social_metrics', {}).get('tiktok_videos', 0)),
+            reverse=True)[:4]
+        if top_social and top_social[0].get('social_metrics', {}).get('search_growth_pct', 0) >= 15:
+            names = '、'.join(
+                f"{d['brand']} {d['model']}(搜索+{d['social_metrics']['search_growth_pct']}%, "
+                f"TikTok {d['social_metrics']['tiktok_videos']}视频)" for d in top_social)
+            add('social_buzz', '社媒热度',
+                f"搜索/社媒热度最高：{names}。",
+                'devices.json (social_metrics.search_growth_pct / tiktok_videos)',
+                'devices.json (social_metrics)',
+                [d['id'] for d in top_social])
+
+    # D. 价格异动（|price_change_pct| >= 5，聚合只列幅度居前者）
+    movers = [d for d in devices if abs(d.get('price_change_pct') or 0) >= 5]
+    if movers:
+        up = sorted([d for d in movers if (d.get('price_change_pct') or 0) > 0],
+                    key=lambda d: d['price_change_pct'], reverse=True)[:3]
+        down = sorted([d for d in movers if (d.get('price_change_pct') or 0) < 0],
+                      key=lambda d: d['price_change_pct'])[:3]
+        up_txt = '、'.join(f"{d['brand']} {d['model']}(+{d['price_change_pct']}%)" for d in up)
+        down_txt = '、'.join(f"{d['brand']} {d['model']}({d['price_change_pct']}%)" for d in down)
+        n_up = len([d for d in movers if (d.get('price_change_pct') or 0) > 0])
+        n_down = len([d for d in movers if (d.get('price_change_pct') or 0) < 0])
+        ev = f"共 {len(movers)} 台价格变动≥5%（上调 {n_up} 台 / 下调 {n_down} 台）"
+        text = f"本周价格显著变动共 {len(movers)} 台，幅度居前——上调：{up_txt}；下调：{down_txt}。"
+        add('price_shift', '价格异动', text, ev, 'devices.json (price_change_pct)',
+            [d['id'] for d in movers])
+
+    # E. 耗材经济学（consumable_monthly_sales_est 估算，按品类汇总）
+    cat_cons = {}
+    for d in devices:
+        est = _parse_money_est(d.get('consumable_monthly_sales_est'))
+        if est:
+            cat_cons[d['category']] = cat_cons.get(d['category'], 0) + est
+    if cat_cons:
+        top_cat, top_val = max(cat_cons.items(), key=lambda x: x[1])
+        rep = max([d for d in devices if d['category'] == top_cat],
+                  key=lambda d: _parse_money_est(d.get('consumable_monthly_sales_est')) or 0)
+        est_fmt = f"${top_val/1e4:.0f}万" if top_val >= 1e4 else f"${top_val:,.0f}"
+        add('consumable_economics', '耗材经济',
+            f"耗材月销售额估算最高的品类为「{top_cat}」(约 {est_fmt}/月，代表 {rep['brand']} {rep['model']})，耗材复购驱动属性强。",
+            'devices.json (consumable_monthly_sales_est 解析并按品类汇总)',
+            'devices.json (consumable_monthly_sales_est)',
+            [rep['id']])
+
+    # 合并人工/联网核实补充信号（curated）
+    if curated:
+        for c in curated:
+            if isinstance(c, dict):
+                signals.append(f"【{c.get('title', '策展')}】{c.get('signal', c.get('text', ''))}")
+                details.append(c)
+            else:
+                signals.append(str(c))
+
+    return {'signals': signals, 'details': details}
+
 
 def compute_weekly_changes(current_devices, previous_week_data):
     """对比上周数据，计算真实环比变化"""

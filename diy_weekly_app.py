@@ -11,7 +11,7 @@ from functools import wraps
 from datetime import datetime, timedelta
 from flask import Flask, jsonify, request, render_template, send_file, session, redirect
 from prediction_engine import PredictionEngine
-from data_collector import search_market_updates, compute_weekly_changes, generate_week_report
+from data_collector import search_market_updates, compute_weekly_changes, generate_week_report, compute_emerging_signals
 import auth
 
 app = Flask(__name__)
@@ -138,6 +138,9 @@ def generate_week_data():
     # 计算价格变动数
     price_changes = sum(1 for d in week_devices if d['price_change_this_week'] != 0)
 
+    # 动态归纳本周新兴信号（基于设备基准库数据，不再写死）
+    emerging = compute_emerging_signals(devices, week_label)
+
     week_data = {
         'week_label': week_label,
         'generated_at': datetime.now().isoformat(),
@@ -156,7 +159,8 @@ def generate_week_data():
             cat: {'trend': info['trend'], 'news': info['news'][:120]}
             for cat, info in market_updates['market_movements'].items()
         },
-        'emerging_signals': market_updates['emerging_signals'],
+        'emerging_signals': emerging['signals'],
+        'emerging_signals_detail': emerging['details'],
     }
 
     # 计算真实周环比变化
@@ -169,6 +173,9 @@ def generate_week_data():
 
     # 生成周报摘要
     report = generate_week_report(market_updates, weekly_changes, devices)
+    # 周报新兴信号同样改用动态归纳结果
+    report['emerging_signals'] = emerging['signals']
+    report['emerging_signals_detail'] = emerging['details']
     save_json(f'history/{week_label}_report.json', report)
 
     return week_data
