@@ -16,3 +16,7 @@ diy_server.log
 ws_backup_*/
 weekly_push_bundle.bin
 weekly_data/_weekly_issue.json
+
+# 本机工作区元数据与归档（不入公开仓库）
+.workbuddy/
+_local_rebuild_backup_*/
