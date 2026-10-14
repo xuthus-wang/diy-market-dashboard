@@ -1,10 +1,10 @@
 {
   "week_label": "2026-W42",
-  "generated_at": "2026-10-14T07:25:58.598829",
+  "generated_at": "2026-10-14T10:34:16.204451",
   "summary": {
     "total_devices": 68,
     "new_devices": 9,
-    "price_changes": 22,
+    "price_changes": 33,
     "hottest_category": "UV打印机",
     "hottest_growth": 132.9,
     "total_monthly_sales_est": 798825,
@@ -74,8 +74,9 @@
         49660
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -5.0,
       "current_price": 379,
+      "previous_price": 399,
       "sales_change_this_week": 0,
       "current_weekly_growth": 12.2
     },
@@ -138,8 +139,9 @@
         58200
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -33.4,
       "current_price": 199,
+      "previous_price": 299,
       "sales_change_this_week": 0,
       "current_weekly_growth": 11.1
     },
@@ -201,10 +203,11 @@
         77170
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -27.9,
       "current_price": 129,
-      "sales_change_this_week": 26.2,
-      "current_weekly_growth": 26.2
+      "previous_price": 179,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 17.5
     },
     {
       "id": "silhouette-cameo5",
@@ -263,10 +266,11 @@
         57900
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -5.4,
       "current_price": 330,
-      "sales_change_this_week": 6.0,
-      "current_weekly_growth": 6.0
+      "previous_price": 349,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 4.0
     },
     {
       "id": "bambu-a1mini-combo",
@@ -329,10 +333,17 @@
         40090
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "tracking_urls": {
+        "amazon": "https://www.amazon.com/dp/B0CRYZWJLG"
+      },
+      "review_count": 381,
+      "review_count_date": "2026-10-14",
+      "review_note": "Amazon US Combo ASIN 自身评分数(381); 同系列变体763; 口径以ASIN为准, 下周同口径增量",
+      "price_change_this_week": -26.7,
       "current_price": 329,
-      "sales_change_this_week": 55.5,
-      "current_weekly_growth": 55.5
+      "previous_price": 449,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 37.0
     },
     {
       "id": "bambu-a1",
@@ -391,10 +402,17 @@
         31350
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "tracking_urls": {
+        "amazon": "https://www.amazon.com/dp/B0D17TMWFB"
+      },
+      "review_count": 657,
+      "review_count_date": "2026-10-14",
+      "review_note": "Amazon US 单机 ASIN; 页面显示 100+ bought in past week",
+      "price_change_this_week": 33.4,
       "current_price": 399,
-      "sales_change_this_week": 46.5,
-      "current_weekly_growth": 46.5
+      "previous_price": 299,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 31.0
     },
     {
       "id": "bambu-h2d",
@@ -457,10 +475,11 @@
         13910
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -7.9,
       "current_price": 1749,
-      "sales_change_this_week": 96.4,
-      "current_weekly_growth": 96.4
+      "previous_price": 1899,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 64.3
     },
     {
       "id": "creality-ender3v3se",
@@ -524,8 +543,9 @@
         15290
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -6.5,
       "current_price": 186,
+      "previous_price": 199,
       "sales_change_this_week": 0,
       "current_weekly_growth": 5.8
     },
@@ -589,8 +609,9 @@
         14690
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": 9.1,
       "current_price": 1199,
+      "previous_price": 1099,
       "sales_change_this_week": 0,
       "current_weekly_growth": 34.0
     },
@@ -651,8 +672,9 @@
         22550
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 409,
+      "price_change_this_week": -31,
+      "current_price": 455,
+      "previous_price": 659,
       "sales_change_this_week": 0,
       "current_weekly_growth": 17.8
     },
@@ -714,8 +736,9 @@
         30490
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 305,
+      "price_change_this_week": -15,
+      "current_price": 339,
+      "previous_price": 399,
       "sales_change_this_week": 0,
       "current_weekly_growth": 30.2
     },
@@ -776,8 +799,9 @@
         26970
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 314,
+      "price_change_this_week": -12.5,
+      "current_price": 349,
+      "previous_price": 399,
       "sales_change_this_week": 0,
       "current_weekly_growth": 20.5
     },
@@ -841,8 +865,9 @@
         2090
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 2659,
+      "price_change_this_week": -13.9,
+      "current_price": 2799,
+      "previous_price": 3251,
       "sales_change_this_week": 0,
       "current_weekly_growth": 32.2
     },
@@ -905,10 +930,10 @@
         3460
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 1234,
-      "sales_change_this_week": 57.8,
-      "current_weekly_growth": 57.8
+      "price_change_this_week": 0,
+      "current_price": 1299,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 38.5
     },
     {
       "id": "xtool-m1ultra",
@@ -971,10 +996,10 @@
         4000
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 949,
-      "sales_change_this_week": 80.7,
-      "current_weekly_growth": 80.7
+      "price_change_this_week": 0,
+      "current_price": 999,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 53.8
     },
     {
       "id": "glowforge-pro",
@@ -1034,8 +1059,9 @@
         1650
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 2849,
+      "price_change_this_week": -40.0,
+      "current_price": 2999,
+      "previous_price": 4998,
       "sales_change_this_week": 0,
       "current_weekly_growth": -6.5
     },
@@ -1095,10 +1121,10 @@
         4000
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 949,
-      "sales_change_this_week": 10.8,
-      "current_weekly_growth": 10.8
+      "price_change_this_week": 0,
+      "current_price": 999,
+      "sales_change_this_week": 0,
+      "current_weekly_growth": 7.2
     },
     {
       "id": "cricut-easypress-se",
@@ -1160,8 +1186,8 @@
         34110
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 179,
+      "price_change_this_week": 0,
+      "current_price": 199,
       "sales_change_this_week": 0,
       "current_weekly_growth": 11.8
     },
@@ -1222,8 +1248,9 @@
         35470
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 224,
+      "price_change_this_week": -17,
+      "current_price": 249,
+      "previous_price": 300,
       "sales_change_this_week": 0,
       "current_weekly_growth": 20.5
     },
@@ -1473,8 +1500,15 @@
         29380
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "tracking_urls": {
+        "amazon": "https://www.amazon.com/dp/B0CHDS1DMC"
+      },
+      "review_count": 767,
+      "review_count_date": "2026-10-14",
+      "review_note": "P1S Combo ASIN; 页面显示 6K+ bought in past month / P1S 900+ per week",
+      "price_change_this_week": -13.8,
       "current_price": 499,
+      "previous_price": 579,
       "sales_change_this_week": 0,
       "current_weekly_growth": 41.5
     },
@@ -1533,8 +1567,9 @@
         36450
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 171,
+      "price_change_this_week": -5,
+      "current_price": 190,
+      "previous_price": 200,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.8
     },
@@ -1544,7 +1579,7 @@
       "model": "Explore 5",
       "category": "智能切割机",
       "price_usd": 199,
-      "price_change_pct": 0.0,
+      "price_change_pct": 0,
       "monthly_sales": 48535,
       "weekly_growth_pct": 21.0,
       "description": "下一代最畅销切割机，精准切割+增强速度+智能材料感应，支持全彩贴纸/T恤/卡片",
@@ -1597,6 +1632,12 @@
         72800
       ],
       "growth_basis": "legacy_heat_proxy",
+      "tracking_urls": {
+        "amazon": "https://www.amazon.com/dp/B0GS9S3HDQ"
+      },
+      "review_count": 30,
+      "review_count_date": "2026-10-14",
+      "review_note": "Explore 5 Deluxe Bundle ASIN(评分数30, bundle口径); 单机 ASIN 待补; 官网价$199 已核实",
       "price_change_this_week": 0,
       "current_price": 199,
       "sales_change_this_week": 0,
@@ -1669,8 +1710,9 @@
         6110
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -8.0,
       "current_price": 2299,
+      "previous_price": 2499,
       "sales_change_this_week": 0,
       "current_weekly_growth": 100.0
     },
@@ -2121,8 +2163,9 @@
         8510
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -5,
       "current_price": 399,
+      "previous_price": 420,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0
     },
@@ -2186,8 +2229,9 @@
         8950
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 899,
+      "price_change_this_week": 53.9,
+      "current_price": 999,
+      "previous_price": 649,
       "sales_change_this_week": 0,
       "current_weekly_growth": 10.5
     },
@@ -2249,8 +2293,9 @@
         10490
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 674,
+      "price_change_this_week": 36.4,
+      "current_price": 749,
+      "previous_price": 549,
       "sales_change_this_week": 0,
       "current_weekly_growth": 9.0
     },
@@ -2445,8 +2490,9 @@
         31610
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -12.9,
       "current_price": 269,
+      "previous_price": 309,
       "sales_change_this_week": 0,
       "current_weekly_growth": 22.0
     },
@@ -2579,8 +2625,8 @@
         5300
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 569,
+      "price_change_this_week": 0,
+      "current_price": 599,
       "sales_change_this_week": 0,
       "current_weekly_growth": 60.0
     },
@@ -2643,8 +2689,9 @@
         2230
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 2469,
+      "price_change_this_week": -10.3,
+      "current_price": 2599,
+      "previous_price": 2897,
       "sales_change_this_week": 0,
       "current_weekly_growth": 34.0
     },
@@ -2708,8 +2755,9 @@
         4000
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 949,
+      "price_change_this_week": -9.1,
+      "current_price": 999,
+      "previous_price": 1099,
       "sales_change_this_week": 0,
       "current_weekly_growth": 36.5
     },
@@ -2903,8 +2951,9 @@
         27720
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": 10.0,
       "current_price": 549,
+      "previous_price": 499,
       "sales_change_this_week": 0,
       "current_weekly_growth": 44.0
     },
@@ -2970,8 +3019,9 @@
         15720
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": 12.0,
       "current_price": 1399,
+      "previous_price": 1249,
       "sales_change_this_week": 0,
       "current_weekly_growth": 49.0
     },
@@ -3037,8 +3087,9 @@
         12830
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -6.7,
       "current_price": 279,
+      "previous_price": 299,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0
     },
@@ -3102,8 +3153,9 @@
         18710
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -15.4,
       "current_price": 549,
+      "previous_price": 649,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0
     },
@@ -3168,8 +3220,9 @@
         30260
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": 13.1,
       "current_price": 259,
+      "previous_price": 229,
       "sales_change_this_week": 0,
       "current_weekly_growth": 20.0
     },
@@ -3298,8 +3351,9 @@
         29820
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 224,
+      "price_change_this_week": -16.7,
+      "current_price": 249,
+      "previous_price": 299,
       "sales_change_this_week": 0,
       "current_weekly_growth": 26.0
     },
@@ -3362,8 +3416,8 @@
         25800
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -10,
-      "current_price": 413,
+      "price_change_this_week": 0,
+      "current_price": 459,
       "sales_change_this_week": 0,
       "current_weekly_growth": 27.0
     },
@@ -3429,8 +3483,9 @@
         106880
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -37.7,
       "current_price": 99,
+      "previous_price": 159,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0
     },
@@ -3494,8 +3549,8 @@
         1270
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 7599,
+      "price_change_this_week": 0,
+      "current_price": 7999,
       "sales_change_this_week": 0,
       "current_weekly_growth": -0.5
     },
@@ -3559,8 +3614,8 @@
         1370
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 6649,
+      "price_change_this_week": 0,
+      "current_price": 6999,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0
     },
@@ -3624,8 +3679,8 @@
         4240
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 854,
+      "price_change_this_week": 0,
+      "current_price": 899,
       "sales_change_this_week": 0,
       "current_weekly_growth": 0.0
     },
@@ -3923,8 +3978,8 @@
       "first_tracked_week": "2026-W37",
       "sales_grade": "E",
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": -5,
-      "current_price": 5775,
+      "price_change_this_week": 0,
+      "current_price": 6079,
       "sales_change_this_week": 0,
       "current_weekly_growth": 55.0
     },
@@ -4137,8 +4192,9 @@
         28800
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -7.5,
       "current_price": 369,
+      "previous_price": 399,
       "sales_change_this_week": 0,
       "current_weekly_growth": 50.0
     },
@@ -4192,8 +4248,9 @@
         14400
       ],
       "growth_basis": "legacy_heat_proxy",
-      "price_change_this_week": 0,
+      "price_change_this_week": -15.6,
       "current_price": 379,
+      "previous_price": 449,
       "sales_change_this_week": 0,
       "current_weekly_growth": 28.0
     },
@@ -4276,7 +4333,7 @@
     "智能切割机": {
       "count": 7,
       "sales": 281740,
-      "growth": 15.4,
+      "growth": 13.8,
       "hot_models": [
         "Cricut Joy Xtra",
         "Silhouette Cameo 5"
@@ -4285,7 +4342,7 @@
     "3D打印机": {
       "count": 29,
       "sales": 407426,
-      "growth": 31.0,
+      "growth": 28.7,
       "hot_models": [
         "Bambu Lab A1 Mini Combo",
         "Bambu Lab A1",
@@ -4295,7 +4352,7 @@
     "激光雕刻机": {
       "count": 13,
       "sales": 22402,
-      "growth": 33.4,
+      "growth": 29.6,
       "hot_models": [
         "xTool S1 40W",
         "xTool M1 Ultra",

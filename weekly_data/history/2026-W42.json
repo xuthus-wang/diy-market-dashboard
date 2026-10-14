@@ -3,7 +3,7 @@
   "summary": {
     "total_devices": 68,
     "new_devices": 9,
-    "price_changes": 22,
+    "price_changes": 33,
     "hottest_category": "UV打印机",
     "hottest_growth": 132.9,
     "total_monthly_sales_est": 798825,
@@ -13,7 +13,7 @@
     "智能切割机": {
       "count": 7,
       "sales": 281740,
-      "growth": 15.4,
+      "growth": 13.8,
       "hot_models": [
         "Cricut Joy Xtra",
         "Silhouette Cameo 5"
@@ -22,7 +22,7 @@
     "3D打印机": {
       "count": 29,
       "sales": 407426,
-      "growth": 31.0,
+      "growth": 28.7,
       "hot_models": [
         "Bambu Lab A1 Mini Combo",
         "Bambu Lab A1",
@@ -32,7 +32,7 @@
     "激光雕刻机": {
       "count": 13,
       "sales": 22402,
-      "growth": 33.4,
+      "growth": 29.6,
       "hot_models": [
         "xTool S1 40W",
         "xTool M1 Ultra",

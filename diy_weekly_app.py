@@ -90,37 +90,25 @@ def generate_week_data():
             categories[cat] = {'count': 0, 'sales': 0, 'growth': 0, 'hot_models': []}
 
         device_week = dict(d)
-        device_week['price_change_this_week'] = 0
+        # 价格变动统一取自真实核实字段 price_change_pct（由 update_devices.py 联网核实后写入）。
+        # 禁止再按品类文案"模拟"出一组价格变动——历史 bug：凭空 -10%/-5% 并写入
+        # current_price = price_usd*0.9，既让排行榜箭头方向错乱，又覆盖了真实价格。
+        pct = d.get('price_change_pct') or 0
+        device_week['price_change_this_week'] = pct
+        device_week['price_change_pct'] = pct
+        # price_usd 已是本期核实后的最新价，直接作为现价
         device_week['current_price'] = d['price_usd']
+        if pct:
+            # 由最新价与变动率反推上期价（展示"原价 → 现价"用）
+            device_week['previous_price'] = round(d['price_usd'] / (1 + pct / 100.0))
         device_week['sales_change_this_week'] = 0
         device_week['current_weekly_growth'] = d.get('weekly_growth_pct', 0)
 
-        # 从市场情报注入真实变化（而非随机模拟）
+        # 品类热门机型仅用于展示；不再对销量增长做 ×1.5 放大（周增长旧口径已冻结）
         cat_info = market_updates['market_movements'].get(cat, {})
         if cat_info:
-            price_trend = cat_info.get('price_trend', '')
             hot_models = cat_info.get('hot_models', [])
-
-            # 价格变动
-            if d.get('is_new'):
-                device_week['price_change_this_week'] = 0  # 新品价格稳定
-            elif '降价' in price_trend and d['brand'] in price_trend:
-                # 有降价趋势的品牌
-                device_week['price_change_this_week'] = -10
-                device_week['current_price'] = int(d['price_usd'] * 0.9)
-            elif '促销' in price_trend and d['brand'] in price_trend:
-                device_week['price_change_this_week'] = -5
-                device_week['current_price'] = int(d['price_usd'] * 0.95)
-
-            # 销量增长（根据是否在 hot_models 中）
-            is_hot = any(d['brand'] in m and d['model'] in m for m in hot_models)
-            if is_hot:
-                device_week['sales_change_this_week'] = round(
-                    d.get('weekly_growth_pct', 5) * 1.5, 1
-                )
-                device_week['current_weekly_growth'] = round(
-                    d.get('weekly_growth_pct', 5) * 1.5, 1
-                )
+            if any(d['brand'] in m and d['model'] in m for m in hot_models):
                 categories[cat]['hot_models'].append(f"{d['brand']} {d['model']}")
 
         # 与上周对比
@@ -145,8 +133,8 @@ def generate_week_data():
     # 找最热品类
     hottest_cat = max(categories.items(), key=lambda x: x[1]['growth'])
 
-    # 计算价格变动数
-    price_changes = sum(1 for d in week_devices if d['price_change_this_week'] != 0)
+    # 计算价格变动数：与 data_collector 的「价格异动」口径一致（|变动| >= 5%）
+    price_changes = sum(1 for d in week_devices if abs(d.get('price_change_pct') or 0) >= 5)
 
     # 动态归纳本周新兴信号（基于设备基准库数据，不再写死）
     emerging = compute_emerging_signals(devices, week_label)

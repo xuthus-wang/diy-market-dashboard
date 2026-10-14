@@ -224,7 +224,7 @@ allDevices=dR;var summary=sR;catData=cR;var mi=mR;
 document.getElementById('kpiGrid').innerHTML=
 '<div class="kc"><div class="l">📦 追踪设备</div><div class="v ac">'+summary.total_devices+'</div><div class="s">覆盖 '+summary.categories+' 个品类</div></div>'+
 '<div class="kc" style="cursor:pointer" onclick="openNewProductsList()" title="点击查看新品列表"><div class="l">🆕 本周新品</div><div class="v up">'+summary.new_devices+'</div><div class="s">在库新品型号 · 点击查看 ›</div></div>'+
-'<div class="kc"><div class="l">💰 价格变动</div><div class="v">'+summary.price_changes+'</div><div class="s">设备价格有调整</div></div>'+
+'<div class="kc"><div class="l">💰 价格显著变动</div><div class="v">'+summary.price_changes+'</div><div class="s">较上期变动 ≥5% 的设备</div></div>'+
 '<div class="kc"><div class="l">🔥 最热品类</div><div class="v up">'+summary.hottest_category+'</div><div class="s">周增长 +'+summary.hottest_growth+'%</div></div>';
 // Pie chart - by sales volume (CSS-based)
 var pieHtml='<div class="pie-wrap"><div style="position:relative;width:140px;height:140px;border-radius:50%;background:';
@@ -315,7 +315,7 @@ document.getElementById('dtb').innerHTML=devices.map(function(d){
 var g=growthOf(d);
 var pc=d.price_change_this_week||0;
 return '<tr><td><strong>'+d.brand+'</strong></td><td>'+d.model+'</td><td>'+d.category+'</td>'+
-'<td>$'+(d.current_price||d.price_usd)+(pc?(pc>0?' <span class="bg up">↑</span>':' <span class="bg dn">↓</span>'):'')+'</td>'+
+'<td>$'+(d.current_price||d.price_usd)+(pc?(pc>0?' <span class="bg up" title="较上期 +'+pc+'%'+(d.previous_price?'（$'+d.previous_price+' → $'+d.current_price+'）':''')+'">↑</span>':' <span class="bg dn" title="较上期 '+pc+'%'+(d.previous_price?'（$'+d.previous_price+' → $'+d.current_price+'）':''')+'">↓</span>'):'')+'</td>'+
 '<td>'+fmtSales(d)+'</td>'+
 '<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g+'%</span></td>'+growthBadge(d)+
 '<td>'+(d.social_metrics&&d.social_metrics.tiktok_videos||0)+' 视频</td>'+
