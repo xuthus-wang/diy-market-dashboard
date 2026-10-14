@@ -1,0 +1,871 @@
+{
+  "week_label": "2026-W42",
+  "summary": {
+    "total_devices": 68,
+    "new_devices": 9,
+    "price_changes": 22,
+    "hottest_category": "UV打印机",
+    "hottest_growth": 132.9,
+    "total_monthly_sales_est": 798825,
+    "categories": 9
+  },
+  "category_breakdown": {
+    "智能切割机": {
+      "count": 7,
+      "sales": 281740,
+      "growth": 15.4,
+      "hot_models": [
+        "Cricut Joy Xtra",
+        "Silhouette Cameo 5"
+      ]
+    },
+    "3D打印机": {
+      "count": 29,
+      "sales": 407426,
+      "growth": 31.0,
+      "hot_models": [
+        "Bambu Lab A1 Mini Combo",
+        "Bambu Lab A1",
+        "Bambu Lab H2D"
+      ]
+    },
+    "激光雕刻机": {
+      "count": 13,
+      "sales": 22402,
+      "growth": 33.4,
+      "hot_models": [
+        "xTool S1 40W",
+        "xTool M1 Ultra",
+        "Glowforge Aura"
+      ]
+    },
+    "热压机": {
+      "count": 2,
+      "sales": 38656,
+      "growth": 16.1,
+      "hot_models": []
+    },
+    "电动工具": {
+      "count": 3,
+      "sales": 9000,
+      "growth": 7.7,
+      "hot_models": []
+    },
+    "UV打印机": {
+      "count": 7,
+      "sales": 18001,
+      "growth": 132.9,
+      "hot_models": []
+    },
+    "升华打印机": {
+      "count": 3,
+      "sales": 10800,
+      "growth": 17.2,
+      "hot_models": []
+    },
+    "刺绣机": {
+      "count": 2,
+      "sales": 10800,
+      "growth": 9.8,
+      "hot_models": []
+    },
+    "FDM 3D打印机": {
+      "count": 2,
+      "sales": 0,
+      "growth": 0.0,
+      "hot_models": []
+    }
+  },
+  "weekly_changes": [],
+  "devices": [
+    {
+      "id": "cricut-maker4",
+      "monthly_sales": 33105,
+      "sales_grade": "D",
+      "sales_interval": [
+        16550,
+        49660
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "cricut-explore4",
+      "monthly_sales": 38797,
+      "sales_grade": "D",
+      "sales_interval": [
+        19400,
+        58200
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "cricut-joyxtra",
+      "monthly_sales": 51446,
+      "sales_grade": "D",
+      "sales_interval": [
+        25720,
+        77170
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "silhouette-cameo5",
+      "monthly_sales": 38601,
+      "sales_grade": "D",
+      "sales_interval": [
+        19300,
+        57900
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-a1mini-combo",
+      "monthly_sales": 26727,
+      "sales_grade": "D",
+      "sales_interval": [
+        13360,
+        40090
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": 381,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-a1",
+      "monthly_sales": 20902,
+      "sales_grade": "D",
+      "sales_interval": [
+        10450,
+        31350
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": 657,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-h2d",
+      "monthly_sales": 9273,
+      "sales_grade": "D",
+      "sales_interval": [
+        4640,
+        13910
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-ender3v3se",
+      "monthly_sales": 13297,
+      "sales_grade": "A",
+      "sales_interval": [
+        11300,
+        15290
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-k2plus",
+      "monthly_sales": 9792,
+      "sales_grade": "D",
+      "sales_interval": [
+        4900,
+        14690
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "anycubic-m7pro",
+      "monthly_sales": 15032,
+      "sales_grade": "D",
+      "sales_interval": [
+        7520,
+        22550
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "anycubic-kobra3v2",
+      "monthly_sales": 20324,
+      "sales_grade": "D",
+      "sales_interval": [
+        10160,
+        30490
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "flashforge-ad5x",
+      "monthly_sales": 17980,
+      "sales_grade": "D",
+      "sales_interval": [
+        8990,
+        26970
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-p2s",
+      "monthly_sales": 1393,
+      "sales_grade": "D",
+      "sales_interval": [
+        700,
+        2090
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-s1",
+      "monthly_sales": 2307,
+      "sales_grade": "D",
+      "sales_interval": [
+        1150,
+        3460
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-m1ultra",
+      "monthly_sales": 2666,
+      "sales_grade": "D",
+      "sales_interval": [
+        1330,
+        4000
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "glowforge-pro",
+      "monthly_sales": 1100,
+      "sales_grade": "D",
+      "sales_interval": [
+        550,
+        1650
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "glowforge-aura",
+      "monthly_sales": 2666,
+      "sales_grade": "D",
+      "sales_interval": [
+        1330,
+        4000
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "cricut-easypress-se",
+      "monthly_sales": 18949,
+      "sales_grade": "D",
+      "sales_interval": [
+        3790,
+        34110
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "htvront-auto-press",
+      "monthly_sales": 19707,
+      "sales_grade": "D",
+      "sales_interval": [
+        3940,
+        35470
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xapr-impact-wrench",
+      "monthly_sales": 2213,
+      "sales_grade": "D",
+      "sales_interval": [
+        440,
+        3980
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "victool-rotary-shears",
+      "monthly_sales": 4231,
+      "sales_grade": "D",
+      "sales_interval": [
+        850,
+        7620
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "dagmara-dcd03",
+      "monthly_sales": 2556,
+      "sales_grade": "D",
+      "sales_interval": [
+        510,
+        4600
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-p1s",
+      "monthly_sales": 19585,
+      "sales_grade": "D",
+      "sales_interval": [
+        9790,
+        29380
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": 767,
+      "review_delta_week": null
+    },
+    {
+      "id": "anycubic-photon-mono4",
+      "monthly_sales": 24300,
+      "sales_grade": "D",
+      "sales_interval": [
+        12150,
+        36450
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "cricut-explore5",
+      "monthly_sales": 48535,
+      "sales_grade": "D",
+      "sales_interval": [
+        24270,
+        72800
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": 30,
+      "review_delta_week": null
+    },
+    {
+      "id": "eufymake-e1",
+      "monthly_sales": 3396,
+      "sales_grade": "D",
+      "sales_interval": [
+        680,
+        6110
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-o1-omni-uv-fabric",
+      "monthly_sales": 3047,
+      "sales_grade": "D",
+      "sales_interval": [
+        610,
+        5480
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-o1-omni-uv-single",
+      "monthly_sales": 4010,
+      "sales_grade": "D",
+      "sales_interval": [
+        800,
+        7220
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "epson-v1070",
+      "monthly_sales": 1655,
+      "sales_grade": "D",
+      "sales_interval": [
+        330,
+        2980
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "heygears-g1x",
+      "monthly_sales": 2784,
+      "sales_grade": "D",
+      "sales_interval": [
+        560,
+        5010
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "sawgrass-sg500",
+      "monthly_sales": 3783,
+      "sales_grade": "D",
+      "sales_interval": [
+        760,
+        6810
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "sawgrass-sg1000",
+      "monthly_sales": 2287,
+      "sales_grade": "D",
+      "sales_interval": [
+        460,
+        4120
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "epson-et15000-sub",
+      "monthly_sales": 4730,
+      "sales_grade": "D",
+      "sales_interval": [
+        950,
+        8510
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "brother-se1900",
+      "monthly_sales": 4973,
+      "sales_grade": "D",
+      "sales_interval": [
+        990,
+        8950
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "brother-pe800",
+      "monthly_sales": 5827,
+      "sales_grade": "D",
+      "sales_interval": [
+        1170,
+        10490
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "prusa-mk4",
+      "monthly_sales": 11579,
+      "sales_grade": "D",
+      "sales_interval": [
+        5790,
+        17370
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "prusa-core-one",
+      "monthly_sales": 9718,
+      "sales_grade": "D",
+      "sales_interval": [
+        4860,
+        14580
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "elegoo-neptune4-plus",
+      "monthly_sales": 21074,
+      "sales_grade": "D",
+      "sales_interval": [
+        10540,
+        31610
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-o1-omni-dual-uv",
+      "monthly_sales": 3109,
+      "sales_grade": "D",
+      "sales_interval": [
+        620,
+        5600
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-m2",
+      "monthly_sales": 3532,
+      "sales_grade": "D",
+      "sales_interval": [
+        1770,
+        5300
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-f1-ultra",
+      "monthly_sales": 1484,
+      "sales_grade": "D",
+      "sales_interval": [
+        740,
+        2230
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-f1",
+      "monthly_sales": 2666,
+      "sales_grade": "D",
+      "sales_interval": [
+        1330,
+        4000
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-x1c",
+      "monthly_sales": 11411,
+      "sales_grade": "D",
+      "sales_interval": [
+        5710,
+        17120
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-x1e",
+      "monthly_sales": 10093,
+      "sales_grade": "D",
+      "sales_interval": [
+        5050,
+        15140
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-p2s",
+      "monthly_sales": 18483,
+      "sales_grade": "D",
+      "sales_interval": [
+        9240,
+        27720
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-h2s",
+      "monthly_sales": 10483,
+      "sales_grade": "D",
+      "sales_interval": [
+        5240,
+        15720
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-k1",
+      "monthly_sales": 11158,
+      "sales_grade": "A",
+      "sales_interval": [
+        9480,
+        12830
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-k1-max",
+      "monthly_sales": 12472,
+      "sales_grade": "D",
+      "sales_interval": [
+        6240,
+        18710
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-ender3-v3-ke",
+      "monthly_sales": 20174,
+      "sales_grade": "D",
+      "sales_interval": [
+        10090,
+        30260
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "elegoo-centauri-carbon",
+      "monthly_sales": 19883,
+      "sales_grade": "D",
+      "sales_interval": [
+        9940,
+        29820
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "flashforge-adventurer-5m",
+      "monthly_sales": 19883,
+      "sales_grade": "D",
+      "sales_interval": [
+        9940,
+        29820
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "anycubic-kobra-s1-combo",
+      "monthly_sales": 17203,
+      "sales_grade": "D",
+      "sales_interval": [
+        8600,
+        25800
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "cricut-joy2",
+      "monthly_sales": 71256,
+      "sales_grade": "D",
+      "sales_interval": [
+        35630,
+        106880
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "glowforge-pro-hd",
+      "monthly_sales": 849,
+      "sales_grade": "D",
+      "sales_interval": [
+        420,
+        1270
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-p3",
+      "monthly_sales": 914,
+      "sales_grade": "D",
+      "sales_interval": [
+        460,
+        1370
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "glowforge-spark",
+      "monthly_sales": 2825,
+      "sales_grade": "D",
+      "sales_interval": [
+        1410,
+        4240
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-sparkx-i7-nano",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "cricut-maker5",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-k3",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "creality-sparkx-i8",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "xtool-f2-ultra",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "morpho-uv-standard",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-a2l",
+      "monthly_sales": 12600,
+      "sales_grade": "D",
+      "sales_interval": [
+        2520,
+        22680
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-r1",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "elegoo-centauri-carbon-2",
+      "monthly_sales": 16000,
+      "sales_grade": "D",
+      "sales_interval": [
+        3200,
+        28800
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "flashforge-adventurer-5m-pro",
+      "monthly_sales": 8000,
+      "sales_grade": "D",
+      "sales_interval": [
+        1600,
+        14400
+      ],
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-h2c",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    },
+    {
+      "id": "bambu-x2d",
+      "monthly_sales": 0,
+      "sales_grade": "E",
+      "sales_interval": null,
+      "growth_basis": "legacy_heat_proxy",
+      "review_count": null,
+      "review_delta_week": null
+    }
+  ]
+}

@@ -286,20 +286,38 @@ function salesStatusBadge(d){
   if(s==='pending') return '';
   return ' <span style="color:var(--t2);font-size:.62rem;border:1px solid #ffffff22;border-radius:6px;padding:1px 4px" title="份额模型估算·非实测出货，仅供参考">估</span>';
 }
+var GRADE_INFO={A:['官方披露','#10b981','财报/招股书/官方战报直接推得，区间±15%'],B:['评论增量','#3b82f6','平台评论数周增量÷留评率(1%~2%)，区间±25%'],C:['平台聚合','#a855f7','Accio/Keepa 等第三方单源，区间±40%'],D:['锚点推算','#f59e0b','品牌级锚点×机型占比/价格弹性模型，区间±50~80%，非实测'],E:['待积累','#6b7280','新机未开售或销量未形成锚点，暂无数']};
+function gradeBadge(d){
+  var g=d.sales_grade;if(!g)return '';
+  var i=GRADE_INFO[g]||['?','#6b7280',''];
+  return ' <span style="color:'+i[1]+';font-size:.62rem;font-weight:700;border:1px solid '+i[1]+'66;border-radius:6px;padding:1px 4px;cursor:help" title="证据分级 '+g+'·'+i[0]+'：'+i[2]+'">'+g+'</span>';
+}
+function fmtSales(d){
+  if((d.monthly_sales||0)<=0||d.sales_maturity==='new_launch') return '<span style="color:var(--t2);font-size:.85rem">待积累</span>'+gradeBadge(d);
+  var v=(d.monthly_sales/1000).toFixed(0)+'K';
+  var it=d.sales_interval;
+  if(it&&it.length===2&&it[1]>0) v+=' <span style="color:var(--t2);font-size:.68rem" title="证据分级对应的不确定区间">('+Math.round(it[0]/1000)+'–'+Math.round(it[1]/1000)+'K)</span>';
+  return v+gradeBadge(d);
+}
+function growthOf(d){ return (d.growth_proxy!=null)?d.growth_proxy:(d.current_weekly_growth||d.weekly_growth_pct||0); }
+function growthBadge(d){
+  if(d.growth_basis==='review_delta') return '';
+  return ' <span style="color:var(--t2);font-size:.6rem;border:1px dashed #ffffff33;border-radius:6px;padding:1px 4px;cursor:help" title="旧口径：社媒热度代理+人工调整，自2026-W42起逐步由评论增量环比替代">旧口径</span>';
+}
 function loadDeviceTable(){
 var cat=document.getElementById('catFilter').value;
 var search=document.getElementById('searchInput').value.toLowerCase();
 var devices=allDevices;
 if(cat)devices=devices.filter(function(d){return d.category===cat});
 if(search)devices=devices.filter(function(d){return d.brand.toLowerCase().indexOf(search)>=0||d.model.toLowerCase().indexOf(search)>=0});
-document.getElementById('dth').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格(USD)</th><th>月销量<span style="font-weight:400;font-size:.6rem;color:var(--t2);display:block">新机标·待积累</span></th><th>周增长</th><th>社交热度</th><th>状态</th></tr>';
+document.getElementById('dth').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格(USD)</th><th>月销量<span style="font-weight:400;font-size:.6rem;color:var(--t2);display:block">区间+证据分级(A官方/B评论/C聚合/D推算/E待积累)</span></th><th>周增长<span style="font-weight:400;font-size:.6rem;color:var(--t2);display:block">旧口径=热度代理</span></th><th>社交热度</th><th>状态</th></tr>';
 document.getElementById('dtb').innerHTML=devices.map(function(d){
-var g=d.current_weekly_growth||0;
+var g=growthOf(d);
 var pc=d.price_change_this_week||0;
 return '<tr><td><strong>'+d.brand+'</strong></td><td>'+d.model+'</td><td>'+d.category+'</td>'+
 '<td>$'+(d.current_price||d.price_usd)+(pc?(pc>0?' <span class="bg up">↑</span>':' <span class="bg dn">↓</span>'):'')+'</td>'+
-'<td>'+(d.sales_maturity==='new_launch'?'<span style="color:var(--t2);font-size:.85rem">待积累</span>':(d.monthly_sales/1000).toFixed(0)+'K'+maturityBadge(d)+salesStatusBadge(d))+'</td>'+
-'<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g+'%</span></td>'+
+'<td>'+fmtSales(d)+'</td>'+
+'<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g+'%</span></td>'+growthBadge(d)+
 '<td>'+(d.social_metrics&&d.social_metrics.tiktok_videos||0)+' 视频</td>'+
 '<td>'+(d.is_new?'<span class="bg nw" style="cursor:pointer" onclick="openProductModal(\''+d.id+'\')" title="点击查看新品详情">🆕</span>':'')+(g>15?'<span class="bg ht">🔥</span>':'')+(d.last_verified?' <span style="color:var(--grn);font-weight:600" title="'+d.verified_note+'">✓核实</span>':'')+'</td></tr>';
 }).join('');
@@ -324,11 +342,11 @@ html+='<div class="bar-row"><div class="bl">'+c+'</div><div class="bt"><div clas
 html+='</div>';
 document.getElementById('trendArea').innerHTML=html;
 // Top movers
-var sorted=allDevices.slice().sort(function(a,b){return (b.current_weekly_growth||0)-(a.current_weekly_growth||0)});
+var sorted=allDevices.slice().sort(function(a,b){return growthOf(b)-growthOf(a)});
 var top10=sorted.slice(0,10);
 var mh='<div class="bar-chart">';
 top10.forEach(function(d){
-var g=d.current_weekly_growth||0;var w=Math.min(Math.abs(g)*3,100);
+var g=growthOf(d);var w=Math.min(Math.abs(g)*3,100);
 mh+='<div class="bar-row"><div class="bl">'+d.brand+' '+d.model+'</div><div class="bt"><div class="bf2" style="width:'+w+'%;background:rgba(16,185,129,.7)">'+(g>0?'+':'')+g+'%</div></div></div>';
 });
 mh+='</div>';
@@ -338,14 +356,14 @@ loadTrendDetail();
 function loadTrendDetail(){
 var idx=parseInt(document.getElementById('trendDevice').value)||0;
 var d=allDevices[idx];if(!d)return;
-var g=d.current_weekly_growth||0;
+var g=growthOf(d);
 var sm=d.social_metrics||{};
 var html='<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">'+
 '<div><strong style="font-size:1.1rem">'+d.brand+' '+d.model+'</strong><br><span style="color:var(--t2);font-size:.85rem">'+d.description+'</span></div>'+
-'<div style="text-align:right"><div style="font-size:1.5rem;font-weight:700;color:'+(g>10?'var(--grn)':'var(--acc)')+'">'+(g>0?'+':'')+g+'%</div><div style="color:var(--t2);font-size:.8rem">周增长率</div></div>'+
+'<div style="text-align:right"><div style="font-size:1.5rem;font-weight:700;color:'+(g>10?'var(--grn)':'var(--acc)')+'">'+(g>0?'+':'')+g+'%</div><div style="color:var(--t2);font-size:.8rem">周增长率'+(d.growth_basis==='review_delta'?'':'(旧口径)')+'</div></div>'+
 '</div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px">'+
 '<div class="kc"><div class="l">💰 价格</div><div class="v" style="font-size:1.3rem">$'+(d.current_price||d.price_usd)+'</div></div>'+
-'<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+(d.sales_maturity==='new_launch'?'<span style="font-size:.9rem;color:var(--t2)">待积累</span>':(d.monthly_sales/1000).toFixed(0)+'K'+salesStatusBadge(d))+'</div></div>'+
+'<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+fmtSales(d)+'</div></div>'+
 '<div class="kc"><div class="l">📱 TikTok视频</div><div class="v" style="font-size:1.3rem">'+(sm.tiktok_videos||0).toLocaleString()+'</div></div>'+
 '</div><div style="margin-top:10px"><strong>耗材类型:</strong> '+((d.consumables||[]).join(', '))+'<br><strong>耗材月销:</strong> '+(d.consumable_monthly_sales_est||'—')+'</div>';
 if(d.verified_note){html+='<div style="margin-top:10px;padding:7px 11px;background:rgba(16,185,129,.08);border-left:3px solid var(--grn);font-size:.76rem;color:var(--t2);line-height:1.5">✓ <strong style="color:var(--grn)">已联网核实 '+(d.last_verified||'')+'</strong>：'+d.verified_note+'</div>';}
@@ -403,11 +421,11 @@ function loadRawTable(){
 var search=(document.getElementById('rawSearch')&&document.getElementById('rawSearch').value||'').toLowerCase();
 var devices=allDevices;
 if(search)devices=devices.filter(function(d){return d.brand.toLowerCase().indexOf(search)>=0||d.model.toLowerCase().indexOf(search)>=0||d.category.toLowerCase().indexOf(search)>=0});
-document.getElementById('rawTh').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格</th><th>月销量</th><th>周增长</th><th>耗材</th><th>耗材月销</th></tr>';
+document.getElementById('rawTh').innerHTML='<tr><th>品牌</th><th>型号</th><th>品类</th><th>价格</th><th>月销量(区间+分级)</th><th>周增长(旧口径)</th><th>耗材</th><th>耗材月销</th></tr>';
 document.getElementById('rawTb').innerHTML=devices.map(function(d){
-var g=d.current_weekly_growth||0;
+var g=growthOf(d);
 return'<tr><td><strong>'+d.brand+'</strong></td><td>'+d.model+'</td><td>'+d.category+'</td>'+
-'<td>$'+(d.current_price||d.price_usd)+'</td><td>'+(d.monthly_sales/1000).toFixed(0)+'K</td>'+
+'<td>$'+(d.current_price||d.price_usd)+'</td><td>'+fmtSales(d)+'</td>'+
 '<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g.toFixed(1)+'%</span></td>'+
 '<td>'+(d.consumables||[]).join(', ')+'</td><td>'+(d.consumable_monthly_sales_est||'—')+'</td></tr>';
 }).join('');
@@ -448,7 +466,7 @@ function openNewProductsList(){
 function openProductModal(id){
   var d=allDevices.filter(function(x){return x.id===id})[0]||allDevices.filter(function(x){return (x.brand+' '+x.model)===id})[0];
   if(!d){showToast('未找到该设备');return;}
-  var g=d.current_weekly_growth||d.weekly_growth_pct||0;
+  var g=growthOf(d);
   var pc=d.price_change_this_week||0;
   var sm=d.social_metrics||{};
   var catc=COLORS[d.category]||'#64748b';
@@ -459,7 +477,7 @@ function openProductModal(id){
   h+='<div class="pm-title">'+d.brand+' '+d.model+(d.is_new?' 🆕':'')+'</div>';
   h+='<div class="pm-price">$'+(d.current_price||d.price_usd)+(pc?' ':'' )+(pc?'<span class="bg '+(pc>0?'up':'dn')+'">'+(pc>0?'+':'')+pc+'%</span>':'')+'</div>';
   h+='<div class="pm-grid">'+
-     '<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+((d.sales_maturity==='new_launch')?'<span style="font-size:.9rem;color:var(--t2)">待积累</span>':(d.monthly_sales/1000).toFixed(0)+'K'+maturityBadge(d)+salesStatusBadge(d))+'</div></div>'+
+     '<div class="kc"><div class="l">📦 月销量</div><div class="v" style="font-size:1.3rem">'+((d.sales_maturity==='new_launch')?'<span style="font-size:.9rem;color:var(--t2)">待积累</span>':(d.monthly_sales/1000).toFixed(0)+'K'+gradeBadge(d))+'</div></div>'+
      '<div class="kc"><div class="l">📈 周增长</div><div class="v up" style="font-size:1.3rem">'+(g>0?'+':'')+g+'%</div></div>'+
      '<div class="kc"><div class="l">📱 TikTok视频</div><div class="v" style="font-size:1.3rem">'+((sm.tiktok_videos||0).toLocaleString())+'</div></div>'+
      '<div class="kc"><div class="l">🎯 销量置信度</div><div class="v" style="font-size:1rem">'+confHtml+'</div></div>'+

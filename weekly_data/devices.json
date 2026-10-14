@@ -55,7 +55,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      16550,
+      49660
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "cricut-explore4",
@@ -109,7 +115,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      19400,
+      58200
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "cricut-joyxtra",
@@ -162,7 +174,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      25720,
+      77170
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "silhouette-cameo5",
@@ -214,7 +232,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      19300,
+      57900
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-a1mini-combo",
@@ -270,7 +294,19 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      13360,
+      40090
+    ],
+    "growth_basis": "legacy_heat_proxy",
+    "tracking_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CRYZWJLG"
+    },
+    "review_count": 381,
+    "review_count_date": "2026-10-14",
+    "review_note": "Amazon US Combo ASIN 自身评分数(381); 同系列变体763; 口径以ASIN为准, 下周同口径增量"
   },
   {
     "id": "bambu-a1",
@@ -322,7 +358,19 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      10450,
+      31350
+    ],
+    "growth_basis": "legacy_heat_proxy",
+    "tracking_urls": {
+      "amazon": "https://www.amazon.com/dp/B0D17TMWFB"
+    },
+    "review_count": 657,
+    "review_count_date": "2026-10-14",
+    "review_note": "Amazon US 单机 ASIN; 页面显示 100+ bought in past week"
   },
   {
     "id": "bambu-h2d",
@@ -378,7 +426,13 @@
     "release_date": "2025-04",
     "listing_days": 524,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      4640,
+      13910
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-ender3v3se",
@@ -435,7 +489,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "real_reported"
+    "sales_data_status": "real_reported",
+    "sales_grade": "A",
+    "sales_interval": [
+      11300,
+      15290
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-k2plus",
@@ -490,7 +550,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      4900,
+      14690
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "anycubic-m7pro",
@@ -542,7 +608,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      7520,
+      22550
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "anycubic-kobra3v2",
@@ -595,7 +667,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      10160,
+      30490
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "flashforge-ad5x",
@@ -647,7 +725,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      8990,
+      26970
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-p2s",
@@ -702,7 +786,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      700,
+      2090
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-s1",
@@ -756,7 +846,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      1150,
+      3460
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-m1ultra",
@@ -812,7 +908,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      1330,
+      4000
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "glowforge-pro",
@@ -865,7 +967,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      550,
+      1650
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "glowforge-aura",
@@ -916,7 +1024,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      1330,
+      4000
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "cricut-easypress-se",
@@ -971,7 +1085,13 @@
     "release_date": "2025",
     "listing_days": 614,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      3790,
+      34110
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "htvront-auto-press",
@@ -1023,7 +1143,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      3940,
+      35470
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xapr-impact-wrench",
@@ -1076,7 +1202,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      440,
+      3980
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "victool-rotary-shears",
@@ -1127,7 +1259,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      850,
+      7620
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "dagmara-dcd03",
@@ -1178,7 +1316,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      510,
+      4600
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-p1s",
@@ -1234,7 +1378,19 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      9790,
+      29380
+    ],
+    "growth_basis": "legacy_heat_proxy",
+    "tracking_urls": {
+      "amazon": "https://www.amazon.com/dp/B0CHDS1DMC"
+    },
+    "review_count": 767,
+    "review_count_date": "2026-10-14",
+    "review_note": "P1S Combo ASIN; 页面显示 6K+ bought in past month / P1S 900+ per week"
   },
   {
     "id": "anycubic-photon-mono4",
@@ -1284,7 +1440,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      12150,
+      36450
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "cricut-explore5",
@@ -1338,7 +1500,19 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      24270,
+      72800
+    ],
+    "growth_basis": "legacy_heat_proxy",
+    "tracking_urls": {
+      "amazon": "https://www.amazon.com/dp/B0GS9S3HDQ"
+    },
+    "review_count": 30,
+    "review_count_date": "2026-10-14",
+    "review_note": "Explore 5 Deluxe Bundle ASIN(评分数30, bundle口径); 单机 ASIN 待补; 官网价$199 已核实"
   },
   {
     "id": "eufymake-e1",
@@ -1400,7 +1574,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      680,
+      6110
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-o1-omni-uv-fabric",
@@ -1459,7 +1639,13 @@
     "release_date": "2026-07-15",
     "listing_days": 54,
     "sales_maturity": "recent",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      610,
+      5480
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-o1-omni-uv-single",
@@ -1513,7 +1699,13 @@
     "release_date": "2026-07-15",
     "listing_days": 54,
     "sales_maturity": "recent",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      800,
+      7220
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "epson-v1070",
@@ -1567,7 +1759,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      330,
+      2980
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "heygears-g1x",
@@ -1622,7 +1820,13 @@
     "release_date": "2026",
     "listing_days": 249,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      560,
+      5010
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "sawgrass-sg500",
@@ -1676,7 +1880,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      760,
+      6810
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "sawgrass-sg1000",
@@ -1728,7 +1938,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      460,
+      4120
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "epson-et15000-sub",
@@ -1782,7 +1998,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      950,
+      8510
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "brother-se1900",
@@ -1837,7 +2059,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      990,
+      8950
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "brother-pe800",
@@ -1890,7 +2118,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      1170,
+      10490
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "prusa-mk4",
@@ -1946,7 +2180,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      5790,
+      17370
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "prusa-core-one",
@@ -2002,7 +2242,13 @@
     "release_date": "2025",
     "listing_days": 614,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      4860,
+      14580
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "elegoo-neptune4-plus",
@@ -2056,7 +2302,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      10540,
+      31610
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-o1-omni-dual-uv",
@@ -2112,7 +2364,13 @@
     "release_date": "2026-07-15",
     "listing_days": 54,
     "sales_maturity": "recent",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      620,
+      5600
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-m2",
@@ -2170,7 +2428,13 @@
     "release_date": "2023-10",
     "listing_days": 1072,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      1770,
+      5300
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-f1-ultra",
@@ -2224,7 +2488,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      740,
+      2230
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-f1",
@@ -2279,7 +2549,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      1330,
+      4000
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-x1c",
@@ -2335,7 +2611,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      5710,
+      17120
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-x1e",
@@ -2389,7 +2671,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      5050,
+      15140
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-p2s",
@@ -2444,7 +2732,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      9240,
+      27720
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-h2s",
@@ -2501,7 +2795,13 @@
     "release_date": "2025",
     "listing_days": 614,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      5240,
+      15720
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-k1",
@@ -2558,7 +2858,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "real_reported"
+    "sales_data_status": "real_reported",
+    "sales_grade": "A",
+    "sales_interval": [
+      9480,
+      12830
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-k1-max",
@@ -2613,7 +2919,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      6240,
+      18710
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-ender3-v3-ke",
@@ -2669,7 +2981,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      10090,
+      30260
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "elegoo-centauri-carbon",
@@ -2726,7 +3044,13 @@
     "release_date": "2025",
     "listing_days": 614,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      9940,
+      29820
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "flashforge-adventurer-5m",
@@ -2779,7 +3103,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      9940,
+      29820
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "anycubic-kobra-s1-combo",
@@ -2833,7 +3163,13 @@
     "first_tracked_week": "2026-W33",
     "listing_days": null,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      8600,
+      25800
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "cricut-joy2",
@@ -2890,7 +3226,13 @@
     "release_date": "2025",
     "listing_days": 614,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      35630,
+      106880
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "glowforge-pro-hd",
@@ -2945,7 +3287,13 @@
     "release_date": "2023",
     "listing_days": 1345,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      420,
+      1270
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-p3",
@@ -3000,7 +3348,13 @@
     "release_date": "2024",
     "listing_days": 980,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      460,
+      1370
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "glowforge-spark",
@@ -3055,7 +3409,13 @@
     "release_date": "2022-10",
     "listing_days": 1437,
     "sales_maturity": "mature",
-    "sales_data_status": "estimated_model"
+    "sales_data_status": "estimated_model",
+    "sales_grade": "D",
+    "sales_interval": [
+      1410,
+      4240
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-sparkx-i7-nano",
@@ -3103,7 +3463,9 @@
     "sales_data_status": "pending",
     "sales_calibration": {
       "real_benchmark": "真实锚点: 2024 累计出货超440万台; 2024 营收22.88亿/2025 31.27亿; 2025-08 港交所上市(03388.HK)"
-    }
+    },
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "cricut-maker5",
@@ -3162,7 +3524,9 @@
     "release_date": "2026-09-04",
     "listing_days": 3,
     "sales_maturity": "new_launch",
-    "sales_data_status": "pending"
+    "sales_data_status": "pending",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-k3",
@@ -3219,7 +3583,9 @@
     "release_date": "2026-09-06",
     "listing_days": 1,
     "sales_maturity": "new_launch",
-    "sales_data_status": "pending"
+    "sales_data_status": "pending",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "creality-sparkx-i8",
@@ -3272,7 +3638,9 @@
     "release_date": "2026-09-06",
     "listing_days": 1,
     "sales_maturity": "new_launch",
-    "sales_data_status": "pending"
+    "sales_data_status": "pending",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "xtool-f2-ultra",
@@ -3324,7 +3692,9 @@
     },
     "monthly_sales_legacy": 0,
     "sales_confidence": "estimated",
-    "first_tracked_week": "2026-W37"
+    "first_tracked_week": "2026-W37",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "morpho-uv-standard",
@@ -3374,7 +3744,9 @@
     },
     "monthly_sales_legacy": 0,
     "sales_confidence": "estimated",
-    "first_tracked_week": "2026-W37"
+    "first_tracked_week": "2026-W37",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-a2l",
@@ -3418,7 +3790,13 @@
     "first_tracked_week": "2026-09-21",
     "listing_days": 0,
     "sales_maturity": "new",
-    "sales_data_status": "estimated"
+    "sales_data_status": "estimated",
+    "sales_grade": "D",
+    "sales_interval": [
+      2520,
+      22680
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-r1",
@@ -3463,7 +3841,9 @@
     "first_tracked_week": "2026-09-29",
     "listing_days": 0,
     "sales_maturity": "new",
-    "sales_data_status": "estimated"
+    "sales_data_status": "estimated",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "elegoo-centauri-carbon-2",
@@ -3506,7 +3886,13 @@
     "first_tracked_week": "2026-09-29",
     "listing_days": 0,
     "sales_maturity": "new",
-    "sales_data_status": "estimated"
+    "sales_data_status": "estimated",
+    "sales_grade": "D",
+    "sales_interval": [
+      3200,
+      28800
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "flashforge-adventurer-5m-pro",
@@ -3551,7 +3937,13 @@
     "first_tracked_week": "2026-09-29",
     "listing_days": 0,
     "sales_maturity": "new",
-    "sales_data_status": "estimated"
+    "sales_data_status": "estimated",
+    "sales_grade": "D",
+    "sales_interval": [
+      1600,
+      14400
+    ],
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-h2c",
@@ -3582,7 +3974,9 @@
     "sales_maturity": "new_launch",
     "sales_data_status": "pending",
     "monthly_sales_legacy": 0,
-    "sales_confidence": "estimated"
+    "sales_confidence": "estimated",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   },
   {
     "id": "bambu-x2d",
@@ -3613,6 +4007,8 @@
     "sales_maturity": "new_launch",
     "sales_data_status": "pending",
     "monthly_sales_legacy": 0,
-    "sales_confidence": "estimated"
+    "sales_confidence": "estimated",
+    "sales_grade": "E",
+    "growth_basis": "legacy_heat_proxy"
   }
 ]
