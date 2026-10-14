@@ -315,8 +315,10 @@ document.getElementById('dth').innerHTML='<tr><th>品牌</th><th>型号</th><th>
 document.getElementById('dtb').innerHTML=devices.map(function(d){
 var g=growthOf(d);
 var pc=d.price_change_this_week||0;
+var pcJump=(pc&&d.previous_price)?('（$'+d.previous_price+' → $'+d.current_price+'）'):'';
+var pcArrow=pc?(pc>0?('<span class="bg up" title="较上期 +'+pc+'%'+pcJump+'">↑</span>'):('<span class="bg dn" title="较上期 '+pc+'%'+pcJump+'">↓</span>')):'';
 return '<tr><td><strong>'+d.brand+'</strong></td><td>'+d.model+'</td><td>'+d.category+'</td>'+
-'<td>$'+(d.current_price||d.price_usd)+(pc?(pc>0?' <span class="bg up" title="较上期 +'+pc+'%'+(d.previous_price?'（$'+d.previous_price+' → $'+d.current_price+'）':''')+'">↑</span>':' <span class="bg dn" title="较上期 '+pc+'%'+(d.previous_price?'（$'+d.previous_price+' → $'+d.current_price+'）':''')+'">↓</span>'):'')+'</td>'+
+'<td>$'+(d.current_price||d.price_usd)+(pcArrow?' '+pcArrow:'')+'</td>'+
 '<td>'+fmtSales(d)+'</td>'+
 '<td><span class="bg '+(g>10?'up':g<0?'dn':'')+'">'+(g>0?'+':'')+g+'%</span></td>'+growthBadge(d)+
 '<td>'+(d.social_metrics&&d.social_metrics.tiktok_videos||0)+' 视频</td>'+
