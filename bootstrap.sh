@@ -17,10 +17,17 @@
 # ---------------------------------------------------------------------------
 set -uo pipefail
 
-WORKSPACE="${WORKSPACE:-/workspace}"
+# 2026-10-19: 不再写死 /workspace，默认用脚本所在目录（本工作区即仓库克隆）。
+WORKSPACE="${WORKSPACE:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
 REPO_PATH="xuthus-wang/diy-market-dashboard"
 UPSTREAM="https://github.com/${REPO_PATH}.git"
 BRANCH="main"
+
+# python 探测：优先 venv，退回任意可用 python3/python（老沙箱是 python3.11，本机是托管 3.13）
+PY=""
+for cand in "${VENV_PY:-}" python3.11 python3 python; do
+  [[ -n "$cand" ]] && command -v "$cand" >/dev/null 2>&1 && { PY="$cand"; break; }
+done
 
 # 镜像按可用性排序，逐个回退。2026-08-10 实测：ghproxy.net 可用，直连阻断。
 MIRRORS=(
@@ -44,7 +51,7 @@ fail() { printf '[bootstrap][ERROR] %s\n' "$*" >&2; }
 workspace_healthy() {
   [[ -f "${WORKSPACE}/weekly_data/devices.json" ]] || return 1
   [[ -f "${WORKSPACE}/build_static.py"          ]] || return 1
-  python3.11 - "$WORKSPACE" <<'PY' >/dev/null 2>&1 || return 1
+  "$PY" - "$WORKSPACE" <<'PY' >/dev/null 2>&1 || return 1
 import json, sys
 d = json.load(open(sys.argv[1] + "/weekly_data/devices.json"))
 assert isinstance(d, list) and len(d) >= 40, f"设备数异常: {len(d)}"
@@ -123,7 +130,7 @@ restore() {
 log "工作区：${WORKSPACE}"
 
 if [[ $FORCE -eq 0 ]] && workspace_healthy; then
-  n=$(python3.11 -c "import json;print(len(json.load(open('${WORKSPACE}/weekly_data/devices.json'))))")
+  n=$($PY -c "import json;print(len(json.load(open('${WORKSPACE}/weekly_data/devices.json'))))")
   log "工作区健康（${n} 台设备），跳过恢复"
   [[ -d "${WORKSPACE}/.git" ]] && fix_remote "${MIRRORS[0]}"
   exit 0
@@ -138,7 +145,7 @@ if ! restore; then
 fi
 
 if workspace_healthy; then
-  n=$(python3.11 -c "import json;print(len(json.load(open('${WORKSPACE}/weekly_data/devices.json'))))")
+  n=$($PY -c "import json;print(len(json.load(open('${WORKSPACE}/weekly_data/devices.json'))))")
   log "✓ 恢复完成：${n} 台设备，工作区就绪"
   exit 0
 fi
