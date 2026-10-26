@@ -1,96 +1,91 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Apply 4-dimensional (price/sales/growth/consumable) verified updates to devices.json.
-Date: 2026-10-19 (W43 周一例行核实).
-情报采集日: 2026-10-19 联网核实 (预算 19/20 次). 无伪造: 仅写入有来源的信号, 冲突口径只标注不改数.
+Date: 2026-10-26 (W44 周一例行核实).
+情报采集日: 2026-10-26 联网核实 (预算 18/20 次). 无伪造: 仅写入有来源的信号, 冲突口径只标注不改数.
 要点:
-  - 评论增量: 4 台已追踪 ASIN 中仅 P1S Combo 抓取成功(880, +113); 其余 3 台页面未渲染评论组件, 如实记抓取失败, 不写 0.
-  - 补链接: 营收 Top20 无追踪机型按降序补 5 台 ASIN(cameo5/k2plus/maker4/core-one/p2s), 预算所限其余下周继续.
-  - 价格: 仅 cricut-joyxtra 官网口径回补 $129→$179(上周疑把促销价当列表价); Bambu 万圣节促销(至10-16)已截止, 促销价不入基线.
+  - 评论增量: P1S Combo 清洁 7 日窗口 880→914(+34); p2s/core-one/mk4 首次建立评论基线(26/39/26);
+    其余 6 台追踪 ASIN 遇 checkpoint 或页面未渲染评分数, 如实留空不写 0.
+  - 价格: 仅 bambu-x1e 基线修正 $1,499→$2,899(+93.4%, 基线错误而非市场变动, 证据链见价格备注).
+  - 补链接: 营收 Top20 无追踪机型补 prusa-mk4(官方组装版); h2d/h2s/x1c 检索仅命中配件或第三方, 不采; x1e 已 EOL 跳过.
+  - 品牌级情报: CONTEXT Q2 2026 入门级出货 +23%/营收 +36%, 深圳四小龙占 87%, Bambu 领先; Creality 盈利预警.
 """
 import json
 
 SRC = "weekly_data/devices.json"
-TODAY = "2026-10-19"
-INTEL = "2026-10-19"
+TODAY = "2026-10-26"
+INTEL = "2026-10-26"
 
 d = json.load(open(SRC, encoding="utf-8"))
 by_id = {x["id"]: x for x in d}
 
 # ---- 1) 价格变更（>5% 规则; 官方商店优先）----
 price_changes = {
-    "cricut-joyxtra": (179, 38.8,
-        "Cricut 官网 machines 页起始价 $179(10-19 直接抓取, 证据强); 上周 10-14 依渠道聚合改 $129 疑把促销价误当列表价, 按官方口径回补 +38.8%"),
+    "bambu-x1e": (2899, 93.4,
+        "基线修正 $1,499→$2,899(+93.4%): X1E 于 2026-03-31 官方 EOL(Bambu 官方论坛公告, 4-9 发布, 证据强), 官店产品页已 404(10-26 抓取); Bambu US 现列 $2,899 含 AMS(BambuHub 价格追踪器 10 月更新) 且授权经销商 Dynamism 在售 $2,899(10-26 核实, 在货). 旧基线 $1,499 与 2023 发布价 $2,499 均不符, 判定为历史录入错误而非市场涨价; 本周按官方渠道口径修正"),
 }
 
 # ---- 2) 口径冲突（有媒体/第三方价与基线冲突, 按纪律不改数只标注）----
 conflict_notes = {
-    "epson-v1070":     "联盟站 bestvaluelab 报 Amazon 价 $3,259(9-10 口径) vs 基线 $8,495(Epson MSRP, 官方), 差异 -61.6% 异常, 或为翻新机/报价错误, 维持基线待复核",
-    "bambu-x1e":       "BambuHub 官方店日志: 美国店现列 $2,899(含AMS) vs 基线 $1,499; 另 X1E 已于 2026-03 停产(X1 系列 3-31 停更, 官方指向 H2S/H2D 接替), 生命周期信号显著; 维持基线待复核",
-    "bambu-p1s":       "多源(BambuHub 官方店日志 10-9 / 媒体)显示 P1S 单机 $399, 基线 $499 为 Combo 口径(ASIN B0CHDS1DMC), 配置不同不可直接比; Combo 现价未确认, 维持基线待复核",
-    "prusa-core-one":  "Tom's Hardware 报 $1,499(组装)/CNET $1,549 vs 基线 $1,099, 疑 Kit 与组装版口径差(新补 Amazon ASIN B0FKNGJPK2 为 Kit 版); 维持基线待复核",
-    "bambu-h2s":       "BambuHub 官方店日志(10-9): 单机 $1,199 / Combo $1,399; 基线 $1,399 与 Combo 促销价吻合、与上周第三方 $1,249(单机)冲突, 疑配置口径混用, 待官方店直接复核后统一",
+    "bambu-p1s":     "Bambu US 官店 P1S 页 10-26 抓取显示 $579(变体默认价, 未标注单机/Combo), vs 基线 $499 为 Amazon Combo 口径(ASIN B0CHDS1DMC); 万圣节促销期(至10-16)官店/Amazon 曾同价 $399(lavx 新闻引述). 配置与渠道口径均未对齐, 维持基线待复核",
+    "bambu-h2s":     "lavx 新闻(10月): 常态价 Combo $1,499 / 促销 $1,399(至10-16); 基线 $1,399 为促销价, 促销已止. 证据为二手转述, 待官店直接复核后决定是否 +7.1% 修正",
+    "epson-v1070":   "MSRP $8,495 获 Epson 官方发布通稿佐证(TechPowerUp 转引 Epson); Amazon 无官方渠道(Epson 走授权经销商), 第三方 Accio 见 $8,995(MakerFlo); 联盟站 $3,259 异常报价持续存在(翻新/错误), 维持基线",
+    "prusa-core-one": "本周补的 Amazon ASIN B0FKNGJPK2 为 Kit 版(页面自述 DIY KIT); 基线 $1,099 与 Kit 口径一致, Tom's Hardware $1,499/CNET $1,549 为组装版口径, 不可直接比; 维持基线, 评论基线按 Kit ASIN 记",
 }
 
 # ---- 3) 评论增量（同 ASIN 同口径; 抓取失败如实记录, 不写 0）----
 review_updates = {
-    # 成功: P1S Combo 767(10-14) -> 880(10-19)
+    # 清洁窗口成功: P1S Combo 880(10-19) -> 914(10-26), 7 日 +34
     "bambu-p1s": {
-        "review_count": 880, "review_count_date": TODAY, "review_delta_week": 113,
-        "review_note": "Amazon US P1S Combo ASIN B0CHDS1DMC 自身评分数(880), 同 ASIN 同口径; 增量窗口 10-14→10-19 仅 5 日且尾段含万圣节促销干扰, 首期样本不足以按留评率折算月销, 本周维持 D 级不改销量, 待 1-2 期清洁窗口后再评估升级 B",
+        "review_count": 914, "review_count_date": TODAY, "review_delta_week": 34,
+        "review_note": "Amazon US P1S Combo ASIN B0CHDS1DMC 自身评分数(914), 同 ASIN 同口径, 清洁 7 日窗口 10-19→10-26 +34(无促销干扰). 按留评率 1%~2% 折算 Amazon 月销约 1,700~3,400, 远低于品牌锚点 19,585 — 符合预期: Bambu 官店/分销为销量大头, Amazon 仅部分渠道, 且锚点法永不升 B; 维持 D 级. 注: 上期 +113 为 5 日促销窗口, growth_proxy 周环比不可直接比",
         "growth_basis": "review_delta",
     },
+    # 首基线: p2s / core-one
+    "bambu-p2s": {"review_count": 26, "review_count_date": TODAY, "review_delta_week": None,
+        "review_note": "Amazon US P2S 单机 ASIN B0FT7ZLSSC 首次抓到评分数 26(4.4 星), 2026-10-26 起建立增量基线; 页面同期列 3D Printers 类目销量榜 #2(平台聚合信号, 不改数); 下周起记增量"},
+    "prusa-core-one": {"review_count": 39, "review_count_date": TODAY, "review_delta_week": None,
+        "review_note": "Amazon US CORE One Kit 版 ASIN B0FKNGJPK2 首次抓到评分数 39(4.7 星), 2026-10-26 起建立增量基线(注意为 Kit 口径, 非组装版); 下周起记增量"},
     # 抓取失败: 维持旧值, delta 置 null
     "bambu-a1mini-combo": {"review_count": 381, "review_count_date": "2026-10-14", "review_delta_week": None,
-        "review_note": "10-19 两次抓取 Amazon 页面均未渲染评论组件(疑似反爬/页面变体), 本周无增量数据, 如实留空不计 0; 下周重试同口径"},
+        "review_note": "10-26 抓取页面渲染但未显示评分数(连续两周失败), 无增量数据如实留空不计 0; 下周重试同口径"},
     "bambu-a1": {"review_count": 657, "review_count_date": "2026-10-14", "review_delta_week": None,
-        "review_note": "10-19 两次抓取 Amazon 页面均未渲染评论组件, 本周无增量数据, 如实留空不计 0; 下周重试同口径"},
+        "review_note": "10-26 抓取页面渲染但未显示评分数(连续两周失败), 无增量数据如实留空不计 0; 下周重试同口径"},
+    "creality-k2plus": {"review_count": 866, "review_count_date": "2026-10-19", "review_delta_week": None,
+        "review_note": "10-26 抓取页面渲染但未显示评分数, 无增量数据如实留空不计 0; 下周重试同口径"},
+    "silhouette-cameo5": {"review_count": 124, "review_count_date": "2026-10-19", "review_delta_week": None,
+        "review_note": "10-26 抓取遇 Amazon 反爬 checkpoint 页面, 无增量数据如实留空不计 0; 下周重试同口径"},
     "cricut-explore5": {"review_count": 30, "review_count_date": "2026-10-14", "review_delta_week": None,
-        "review_note": "10-19 两次抓取 Amazon 页面均未渲染评论组件, 本周无增量数据, 如实留空不计 0; 下周重试同口径"},
+        "review_note": "10-26 抓取遇 Amazon 反爬 checkpoint 页面(连续两周失败), 无增量数据如实留空不计 0; 下周重试同口径"},
+    "cricut-maker4": {"review_count": None, "review_count_date": None, "review_delta_week": None,
+        "review_note": "10-26 抓取页面渲染但未显示评分数(连续两周失败), 基线仍未建立; 下周重试"},
 }
 
 # ---- 4) 补链接（营收 Top20 无追踪机型按降序; 当日评论基线, 未抓到评分数的如实置 null）----
 tracking_adds = {
-    "silhouette-cameo5": {"amazon": "https://www.amazon.com/dp/B0CHY4NWPX"},
-    "creality-k2plus":   {"amazon": "https://www.amazon.com/dp/B0DQTQQBZ9"},
-    "cricut-maker4":     {"amazon": "https://www.amazon.com/dp/B0DTQBZ3J3"},
-    "prusa-core-one":    {"amazon": "https://www.amazon.com/dp/B0FKNGJPK2"},
-    "bambu-p2s":         {"amazon": "https://www.amazon.com/dp/B0FT7ZLSSC"},
+    "prusa-mk4": {"amazon": "https://www.amazon.com/dp/B0CKSX4M9F"},
 }
 tracking_notes = {
-    "silhouette-cameo5": "Amazon US Cameo 5 雾面黑官方版 ASIN; 当日评分数 124(3.9 星), 2026-10-19 起建立增量基线",
-    "creality-k2plus":   "Amazon US K2 Plus Combo ASIN(Creality 官方店自营); 当日评分数 866(4.3 星), 2026-10-19 起建立增量基线",
-    "cricut-maker4":     "Amazon US Maker 4 Seashell Digital Content Bundle ASIN(页面显示 100+ bought in past week); 评分数本次快照未含, 基线待下周抓取",
-    "prusa-core-one":    "Amazon US CORE One Kit 版 ASIN(注意: 与基线价 $1,099 的配置口径需核对); 评分数本次快照未含, 基线待下周抓取",
-    "bambu-p2s":         "Amazon US P2S 单机 ASIN(Bambu Lab 官方店), 与基线 $549 单机价同口径; Combo 版 ASIN B0FT818HCH(77 评分数)仅备查不入基线; 单机评分数待下周抓取",
+    "prusa-mk4": "Amazon US MK4 组装版 ASIN(Prusa 官方店自营, 页面对比表中组装版 26 评分 4.8 星); Kit 版 ASIN B0CKSW74GX(22 评分 4.3 星)仅备查不入基线(组装版与基线 $799 同口径); 2026-10-26 起建立增量基线",
+}
+# Top20 补链未完成的机型（如实记录, 下周按降序继续）
+tracking_misses = {
+    "bambu-h2d":  "site:amazon.com 检索仅命中配件 ASIN(滤芯/热床等), 未获官方整机 ASIN, 不采; 下周换词重试",
+    "bambu-h2s":  "site:amazon.com 检索仅命中配件 ASIN, 未获官方整机 ASIN, 不采; 下周换词重试",
+    "bambu-x1c":  "唯一整机命中为第三方 'Bivolt' 疑巴西区口径(B0DMPXXSZX, 仅 8 评分), 非官方 US 店, 不采; X1 系列 3-31 EOL 后以第三方清库存为主",
+    "epson-v1070": "Epson 无 Amazon 官方渠道(授权经销商模式), 放弃补 ASIN, 后续以渠道聚合/经销商价核实",
 }
 
 # ---- 5) 本周新收录（销量一律 pending 不编造）----
 new_models = [
-    {
-        "id": "cricut-maker5", "brand": "Cricut", "model": "Maker 5",
-        "category": "智能切割机",
-        "price_usd": 349, "price_change_pct": 0,
-        "monthly_sales": 0, "weekly_growth_pct": 0,
-        "description": "Cricut Maker 5 旗舰切割机(2026-10-19 Cricut 官网 machines 页核实, 标注 New, 售价区间 $349-$549)。Maker 4 的迭代机型, 官网同步对 Maker 4 打出 $20 促销; 详细规格待复核补充。",
-        "key_features": ["旗舰级多材料切割(待复核)"],
-        "is_new": True,
-        "social_metrics": {},
-        "sales_channels": ["Cricut 官网", "Amazon"],
-        "consumables": ["Smart Vinyl/Iron-On/卡纸等"],
-        "consumable_monthly_sales_est": "$0(待积累)",
-        "last_verified": TODAY,
-        "verified_note": "[2026-10-19] 首次收录(Cricut 官网 machines 页直接抓取, New 标注 + 价格区间 $349-$549); 月销量无锚点 → pending, 待积累",
-        "first_tracked_week": "2026-W43",
-        "sales_maturity": "new_launch",
-        "sales_data_status": "pending",
-    },
+    # 无: H3C Tool Changer 已官宣(11-3 上市)但本周未开售, 按纪律不收录, 见 market_notes
 ]
 
 # ---- 6) 市场动态备注（不改任何设备数值）----
 market_notes = {
-    "bambu-h2d":     "万圣节促销(单机 $1,549/Combo $1,749)已于 10-16 截止, 促销价不入基线; CNET 亦确认 $1,749 为常态价; 四维数值维持",
-    "cricut-maker4": "Cricut 官网已上线 Maker 5($349 起, New)与 StickerPix 打印+切割新品类, Maker 4 面临世代交替压力(官网 $379 促销价与基线一致); 四维数值维持",
+    "bambu-h2d": "CONTEXT Q2 2026(TCT 10月转引): 入门级出货 +23%/营收 +36% YoY, 深圳四小龙占 87%, Bambu 份额显著领先(品牌级锚点佐证, 不改数); 另: 中国 Q2 出口 +58% 或含 Q4 库存化风险; Bambu 官宣 H3C Tool Changer 11-3 上市(本周未开售不收录)",
+    "creality-k2plus": "Creality 发布盈利预警: 价格竞争致 1H2026 打印机营收基本持平(CONTEXT/TCT, 10月); K2 Plus 处于该价格竞争带, 品牌级景气信号偏弱, 不改数",
+    "bambu-x1c": "X1 系列(X1/X1C/X1E) 2026-03-31 官方 EOL(Bambu 论坛公告), 2027-05-31 后停固件更新; X2D 4-14 上市 $649 接替 X1C 生态位; 生命周期信号: 长期销量预计递减, 维持基线待观察",
 }
 
 def append_note(dev, line):
@@ -117,6 +112,9 @@ for dev in d:
         append_note(dev, "[%s] %s" % (TODAY, market_notes[did]))
     else:
         append_note(dev, generic)
+
+    if did in tracking_misses:
+        append_note(dev, "[%s] %s" % (TODAY, tracking_misses[did]))
 
     # 评论增量(独立于价格分支, 可叠加)
     if did in review_updates:
@@ -153,3 +151,4 @@ for k, (np, pct, _) in price_changes.items():
 print("Conflict notes (no change): %d -> %s" % (n_conflict, list(conflict_notes.keys())))
 print("Review updates: %d -> %s" % (n_review, list(review_updates.keys())))
 print("Tracking links added: %d -> %s" % (n_track, list(tracking_adds.keys())))
+print("Tracking misses noted: %d -> %s" % (len(tracking_misses), list(tracking_misses.keys())))
