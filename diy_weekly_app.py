@@ -112,12 +112,22 @@ def generate_week_data():
                 categories[cat]['hot_models'].append(f"{d['brand']} {d['model']}")
 
         # 与上周对比
-        if previous_week:
-            prev_devices = {p['id']: p for p in previous_week.get('devices', [])}
-            prev = prev_devices.get(d['id'])
-            if prev:
-                device_week['previous_price'] = prev.get('current_price', d['price_usd'])
-                device_week['previous_sales'] = prev.get('monthly_sales', d.get('monthly_sales', 0))
+        prev_devices = {p['id']: p for p in previous_week.get('devices', [])} if previous_week else {}
+        prev = prev_devices.get(d['id'])
+        if prev:
+            device_week['previous_price'] = prev.get('current_price', d['price_usd'])
+            device_week['previous_sales'] = prev.get('monthly_sales', d.get('monthly_sales', 0))
+
+        # 新口径周增长（2026-10-26 启用）：真实周增长 = 评论增量环比(growth_proxy)。
+        # 无增量基线时为 null，看板回退旧口径 weekly_growth_pct 并标注「旧口径」；
+        # growth_basis=review_delta 的机型在看板去掉旧口径标注。
+        device_week['growth_basis'] = d.get('growth_basis') or 'legacy_heat_proxy'
+        _cur_delta = d.get('review_delta_week')
+        _prev_delta = (prev or {}).get('review_delta_week')
+        if _cur_delta is not None and _prev_delta:
+            device_week['growth_proxy'] = round((_cur_delta / _prev_delta - 1) * 100, 1)
+        else:
+            device_week['growth_proxy'] = None
 
         week_devices.append(device_week)
         categories[cat]['count'] += 1

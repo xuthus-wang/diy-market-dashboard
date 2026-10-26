@@ -1,6 +1,6 @@
 {
   "week_label": "2026-W44",
-  "generated_at": "2026-10-26T09:08:58.022290",
+  "generated_at": "2026-10-26T10:00:46.927721",
   "summary": {
     "total_devices": 68,
     "new_devices": 9,
@@ -86,7 +86,8 @@
       "previous_price": 379,
       "sales_change_this_week": 0,
       "current_weekly_growth": 12.2,
-      "previous_sales": 33105
+      "previous_sales": 33105,
+      "growth_proxy": null
     },
     {
       "id": "cricut-explore4",
@@ -152,7 +153,8 @@
       "previous_price": 199,
       "sales_change_this_week": 0,
       "current_weekly_growth": 11.1,
-      "previous_sales": 38797
+      "previous_sales": 38797,
+      "growth_proxy": null
     },
     {
       "id": "cricut-joyxtra",
@@ -217,7 +219,8 @@
       "previous_price": 179,
       "sales_change_this_week": 0,
       "current_weekly_growth": 17.5,
-      "previous_sales": 51446
+      "previous_sales": 51446,
+      "growth_proxy": null
     },
     {
       "id": "silhouette-cameo5",
@@ -288,7 +291,8 @@
       "previous_price": 330,
       "sales_change_this_week": 0,
       "current_weekly_growth": 4.0,
-      "previous_sales": 38601
+      "previous_sales": 38601,
+      "growth_proxy": null
     },
     {
       "id": "bambu-a1mini-combo",
@@ -363,7 +367,8 @@
       "previous_price": 329,
       "sales_change_this_week": 0,
       "current_weekly_growth": 37.0,
-      "previous_sales": 26727
+      "previous_sales": 26727,
+      "growth_proxy": null
     },
     {
       "id": "bambu-a1",
@@ -434,7 +439,8 @@
       "previous_price": 399,
       "sales_change_this_week": 0,
       "current_weekly_growth": 31.0,
-      "previous_sales": 20902
+      "previous_sales": 20902,
+      "growth_proxy": null
     },
     {
       "id": "bambu-h2d",
@@ -502,7 +508,8 @@
       "previous_price": 1749,
       "sales_change_this_week": 0,
       "current_weekly_growth": 64.3,
-      "previous_sales": 9273
+      "previous_sales": 9273,
+      "growth_proxy": null
     },
     {
       "id": "creality-ender3v3se",
@@ -571,7 +578,8 @@
       "previous_price": 186,
       "sales_change_this_week": 0,
       "current_weekly_growth": 5.8,
-      "previous_sales": 13297
+      "previous_sales": 13297,
+      "growth_proxy": null
     },
     {
       "id": "creality-k2plus",
@@ -645,7 +653,8 @@
       "previous_price": 1199,
       "sales_change_this_week": 0,
       "current_weekly_growth": 34.0,
-      "previous_sales": 9792
+      "previous_sales": 9792,
+      "growth_proxy": null
     },
     {
       "id": "anycubic-m7pro",
@@ -709,7 +718,8 @@
       "previous_price": 455,
       "sales_change_this_week": 0,
       "current_weekly_growth": 17.8,
-      "previous_sales": 15032
+      "previous_sales": 15032,
+      "growth_proxy": null
     },
     {
       "id": "anycubic-kobra3v2",
@@ -774,7 +784,8 @@
       "previous_price": 339,
       "sales_change_this_week": 0,
       "current_weekly_growth": 30.2,
-      "previous_sales": 20324
+      "previous_sales": 20324,
+      "growth_proxy": null
     },
     {
       "id": "flashforge-ad5x",
@@ -838,7 +849,8 @@
       "previous_price": 349,
       "sales_change_this_week": 0,
       "current_weekly_growth": 20.5,
-      "previous_sales": 17980
+      "previous_sales": 17980,
+      "growth_proxy": null
     },
     {
       "id": "xtool-p2s",
@@ -905,7 +917,8 @@
       "previous_price": 2799,
       "sales_change_this_week": 0,
       "current_weekly_growth": 32.2,
-      "previous_sales": 1393
+      "previous_sales": 1393,
+      "growth_proxy": null
     },
     {
       "id": "xtool-s1",
@@ -971,7 +984,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 38.5,
       "previous_price": 1299,
-      "previous_sales": 2307
+      "previous_sales": 2307,
+      "growth_proxy": null
     },
     {
       "id": "xtool-m1ultra",
@@ -1039,7 +1053,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 53.8,
       "previous_price": 999,
-      "previous_sales": 2666
+      "previous_sales": 2666,
+      "growth_proxy": null
     },
     {
       "id": "glowforge-pro",
@@ -1104,7 +1119,8 @@
       "previous_price": 2999,
       "sales_change_this_week": 0,
       "current_weekly_growth": -6.5,
-      "previous_sales": 1100
+      "previous_sales": 1100,
+      "growth_proxy": null
     },
     {
       "id": "glowforge-aura",
@@ -1167,7 +1183,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 7.2,
       "previous_price": 999,
-      "previous_sales": 2666
+      "previous_sales": 2666,
+      "growth_proxy": null
     },
     {
       "id": "cricut-easypress-se",
@@ -1234,7 +1251,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 11.8,
       "previous_price": 199,
-      "previous_sales": 18949
+      "previous_sales": 18949,
+      "growth_proxy": null
     },
     {
       "id": "htvront-auto-press",
@@ -1298,7 +1316,8 @@
       "previous_price": 249,
       "sales_change_this_week": 0,
       "current_weekly_growth": 20.5,
-      "previous_sales": 19707
+      "previous_sales": 19707,
+      "growth_proxy": null
     },
     {
       "id": "xapr-impact-wrench",
@@ -1363,7 +1382,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 7.5,
       "previous_price": 39,
-      "previous_sales": 2213
+      "previous_sales": 2213,
+      "growth_proxy": null
     },
     {
       "id": "victool-rotary-shears",
@@ -1426,7 +1446,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 10.2,
       "previous_price": 12,
-      "previous_sales": 4231
+      "previous_sales": 4231,
+      "growth_proxy": null
     },
     {
       "id": "dagmara-dcd03",
@@ -1489,7 +1510,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 5.5,
       "previous_price": 30,
-      "previous_sales": 2556
+      "previous_sales": 2556,
+      "growth_proxy": null
     },
     {
       "id": "bambu-p1s",
@@ -1564,7 +1586,8 @@
       "previous_price": 499,
       "sales_change_this_week": 0,
       "current_weekly_growth": 41.5,
-      "previous_sales": 19585
+      "previous_sales": 19585,
+      "growth_proxy": -69.9
     },
     {
       "id": "anycubic-photon-mono4",
@@ -1626,7 +1649,8 @@
       "previous_price": 190,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.8,
-      "previous_sales": 24300
+      "previous_sales": 24300,
+      "growth_proxy": null
     },
     {
       "id": "cricut-explore5",
@@ -1699,7 +1723,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 21.0,
       "previous_price": 199,
-      "previous_sales": 48535
+      "previous_sales": 48535,
+      "growth_proxy": null
     },
     {
       "id": "eufymake-e1",
@@ -1773,7 +1798,8 @@
       "previous_price": 2299,
       "sales_change_this_week": 0,
       "current_weekly_growth": 100.0,
-      "previous_sales": 3396
+      "previous_sales": 3396,
+      "growth_proxy": null
     },
     {
       "id": "xtool-o1-omni-uv-fabric",
@@ -1844,7 +1870,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 215.0,
       "previous_price": 2799,
-      "previous_sales": 3047
+      "previous_sales": 3047,
+      "growth_proxy": null
     },
     {
       "id": "xtool-o1-omni-uv-single",
@@ -1910,7 +1937,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 195.0,
       "previous_price": 1699,
-      "previous_sales": 4010
+      "previous_sales": 4010,
+      "growth_proxy": null
     },
     {
       "id": "epson-v1070",
@@ -1976,7 +2004,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 30.0,
       "previous_price": 8495,
-      "previous_sales": 1655
+      "previous_sales": 1655,
+      "growth_proxy": null
     },
     {
       "id": "heygears-g1x",
@@ -2043,7 +2072,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 75.0,
       "previous_price": 3299,
-      "previous_sales": 2784
+      "previous_sales": 2784,
+      "growth_proxy": null
     },
     {
       "id": "sawgrass-sg500",
@@ -2109,7 +2139,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 15.5,
       "previous_price": 599,
-      "previous_sales": 3783
+      "previous_sales": 3783,
+      "growth_proxy": null
     },
     {
       "id": "sawgrass-sg1000",
@@ -2173,7 +2204,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 17.2,
       "previous_price": 1495,
-      "previous_sales": 2287
+      "previous_sales": 2287,
+      "growth_proxy": null
     },
     {
       "id": "epson-et15000-sub",
@@ -2239,7 +2271,8 @@
       "previous_price": 399,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0,
-      "previous_sales": 4730
+      "previous_sales": 4730,
+      "growth_proxy": null
     },
     {
       "id": "brother-se1900",
@@ -2306,7 +2339,8 @@
       "previous_price": 999,
       "sales_change_this_week": 0,
       "current_weekly_growth": 10.5,
-      "previous_sales": 4973
+      "previous_sales": 4973,
+      "growth_proxy": null
     },
     {
       "id": "brother-pe800",
@@ -2371,7 +2405,8 @@
       "previous_price": 749,
       "sales_change_this_week": 0,
       "current_weekly_growth": 9.0,
-      "previous_sales": 5827
+      "previous_sales": 5827,
+      "growth_proxy": null
     },
     {
       "id": "prusa-mk4",
@@ -2442,7 +2477,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 17.0,
       "previous_price": 799,
-      "previous_sales": 11579
+      "previous_sales": 11579,
+      "growth_proxy": null
     },
     {
       "id": "prusa-core-one",
@@ -2517,7 +2553,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 29.0,
       "previous_price": 1099,
-      "previous_sales": 9718
+      "previous_sales": 9718,
+      "growth_proxy": null
     },
     {
       "id": "elegoo-neptune4-plus",
@@ -2583,7 +2620,8 @@
       "previous_price": 269,
       "sales_change_this_week": 0,
       "current_weekly_growth": 22.0,
-      "previous_sales": 21074
+      "previous_sales": 21074,
+      "growth_proxy": null
     },
     {
       "id": "xtool-o1-omni-dual-uv",
@@ -2651,7 +2689,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 235.0,
       "previous_price": 2699,
-      "previous_sales": 3109
+      "previous_sales": 3109,
+      "growth_proxy": null
     },
     {
       "id": "xtool-m2",
@@ -2721,7 +2760,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 60.0,
       "previous_price": 599,
-      "previous_sales": 3532
+      "previous_sales": 3532,
+      "growth_proxy": null
     },
     {
       "id": "xtool-f1-ultra",
@@ -2787,7 +2827,8 @@
       "previous_price": 2599,
       "sales_change_this_week": 0,
       "current_weekly_growth": 34.0,
-      "previous_sales": 1484
+      "previous_sales": 1484,
+      "growth_proxy": null
     },
     {
       "id": "xtool-f1",
@@ -2854,7 +2895,8 @@
       "previous_price": 999,
       "sales_change_this_week": 0,
       "current_weekly_growth": 36.5,
-      "previous_sales": 2666
+      "previous_sales": 2666,
+      "growth_proxy": null
     },
     {
       "id": "bambu-x1c",
@@ -2922,7 +2964,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 29.0,
       "previous_price": 1199,
-      "previous_sales": 11411
+      "previous_sales": 11411,
+      "growth_proxy": null
     },
     {
       "id": "bambu-x1e",
@@ -2988,7 +3031,8 @@
       "previous_price": 2899,
       "sales_change_this_week": 0,
       "current_weekly_growth": 22.0,
-      "previous_sales": 10093
+      "previous_sales": 10093,
+      "growth_proxy": null
     },
     {
       "id": "bambu-p2s",
@@ -3062,7 +3106,8 @@
       "previous_price": 549,
       "sales_change_this_week": 0,
       "current_weekly_growth": 44.0,
-      "previous_sales": 18483
+      "previous_sales": 18483,
+      "growth_proxy": null
     },
     {
       "id": "bambu-h2s",
@@ -3131,7 +3176,8 @@
       "previous_price": 1399,
       "sales_change_this_week": 0,
       "current_weekly_growth": 49.0,
-      "previous_sales": 10483
+      "previous_sales": 10483,
+      "growth_proxy": null
     },
     {
       "id": "creality-k1",
@@ -3200,7 +3246,8 @@
       "previous_price": 279,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0,
-      "previous_sales": 11158
+      "previous_sales": 11158,
+      "growth_proxy": null
     },
     {
       "id": "creality-k1-max",
@@ -3267,7 +3314,8 @@
       "previous_price": 549,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0,
-      "previous_sales": 12472
+      "previous_sales": 12472,
+      "growth_proxy": null
     },
     {
       "id": "creality-ender3-v3-ke",
@@ -3335,7 +3383,8 @@
       "previous_price": 259,
       "sales_change_this_week": 0,
       "current_weekly_growth": 20.0,
-      "previous_sales": 20174
+      "previous_sales": 20174,
+      "growth_proxy": null
     },
     {
       "id": "elegoo-centauri-carbon",
@@ -3404,7 +3453,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 49.0,
       "previous_price": 299,
-      "previous_sales": 19883
+      "previous_sales": 19883,
+      "growth_proxy": null
     },
     {
       "id": "flashforge-adventurer-5m",
@@ -3469,7 +3519,8 @@
       "previous_price": 249,
       "sales_change_this_week": 0,
       "current_weekly_growth": 26.0,
-      "previous_sales": 19883
+      "previous_sales": 19883,
+      "growth_proxy": null
     },
     {
       "id": "anycubic-kobra-s1-combo",
@@ -3535,7 +3586,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 27.0,
       "previous_price": 459,
-      "previous_sales": 17203
+      "previous_sales": 17203,
+      "growth_proxy": null
     },
     {
       "id": "cricut-joy2",
@@ -3604,7 +3656,8 @@
       "previous_price": 99,
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0,
-      "previous_sales": 71256
+      "previous_sales": 71256,
+      "growth_proxy": null
     },
     {
       "id": "glowforge-pro-hd",
@@ -3671,7 +3724,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": -0.5,
       "previous_price": 7999,
-      "previous_sales": 849
+      "previous_sales": 849,
+      "growth_proxy": null
     },
     {
       "id": "xtool-p3",
@@ -3738,7 +3792,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 19.0,
       "previous_price": 6999,
-      "previous_sales": 914
+      "previous_sales": 914,
+      "growth_proxy": null
     },
     {
       "id": "glowforge-spark",
@@ -3805,7 +3860,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 0.0,
       "previous_price": 899,
-      "previous_sales": 2825
+      "previous_sales": 2825,
+      "growth_proxy": null
     },
     {
       "id": "creality-sparkx-i7-nano",
@@ -3861,7 +3917,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 13.0,
       "previous_price": 320,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "cricut-maker5",
@@ -3928,7 +3985,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 12.0,
       "previous_price": 349,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "creality-k3",
@@ -3993,7 +4051,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 17.0,
       "previous_price": 849,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "creality-sparkx-i8",
@@ -4054,7 +4113,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 17.0,
       "previous_price": 400,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "xtool-f2-ultra",
@@ -4114,7 +4174,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 55.0,
       "previous_price": 6079,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "morpho-uv-standard",
@@ -4172,7 +4233,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 80.0,
       "previous_price": 1599,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "bambu-a2l",
@@ -4228,7 +4290,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 33.0,
       "previous_price": 469,
-      "previous_sales": 12600
+      "previous_sales": 12600,
+      "growth_proxy": null
     },
     {
       "id": "bambu-r1",
@@ -4281,7 +4344,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 55.0,
       "previous_price": 2499,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "elegoo-centauri-carbon-2",
@@ -4336,7 +4400,8 @@
       "previous_price": 369,
       "sales_change_this_week": 0,
       "current_weekly_growth": 50.0,
-      "previous_sales": 16000
+      "previous_sales": 16000,
+      "growth_proxy": null
     },
     {
       "id": "flashforge-adventurer-5m-pro",
@@ -4393,7 +4458,8 @@
       "previous_price": 379,
       "sales_change_this_week": 0,
       "current_weekly_growth": 28.0,
-      "previous_sales": 8000
+      "previous_sales": 8000,
+      "growth_proxy": null
     },
     {
       "id": "bambu-h2c",
@@ -4432,7 +4498,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 0,
       "previous_price": 2199,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     },
     {
       "id": "bambu-x2d",
@@ -4471,7 +4538,8 @@
       "sales_change_this_week": 0,
       "current_weekly_growth": 0,
       "previous_price": 649,
-      "previous_sales": 0
+      "previous_sales": 0,
+      "growth_proxy": null
     }
   ],
   "category_breakdown": {
@@ -4692,9 +4760,9 @@
       "device_id": "xtool-o1-omni-dual-uv",
       "brand": "xTool",
       "model": "O1 Omni (Dual-Head UV)",
-      "price_change": 2699,
+      "price_change": 0,
       "sales_change_pct": 235.0,
-      "previous_price": null,
+      "previous_price": 2699,
       "current_price": 2699,
       "previous_growth": 0,
       "current_growth": 235.0,
@@ -4704,9 +4772,9 @@
       "device_id": "xtool-o1-omni-uv-fabric",
       "brand": "xTool",
       "model": "O1 Omni (UV+DT Fabric)",
-      "price_change": 2799,
+      "price_change": 0,
       "sales_change_pct": 215.0,
-      "previous_price": null,
+      "previous_price": 2799,
       "current_price": 2799,
       "previous_growth": 0,
       "current_growth": 215.0,
@@ -4716,9 +4784,9 @@
       "device_id": "xtool-o1-omni-uv-single",
       "brand": "xTool",
       "model": "O1 Omni (Single UV)",
-      "price_change": 1699,
+      "price_change": 0,
       "sales_change_pct": 195.0,
-      "previous_price": null,
+      "previous_price": 1699,
       "current_price": 1699,
       "previous_growth": 0,
       "current_growth": 195.0,
@@ -4728,9 +4796,9 @@
       "device_id": "eufymake-e1",
       "brand": "Anker/eufyMake",
       "model": "E1 UV Printer",
-      "price_change": 2299,
+      "price_change": 0,
       "sales_change_pct": 100.0,
-      "previous_price": null,
+      "previous_price": 2299,
       "current_price": 2299,
       "previous_growth": 0,
       "current_growth": 100.0,
@@ -4740,9 +4808,9 @@
       "device_id": "morpho-uv-standard",
       "brand": "Morpho",
       "model": "UV Printer (F1080)",
-      "price_change": 1599,
+      "price_change": 0,
       "sales_change_pct": 80.0,
-      "previous_price": null,
+      "previous_price": 1599,
       "current_price": 1599,
       "previous_growth": 0,
       "current_growth": 80.0,
@@ -4752,9 +4820,9 @@
       "device_id": "heygears-g1x",
       "brand": "HeyGears",
       "model": "G1X Full-3D Pack",
-      "price_change": 3299,
+      "price_change": 0,
       "sales_change_pct": 75.0,
-      "previous_price": null,
+      "previous_price": 3299,
       "current_price": 3299,
       "previous_growth": 0,
       "current_growth": 75.0,
@@ -4764,9 +4832,9 @@
       "device_id": "bambu-h2d",
       "brand": "Bambu Lab",
       "model": "H2D",
-      "price_change": 1749,
+      "price_change": 0,
       "sales_change_pct": 64.3,
-      "previous_price": null,
+      "previous_price": 1749,
       "current_price": 1749,
       "previous_growth": 0,
       "current_growth": 64.3,
@@ -4776,9 +4844,9 @@
       "device_id": "xtool-m2",
       "brand": "xTool",
       "model": "M2 (Color Craft Laser)",
-      "price_change": 599,
+      "price_change": 0,
       "sales_change_pct": 60.0,
-      "previous_price": null,
+      "previous_price": 599,
       "current_price": 599,
       "previous_growth": 0,
       "current_growth": 60.0,
@@ -4788,9 +4856,9 @@
       "device_id": "xtool-f2-ultra",
       "brand": "xTool",
       "model": "F2 Ultra",
-      "price_change": 6079,
+      "price_change": 0,
       "sales_change_pct": 55.0,
-      "previous_price": null,
+      "previous_price": 6079,
       "current_price": 6079,
       "previous_growth": 0,
       "current_growth": 55.0,
@@ -4800,9 +4868,9 @@
       "device_id": "bambu-r1",
       "brand": "Bambu Lab",
       "model": "R1 (55W CO2 Laser)",
-      "price_change": 2499,
+      "price_change": 0,
       "sales_change_pct": 55.0,
-      "previous_price": null,
+      "previous_price": 2499,
       "current_price": 2499,
       "previous_growth": 0,
       "current_growth": 55.0,
@@ -4812,9 +4880,9 @@
       "device_id": "xtool-m1ultra",
       "brand": "xTool",
       "model": "M1 Ultra",
-      "price_change": 999,
+      "price_change": 0,
       "sales_change_pct": 53.8,
-      "previous_price": null,
+      "previous_price": 999,
       "current_price": 999,
       "previous_growth": 0,
       "current_growth": 53.8,
@@ -4824,9 +4892,9 @@
       "device_id": "elegoo-centauri-carbon-2",
       "brand": "Elegoo",
       "model": "Centauri Carbon 2 Combo",
-      "price_change": 369,
+      "price_change": 0,
       "sales_change_pct": 50.0,
-      "previous_price": null,
+      "previous_price": 369,
       "current_price": 369,
       "previous_growth": 0,
       "current_growth": 50.0,
@@ -4836,9 +4904,9 @@
       "device_id": "bambu-h2s",
       "brand": "Bambu Lab",
       "model": "H2S",
-      "price_change": 1399,
+      "price_change": 0,
       "sales_change_pct": 49.0,
-      "previous_price": null,
+      "previous_price": 1399,
       "current_price": 1399,
       "previous_growth": 0,
       "current_growth": 49.0,
@@ -4848,9 +4916,9 @@
       "device_id": "elegoo-centauri-carbon",
       "brand": "Elegoo",
       "model": "Centauri Carbon",
-      "price_change": 299,
+      "price_change": 0,
       "sales_change_pct": 49.0,
-      "previous_price": null,
+      "previous_price": 299,
       "current_price": 299,
       "previous_growth": 0,
       "current_growth": 49.0,
@@ -4860,9 +4928,9 @@
       "device_id": "bambu-p2s",
       "brand": "Bambu Lab",
       "model": "P2S",
-      "price_change": 549,
+      "price_change": 0,
       "sales_change_pct": 44.0,
-      "previous_price": null,
+      "previous_price": 549,
       "current_price": 549,
       "previous_growth": 0,
       "current_growth": 44.0,
@@ -4872,9 +4940,9 @@
       "device_id": "bambu-p1s",
       "brand": "Bambu Lab",
       "model": "P1S Combo",
-      "price_change": 499,
+      "price_change": 0,
       "sales_change_pct": 41.5,
-      "previous_price": null,
+      "previous_price": 499,
       "current_price": 499,
       "previous_growth": 0,
       "current_growth": 41.5,
@@ -4884,9 +4952,9 @@
       "device_id": "xtool-s1",
       "brand": "xTool",
       "model": "S1 40W",
-      "price_change": 1299,
+      "price_change": 0,
       "sales_change_pct": 38.5,
-      "previous_price": null,
+      "previous_price": 1299,
       "current_price": 1299,
       "previous_growth": 0,
       "current_growth": 38.5,
@@ -4896,9 +4964,9 @@
       "device_id": "bambu-a1mini-combo",
       "brand": "Bambu Lab",
       "model": "A1 Mini Combo",
-      "price_change": 329,
+      "price_change": 0,
       "sales_change_pct": 37.0,
-      "previous_price": null,
+      "previous_price": 329,
       "current_price": 329,
       "previous_growth": 0,
       "current_growth": 37.0,
@@ -4908,9 +4976,9 @@
       "device_id": "xtool-f1",
       "brand": "xTool",
       "model": "F1 (Portable)",
-      "price_change": 999,
+      "price_change": 0,
       "sales_change_pct": 36.5,
-      "previous_price": null,
+      "previous_price": 999,
       "current_price": 999,
       "previous_growth": 0,
       "current_growth": 36.5,
@@ -4920,9 +4988,9 @@
       "device_id": "creality-k2plus",
       "brand": "Creality",
       "model": "K2 Plus Combo",
-      "price_change": 1199,
+      "price_change": 0,
       "sales_change_pct": 34.0,
-      "previous_price": null,
+      "previous_price": 1199,
       "current_price": 1199,
       "previous_growth": 0,
       "current_growth": 34.0,
@@ -4932,9 +5000,9 @@
       "device_id": "xtool-f1-ultra",
       "brand": "xTool",
       "model": "F1 Ultra",
-      "price_change": 2599,
+      "price_change": 0,
       "sales_change_pct": 34.0,
-      "previous_price": null,
+      "previous_price": 2599,
       "current_price": 2599,
       "previous_growth": 0,
       "current_growth": 34.0,
@@ -4944,9 +5012,9 @@
       "device_id": "bambu-a2l",
       "brand": "Bambu Lab",
       "model": "A2L",
-      "price_change": 469,
+      "price_change": 0,
       "sales_change_pct": 33.0,
-      "previous_price": null,
+      "previous_price": 469,
       "current_price": 469,
       "previous_growth": 0,
       "current_growth": 33.0,
@@ -4956,9 +5024,9 @@
       "device_id": "xtool-p2s",
       "brand": "xTool",
       "model": "P2S",
-      "price_change": 2799,
+      "price_change": 0,
       "sales_change_pct": 32.2,
-      "previous_price": null,
+      "previous_price": 2799,
       "current_price": 2799,
       "previous_growth": 0,
       "current_growth": 32.2,
@@ -4968,9 +5036,9 @@
       "device_id": "bambu-a1",
       "brand": "Bambu Lab",
       "model": "A1",
-      "price_change": 399,
+      "price_change": 0,
       "sales_change_pct": 31.0,
-      "previous_price": null,
+      "previous_price": 399,
       "current_price": 399,
       "previous_growth": 0,
       "current_growth": 31.0,
@@ -4980,9 +5048,9 @@
       "device_id": "anycubic-kobra3v2",
       "brand": "Anycubic",
       "model": "Kobra 3 V2 Combo",
-      "price_change": 339,
+      "price_change": 0,
       "sales_change_pct": 30.2,
-      "previous_price": null,
+      "previous_price": 339,
       "current_price": 339,
       "previous_growth": 0,
       "current_growth": 30.2,
@@ -4992,9 +5060,9 @@
       "device_id": "epson-v1070",
       "brand": "Epson",
       "model": "SureColor V1070",
-      "price_change": 8495,
+      "price_change": 0,
       "sales_change_pct": 30.0,
-      "previous_price": null,
+      "previous_price": 8495,
       "current_price": 8495,
       "previous_growth": 0,
       "current_growth": 30.0,
@@ -5004,9 +5072,9 @@
       "device_id": "prusa-core-one",
       "brand": "Prusa",
       "model": "CORE One",
-      "price_change": 1099,
+      "price_change": 0,
       "sales_change_pct": 29.0,
-      "previous_price": null,
+      "previous_price": 1099,
       "current_price": 1099,
       "previous_growth": 0,
       "current_growth": 29.0,
@@ -5016,9 +5084,9 @@
       "device_id": "bambu-x1c",
       "brand": "Bambu Lab",
       "model": "X1 Carbon",
-      "price_change": 1199,
+      "price_change": 0,
       "sales_change_pct": 29.0,
-      "previous_price": null,
+      "previous_price": 1199,
       "current_price": 1199,
       "previous_growth": 0,
       "current_growth": 29.0,
@@ -5028,9 +5096,9 @@
       "device_id": "flashforge-adventurer-5m-pro",
       "brand": "Flashforge",
       "model": "Adventurer 5M Pro",
-      "price_change": 379,
+      "price_change": 0,
       "sales_change_pct": 28.0,
-      "previous_price": null,
+      "previous_price": 379,
       "current_price": 379,
       "previous_growth": 0,
       "current_growth": 28.0,
@@ -5040,9 +5108,9 @@
       "device_id": "anycubic-kobra-s1-combo",
       "brand": "Anycubic",
       "model": "Kobra S1 Combo",
-      "price_change": 459,
+      "price_change": 0,
       "sales_change_pct": 27.0,
-      "previous_price": null,
+      "previous_price": 459,
       "current_price": 459,
       "previous_growth": 0,
       "current_growth": 27.0,
@@ -5052,9 +5120,9 @@
       "device_id": "flashforge-adventurer-5m",
       "brand": "Flashforge",
       "model": "Adventurer 5M",
-      "price_change": 249,
+      "price_change": 0,
       "sales_change_pct": 26.0,
-      "previous_price": null,
+      "previous_price": 249,
       "current_price": 249,
       "previous_growth": 0,
       "current_growth": 26.0,
@@ -5064,9 +5132,9 @@
       "device_id": "elegoo-neptune4-plus",
       "brand": "Elegoo",
       "model": "Neptune 4 Plus",
-      "price_change": 269,
+      "price_change": 0,
       "sales_change_pct": 22.0,
-      "previous_price": null,
+      "previous_price": 269,
       "current_price": 269,
       "previous_growth": 0,
       "current_growth": 22.0,
@@ -5076,9 +5144,9 @@
       "device_id": "bambu-x1e",
       "brand": "Bambu Lab",
       "model": "X1E (Enterprise)",
-      "price_change": 2899,
+      "price_change": 1400,
       "sales_change_pct": 22.0,
-      "previous_price": null,
+      "previous_price": 1499,
       "current_price": 2899,
       "previous_growth": 0,
       "current_growth": 22.0,
@@ -5088,9 +5156,9 @@
       "device_id": "cricut-explore5",
       "brand": "Cricut",
       "model": "Explore 5",
-      "price_change": 199,
+      "price_change": 0,
       "sales_change_pct": 21.0,
-      "previous_price": null,
+      "previous_price": 199,
       "current_price": 199,
       "previous_growth": 0,
       "current_growth": 21.0,
@@ -5100,9 +5168,9 @@
       "device_id": "flashforge-ad5x",
       "brand": "Flashforge",
       "model": "AD5X",
-      "price_change": 349,
+      "price_change": 0,
       "sales_change_pct": 20.5,
-      "previous_price": null,
+      "previous_price": 349,
       "current_price": 349,
       "previous_growth": 0,
       "current_growth": 20.5,
@@ -5112,9 +5180,9 @@
       "device_id": "htvront-auto-press",
       "brand": "HTVRONT",
       "model": "Auto Heat Press 15x15",
-      "price_change": 249,
+      "price_change": 0,
       "sales_change_pct": 20.5,
-      "previous_price": null,
+      "previous_price": 249,
       "current_price": 249,
       "previous_growth": 0,
       "current_growth": 20.5,
@@ -5124,9 +5192,9 @@
       "device_id": "creality-ender3-v3-ke",
       "brand": "Creality",
       "model": "Ender-3 V3 KE",
-      "price_change": 259,
+      "price_change": 0,
       "sales_change_pct": 20.0,
-      "previous_price": null,
+      "previous_price": 259,
       "current_price": 259,
       "previous_growth": 0,
       "current_growth": 20.0,
@@ -5136,9 +5204,9 @@
       "device_id": "anycubic-photon-mono4",
       "brand": "Anycubic",
       "model": "Photon Mono 4 10K",
-      "price_change": 190,
+      "price_change": 0,
       "sales_change_pct": 19.8,
-      "previous_price": null,
+      "previous_price": 190,
       "current_price": 190,
       "previous_growth": 0,
       "current_growth": 19.8,
@@ -5148,9 +5216,9 @@
       "device_id": "epson-et15000-sub",
       "brand": "Epson",
       "model": "EcoTank ET-15000 (改装升华)",
-      "price_change": 399,
+      "price_change": 0,
       "sales_change_pct": 19.0,
-      "previous_price": null,
+      "previous_price": 399,
       "current_price": 399,
       "previous_growth": 0,
       "current_growth": 19.0,
@@ -5160,9 +5228,9 @@
       "device_id": "creality-k1",
       "brand": "Creality",
       "model": "K1",
-      "price_change": 279,
+      "price_change": 0,
       "sales_change_pct": 19.0,
-      "previous_price": null,
+      "previous_price": 279,
       "current_price": 279,
       "previous_growth": 0,
       "current_growth": 19.0,
@@ -5172,9 +5240,9 @@
       "device_id": "creality-k1-max",
       "brand": "Creality",
       "model": "K1 Max",
-      "price_change": 549,
+      "price_change": 0,
       "sales_change_pct": 19.0,
-      "previous_price": null,
+      "previous_price": 549,
       "current_price": 549,
       "previous_growth": 0,
       "current_growth": 19.0,
@@ -5184,9 +5252,9 @@
       "device_id": "cricut-joy2",
       "brand": "Cricut",
       "model": "Joy 2",
-      "price_change": 99,
+      "price_change": 0,
       "sales_change_pct": 19.0,
-      "previous_price": null,
+      "previous_price": 99,
       "current_price": 99,
       "previous_growth": 0,
       "current_growth": 19.0,
@@ -5196,9 +5264,9 @@
       "device_id": "xtool-p3",
       "brand": "xTool",
       "model": "P3 80W",
-      "price_change": 6999,
+      "price_change": 0,
       "sales_change_pct": 19.0,
-      "previous_price": null,
+      "previous_price": 6999,
       "current_price": 6999,
       "previous_growth": 0,
       "current_growth": 19.0,
@@ -5208,9 +5276,9 @@
       "device_id": "anycubic-m7pro",
       "brand": "Anycubic",
       "model": "Photon Mono M7 Pro",
-      "price_change": 455,
+      "price_change": 0,
       "sales_change_pct": 17.8,
-      "previous_price": null,
+      "previous_price": 455,
       "current_price": 455,
       "previous_growth": 0,
       "current_growth": 17.8,
@@ -5220,9 +5288,9 @@
       "device_id": "cricut-joyxtra",
       "brand": "Cricut",
       "model": "Joy Xtra",
-      "price_change": 179,
+      "price_change": 0,
       "sales_change_pct": 17.5,
-      "previous_price": null,
+      "previous_price": 179,
       "current_price": 179,
       "previous_growth": 0,
       "current_growth": 17.5,
@@ -5232,9 +5300,9 @@
       "device_id": "sawgrass-sg1000",
       "brand": "Sawgrass",
       "model": "SG1000 Sublimation Printer",
-      "price_change": 1495,
+      "price_change": 0,
       "sales_change_pct": 17.2,
-      "previous_price": null,
+      "previous_price": 1495,
       "current_price": 1495,
       "previous_growth": 0,
       "current_growth": 17.2,
@@ -5244,9 +5312,9 @@
       "device_id": "prusa-mk4",
       "brand": "Prusa",
       "model": "MK4",
-      "price_change": 799,
+      "price_change": 0,
       "sales_change_pct": 17.0,
-      "previous_price": null,
+      "previous_price": 799,
       "current_price": 799,
       "previous_growth": 0,
       "current_growth": 17.0,
@@ -5256,9 +5324,9 @@
       "device_id": "creality-k3",
       "brand": "Creality",
       "model": "K3",
-      "price_change": 849,
+      "price_change": 0,
       "sales_change_pct": 17.0,
-      "previous_price": null,
+      "previous_price": 849,
       "current_price": 849,
       "previous_growth": 0,
       "current_growth": 17.0,
@@ -5268,9 +5336,9 @@
       "device_id": "creality-sparkx-i8",
       "brand": "Creality",
       "model": "SPARKX i8",
-      "price_change": 400,
+      "price_change": 0,
       "sales_change_pct": 17.0,
-      "previous_price": null,
+      "previous_price": 400,
       "current_price": 400,
       "previous_growth": 0,
       "current_growth": 17.0,
@@ -5280,9 +5348,9 @@
       "device_id": "sawgrass-sg500",
       "brand": "Sawgrass",
       "model": "SG500 Sublimation Printer",
-      "price_change": 599,
+      "price_change": 0,
       "sales_change_pct": 15.5,
-      "previous_price": null,
+      "previous_price": 599,
       "current_price": 599,
       "previous_growth": 0,
       "current_growth": 15.5,
@@ -5292,9 +5360,9 @@
       "device_id": "creality-sparkx-i7-nano",
       "brand": "Creality",
       "model": "SPARKX i7 Nano",
-      "price_change": 320,
+      "price_change": 0,
       "sales_change_pct": 13.0,
-      "previous_price": null,
+      "previous_price": 320,
       "current_price": 320,
       "previous_growth": 0,
       "current_growth": 13.0,
@@ -5304,9 +5372,9 @@
       "device_id": "cricut-maker4",
       "brand": "Cricut",
       "model": "Maker 4",
-      "price_change": 379,
+      "price_change": 0,
       "sales_change_pct": 12.2,
-      "previous_price": null,
+      "previous_price": 379,
       "current_price": 379,
       "previous_growth": 0,
       "current_growth": 12.2,
@@ -5316,9 +5384,9 @@
       "device_id": "cricut-maker5",
       "brand": "Cricut",
       "model": "Maker 5",
-      "price_change": 349,
+      "price_change": 0,
       "sales_change_pct": 12.0,
-      "previous_price": null,
+      "previous_price": 349,
       "current_price": 349,
       "previous_growth": 0,
       "current_growth": 12.0,
@@ -5328,9 +5396,9 @@
       "device_id": "cricut-easypress-se",
       "brand": "Cricut",
       "model": "EasyPress SE 12x10",
-      "price_change": 199,
+      "price_change": 0,
       "sales_change_pct": 11.8,
-      "previous_price": null,
+      "previous_price": 199,
       "current_price": 199,
       "previous_growth": 0,
       "current_growth": 11.8,
@@ -5340,9 +5408,9 @@
       "device_id": "cricut-explore4",
       "brand": "Cricut",
       "model": "Explore 4",
-      "price_change": 199,
+      "price_change": 0,
       "sales_change_pct": 11.1,
-      "previous_price": null,
+      "previous_price": 199,
       "current_price": 199,
       "previous_growth": 0,
       "current_growth": 11.1,
@@ -5352,9 +5420,9 @@
       "device_id": "brother-se1900",
       "brand": "Brother",
       "model": "SE1900 Sewing & Embroidery",
-      "price_change": 999,
+      "price_change": 0,
       "sales_change_pct": 10.5,
-      "previous_price": null,
+      "previous_price": 999,
       "current_price": 999,
       "previous_growth": 0,
       "current_growth": 10.5,
@@ -5364,9 +5432,9 @@
       "device_id": "victool-rotary-shears",
       "brand": "Victool",
       "model": "500W Electric Rotary Shears",
-      "price_change": 12,
+      "price_change": 0,
       "sales_change_pct": 10.2,
-      "previous_price": null,
+      "previous_price": 12,
       "current_price": 12,
       "previous_growth": 0,
       "current_growth": 10.2,
@@ -5376,9 +5444,9 @@
       "device_id": "brother-pe800",
       "brand": "Brother",
       "model": "PE800 Embroidery Only",
-      "price_change": 749,
+      "price_change": 0,
       "sales_change_pct": 9.0,
-      "previous_price": null,
+      "previous_price": 749,
       "current_price": 749,
       "previous_growth": 0,
       "current_growth": 9.0,
@@ -5388,9 +5456,9 @@
       "device_id": "xapr-impact-wrench",
       "brand": "XAPR",
       "model": "Impact Wrench 1000NM",
-      "price_change": 39,
+      "price_change": 0,
       "sales_change_pct": 7.5,
-      "previous_price": null,
+      "previous_price": 39,
       "current_price": 39,
       "previous_growth": 0,
       "current_growth": 7.5,
@@ -5400,9 +5468,9 @@
       "device_id": "glowforge-aura",
       "brand": "Glowforge",
       "model": "Aura",
-      "price_change": 999,
+      "price_change": 0,
       "sales_change_pct": 7.2,
-      "previous_price": null,
+      "previous_price": 999,
       "current_price": 999,
       "previous_growth": 0,
       "current_growth": 7.2,
@@ -5412,9 +5480,9 @@
       "device_id": "glowforge-pro",
       "brand": "Glowforge",
       "model": "Pro",
-      "price_change": 2999,
+      "price_change": 0,
       "sales_change_pct": -6.5,
-      "previous_price": null,
+      "previous_price": 2999,
       "current_price": 2999,
       "previous_growth": 0,
       "current_growth": -6.5,
@@ -5424,9 +5492,9 @@
       "device_id": "creality-ender3v3se",
       "brand": "Creality",
       "model": "Ender-3 V3 SE",
-      "price_change": 186,
+      "price_change": 0,
       "sales_change_pct": 5.8,
-      "previous_price": null,
+      "previous_price": 186,
       "current_price": 186,
       "previous_growth": 0,
       "current_growth": 5.8,
@@ -5436,9 +5504,9 @@
       "device_id": "dagmara-dcd03",
       "brand": "DAGMARA",
       "model": "DCD03-18V Brushless Drill",
-      "price_change": 30,
+      "price_change": 0,
       "sales_change_pct": 5.5,
-      "previous_price": null,
+      "previous_price": 30,
       "current_price": 30,
       "previous_growth": 0,
       "current_growth": 5.5,
@@ -5448,9 +5516,9 @@
       "device_id": "silhouette-cameo5",
       "brand": "Silhouette",
       "model": "Cameo 5",
-      "price_change": 330,
+      "price_change": 0,
       "sales_change_pct": 4.0,
-      "previous_price": null,
+      "previous_price": 330,
       "current_price": 330,
       "previous_growth": 0,
       "current_growth": 4.0,
@@ -5460,9 +5528,9 @@
       "device_id": "glowforge-pro-hd",
       "brand": "Glowforge",
       "model": "Pro HD",
-      "price_change": 7999,
+      "price_change": 0,
       "sales_change_pct": -0.5,
-      "previous_price": null,
+      "previous_price": 7999,
       "current_price": 7999,
       "previous_growth": 0,
       "current_growth": -0.5,
@@ -5472,9 +5540,9 @@
       "device_id": "glowforge-spark",
       "brand": "Glowforge",
       "model": "Spark",
-      "price_change": 899,
+      "price_change": 0,
       "sales_change_pct": 0.0,
-      "previous_price": null,
+      "previous_price": 899,
       "current_price": 899,
       "previous_growth": 0,
       "current_growth": 0.0,
@@ -5484,9 +5552,9 @@
       "device_id": "bambu-h2c",
       "brand": "Bambu Lab",
       "model": "H2C",
-      "price_change": 2199,
+      "price_change": 0,
       "sales_change_pct": 0,
-      "previous_price": null,
+      "previous_price": 2199,
       "current_price": 2199,
       "previous_growth": 0,
       "current_growth": 0,
@@ -5496,9 +5564,9 @@
       "device_id": "bambu-x2d",
       "brand": "Bambu Lab",
       "model": "X2D",
-      "price_change": 649,
+      "price_change": 0,
       "sales_change_pct": 0,
-      "previous_price": null,
+      "previous_price": 649,
       "current_price": 649,
       "previous_growth": 0,
       "current_growth": 0,

@@ -36,13 +36,28 @@ def api(path, payload=None, method=None, tok=None):
         headers={"User-Agent": "diy-weekly-bot", "Accept": "application/vnd.github+json",
                  "Authorization": "token " + tok},
         method=method or ("POST" if data is not None else "GET"))
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            body = r.read()
-            return json.loads(body) if body else {}
-    except urllib.error.HTTPError as e:
-        print("[api-push] HTTP %s %s: %s" % (e.code, path, e.read().decode()[:300]))
-        raise SystemExit(1)
+    # api.github.com 现有逐连接 SSL EOF 瞬断(约半数请求被网关掐断, 非硬阻断/非鉴权失败),
+    # 单请求退避重试(每次 +3s, 最多 4 次); HTTPError 属明确业务错误, 不重试。
+    import time
+    last = None
+    for attempt in range(4):
+        req = urllib.request.Request(
+            "https://api.github.com" + path, data=data,
+            headers={"User-Agent": "diy-weekly-bot", "Accept": "application/vnd.github+json",
+                     "Authorization": "token " + tok},
+            method=method or ("POST" if data is not None else "GET"))
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                body = r.read()
+                return json.loads(body) if body else {}
+        except urllib.error.HTTPError as e:
+            print("[api-push] HTTP %s %s: %s" % (e.code, path, e.read().decode()[:300]))
+            raise SystemExit(1)
+        except Exception as e:
+            last = e
+            print("[api-push] 传输失败(第%d次) %s: %s, 退避重试" % (attempt+1, path, e))
+            time.sleep(3 * (attempt + 1))
+    raise last
 
 
 def main():
